@@ -123,6 +123,48 @@ Since this is a brand new business with no closed deals yet, made the following 
 - Added click-to-call floating button (visible on mobile only)
 - Industry facts section includes real information: Supreme Court ruling, state deadlines, unclaimed funds statistics
 
+### Phase 11: Blog Creation (16 Articles)
+
+- Created `/blog` folder structure
+- Created blog index page with featured article section
+- Added 16 educational articles covering surplus funds topics
+- Articles ordered by date descending (newest first)
+- Updated sitemap.xml with all blog URLs
+
+### Phase 12: "Why Hire Us" Section
+
+- Added DIY vs Professional comparison section on homepage
+- 12 pain points for DIY approach
+- 12 benefits for working with professionals
+- Created featured blog article: "Why Hire a Professional for Surplus Funds Recovery?"
+
+### Phase 13: Contact & Phone Update
+
+- Updated phone number site-wide to (858) 230-8322
+- Updated Web3Forms access key to new key
+- Fixed MX record issue with GreenGeeks support
+
+### Phase 14: Open Graph Images for Social Sharing
+
+- Created SR logo image (800x800 square) for social sharing
+- Added og:image and twitter:image meta tags to all pages
+- Fixed image URL to use www subdomain for proper loading
+
+### Phase 15: Branding & Logo Updates
+
+- Added SR logo image to header (homepage, blog index, all blog articles)
+- Added SR logo image to footer
+- Removed space between "Surplus" and "Recoveries" in logo text
+- Removed placeholder social media icons from footer
+- Made logo and text horizontally aligned with flexbox
+
+### Phase 16: Blog Navigation
+
+- Added prev/next navigation to all 16 blog articles
+- Navigation appears at top and bottom of each article
+- Styled with hover effects and responsive design
+- First article shows only "Next", last shows only "Previous"
+
 ---
 
 ## Files Modified
@@ -141,13 +183,21 @@ Since this is a brand new business with no closed deals yet, made the following 
 | `sitemap.xml`           | XML sitemap for search engines      |
 | `robots.txt`            | Search engine crawling instructions |
 | `favicon.svg`           | Browser tab icon (SR logo)          |
+| `blog/index.html`       | Blog listing page                   |
+| `blog/*.html` (16)      | Individual blog articles            |
+| `images/og-image.png`   | Open Graph image for social sharing |
+| `images/og-image.svg`   | SVG version of OG image             |
 
 ### Files Modified
 
-| File             | Changes                                                                   |
-| ---------------- | ------------------------------------------------------------------------- |
-| `index.html`     | URL cleaning, form redirect, dynamic copyright, SEO meta tags, Schema.org |
-| `thank-you.html` | URL cleaning script, changed `index.html` links to `/`                    |
+| File                    | Changes                                                                                                                                                      |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `index.html`            | URL cleaning, form redirect, dynamic copyright, SEO meta tags, Schema.org, Why Hire Us section, SR logo in header/footer, phone number update, OG image tags |
+| `thank-you.html`        | URL cleaning script, changed `index.html` links to `/`                                                                                                       |
+| `disclaimer.html`       | Phone number update                                                                                                                                          |
+| `privacy-policy.html`   | Phone number update                                                                                                                                          |
+| `terms-of-service.html` | Phone number update                                                                                                                                          |
+| `sitemap.xml`           | Added all 16 blog article URLs                                                                                                                               |
 
 ---
 
@@ -167,15 +217,23 @@ Since this is a brand new business with no closed deals yet, made the following 
 
 ---
 
+## Completed Tasks
+
+- [x] DNS propagation complete
+- [x] SSL certificate provisioned
+- [x] Contact form working on custom domain
+- [x] Clean URLs working on custom domain
+- [x] Sitemap submitted to Google Search Console
+- [x] 16 blog articles published
+- [x] SR logo integrated across all pages
+- [x] Blog navigation (prev/next) added
+
 ## Pending Tasks
 
-1. **Wait for DNS propagation** - All servers should resolve to `216.198.79.1`
-2. **Verify SSL certificate** - Vercel will auto-provision once DNS propagates
-3. **Test contact form** - Ensure redirect works on custom domain
-4. **Test clean URLs** - Verify `.html` extensions are removed on custom domain
-5. **Submit sitemap to Google Search Console**
-6. **Create Google Business Profile** (recommended)
-7. **Add Google Analytics** (optional)
+1. **Create Google Business Profile** (recommended for local SEO)
+2. **Add Google Analytics** (track visitor behavior)
+3. **Add real testimonials** (once clients are available)
+4. **Consider live chat widget** (for instant engagement)
 
 ---
 
@@ -183,16 +241,17 @@ Since this is a brand new business with no closed deals yet, made the following 
 
 - **GitHub Repo:** https://github.com/ketankshukla/SRWebsite
 - **Vercel Deployment:** https://sr-website-seven.vercel.app/
-- **Custom Domain:** https://surplusrecoveries.com (pending DNS)
+- **Custom Domain:** https://surplusrecoveries.com ✓
+- **Blog:** https://surplusrecoveries.com/blog
 - **DNS Checker:** https://dnschecker.org/#A/surplusrecoveries.com
 
 ---
 
 ## Technical Notes
 
-### Why Clean URLs Don't Work on Custom Domain (Currently)
+### Clean URLs
 
-The `vercel.json` cleanUrls setting works on the Vercel domain but not the custom domain because GreenGeeks was proxying requests. After proper DNS propagation, this should resolve.
+Clean URLs now work on custom domain after DNS propagation completed.
 
 ### Email Configuration
 
@@ -204,6 +263,6 @@ The `vercel.json` cleanUrls setting works on the Vercel domain but not the custo
 ### Form Configuration
 
 - Uses Web3Forms API (free tier)
-- Access key: `c021d7c9-4b64-4a46-a658-2aa51b556b04`
+- Access key: `334cb620-4523-4eae-aec5-3c3279a07079` (updated)
 - Redirect URL: `https://surplusrecoveries.com/thank-you`
 - Includes bot protection (honeypot checkbox)
