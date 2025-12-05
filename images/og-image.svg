@@ -10,7 +10,7 @@
   <!-- Background with rounded corners -->
   <rect width="800" height="800" rx="100" fill="url(#bgGradient)"/>
   
-  <!-- SR Logo -->
-  <text x="280" y="520" font-family="Georgia, serif" font-size="400" font-weight="bold" fill="white">S</text>
-  <text x="450" y="580" font-family="Georgia, serif" font-size="220" font-weight="bold" fill="#28a745">R</text>
+  <!-- SR Logo - same size, R overlapping bottom-right -->
+  <text x="200" y="480" font-family="Georgia, serif" font-size="350" font-weight="bold" fill="white">S</text>
+  <text x="380" y="580" font-family="Georgia, serif" font-size="350" font-weight="bold" fill="#28a745">R</text>
 </svg>
