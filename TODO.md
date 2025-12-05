@@ -92,7 +92,7 @@
 - [x] Create blog index page (`/blog`)
 - [x] Add blog link to main navigation
 - [x] Create initial 5 educational articles
-- [x] Add 10 more articles (15 total):
+- [x] Add 10 more articles (16 total):
   1. [x] What Are Surplus Funds? A Complete Guide
   2. [x] How to Check If You Have Unclaimed Foreclosure Money
   3. [x] The 2023 Supreme Court Ruling That Changed Everything (Tyler v. Hennepin)
@@ -113,6 +113,7 @@
 - [x] Order blog articles by date descending (newest first)
 - [x] Add featured article section to blog index
 - [x] Update sitemap with all blog pages
+- [x] Add prev/next navigation to all blog articles (top and bottom)
 
 ## Value Proposition & Conversion
 
@@ -126,8 +127,12 @@
 ## Contact & Branding
 
 - [x] Update phone number to (858) 230-8322 across all pages
-- [x] Contact form working via Web3Forms (note: free tier has email delays)
+- [x] Contact form working via Web3Forms
 - [x] Thank you page redirect working
+- [x] Add SR logo to header (homepage, blog index, all blog articles)
+- [x] Add SR logo to footer (homepage)
+- [x] Remove space between "Surplus" and "Recoveries" in logo text
+- [x] Remove social media icons from footer (placeholder links)
 
 ## Social Sharing (Open Graph)
 
@@ -144,10 +149,40 @@
 - [x] Test legal pages load correctly
 - [x] Verify clean URLs work on custom domain
 
-## Future Enhancements (Optional)
+## Future Enhancements (Suggested)
 
-- [ ] Add Google Analytics tracking
-- [ ] Set up Google Business Profile
-- [ ] Add more blog articles as needed
-- [ ] Consider adding case study/success story section (once you have real clients)
-- [ ] Add FAQ schema markup for better SEO
+### High Priority - Conversion & Trust
+
+- [ ] **Testimonials/Reviews Section** - Add real client testimonials once available (with permission)
+- [ ] **Case Studies** - Document successful recoveries (anonymized) with amounts and timelines
+- [ ] **Trust Badges** - Add "BBB Accredited", "Licensed & Insured", or similar credentials
+- [ ] **Live Chat Widget** - Add Tidio, Crisp, or similar for instant visitor engagement
+- [ ] **Exit Intent Popup** - Capture leads before they leave with a free consultation offer
+
+### Medium Priority - SEO & Visibility
+
+- [ ] **Google Analytics** - Track visitor behavior and conversion rates
+- [ ] **Google Business Profile** - Essential for local SEO and Google Maps visibility
+- [ ] **FAQ Schema Markup** - Add structured data for FAQ section to appear in search results
+- [ ] **Blog Search** - Add search functionality to blog index
+- [ ] **Related Articles** - Show 2-3 related posts at the bottom of each article
+- [ ] **Email Newsletter Signup** - Build an email list for nurturing leads
+
+### Lower Priority - Polish & Features
+
+- [ ] **Dark Mode Toggle** - Modern UX feature some users prefer
+- [ ] **Reading Progress Bar** - Show progress indicator on blog articles
+- [ ] **Estimated Reading Time** - Already have this, but could make it dynamic
+- [ ] **Social Share Buttons** - Add share buttons to blog articles
+- [ ] **Print-Friendly Styles** - Allow users to print articles cleanly
+- [ ] **Accessibility Audit** - Ensure WCAG compliance (alt text, contrast, keyboard nav)
+- [ ] **Performance Optimization** - Lazy load images, minify CSS/JS
+- [ ] **404 Page** - Custom error page with helpful links
+
+### Content Ideas
+
+- [ ] **State-Specific Landing Pages** - Create pages for California, Texas, Florida, etc.
+- [ ] **Video Content** - Explainer video on homepage about the process
+- [ ] **Downloadable Guide** - PDF checklist in exchange for email signup
+- [ ] **Calculator Tool** - "Estimate Your Surplus Funds" interactive calculator
+- [ ] **Timeline Infographic** - Visual representation of the claim process
