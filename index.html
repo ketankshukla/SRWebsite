@@ -1266,7 +1266,12 @@
     <!-- Navigation -->
     <nav class="navbar">
       <div class="container">
-        <a href="#" class="logo">Surplus<span>Recoveries</span></a>
+        <a
+          href="/"
+          class="logo"
+          onclick="if(window.location.pathname==='/'){window.scrollTo({top:0,behavior:'smooth'});return false;}"
+          >Surplus<span>Recoveries</span></a
+        >
         <ul class="nav-links">
           <li><a href="#about">What Are Surplus Funds?</a></li>
           <li><a href="#how-it-works">How It Works</a></li>
@@ -1598,17 +1603,32 @@
         </div>
         <div class="blog-preview-grid">
           <article class="blog-preview-card fade-in">
-            <span class="category">Guide</span>
+            <span class="category">Insight</span>
             <h3>
-              <a href="/blog/what-are-surplus-funds"
-                >What Are Surplus Funds? A Complete Guide</a
+              <a href="/blog/why-banks-dont-tell-you"
+                >Why Banks Don't Tell You About Surplus Funds</a
               >
             </h3>
             <p>
-              Understanding surplus funds from foreclosure sales — what they
-              are, where they come from, and why you might have money waiting.
+              The surprising reasons why lenders rarely inform homeowners about
+              money owed to them after foreclosure.
             </p>
-            <a href="/blog/what-are-surplus-funds" class="read-more"
+            <a href="/blog/why-banks-dont-tell-you" class="read-more"
+              >Read More →</a
+            >
+          </article>
+          <article class="blog-preview-card fade-in">
+            <span class="category">Reference</span>
+            <h3>
+              <a href="/blog/state-deadlines-surplus-funds"
+                >State-by-State Deadlines for Claiming Surplus Funds</a
+              >
+            </h3>
+            <p>
+              Don't miss your window. Learn the claim deadlines for surplus
+              funds in each state before it's too late.
+            </p>
+            <a href="/blog/state-deadlines-surplus-funds" class="read-more"
               >Read More →</a
             >
           </article>
@@ -1626,21 +1646,6 @@
             <a
               href="/blog/supreme-court-ruling-tyler-hennepin"
               class="read-more"
-              >Read More →</a
-            >
-          </article>
-          <article class="blog-preview-card fade-in">
-            <span class="category">How-To</span>
-            <h3>
-              <a href="/blog/how-to-check-unclaimed-funds"
-                >How to Check If You Have Unclaimed Money</a
-              >
-            </h3>
-            <p>
-              Step-by-step guide to finding out if there are surplus funds from
-              your foreclosure waiting to be claimed.
-            </p>
-            <a href="/blog/how-to-check-unclaimed-funds" class="read-more"
               >Read More →</a
             >
           </article>
