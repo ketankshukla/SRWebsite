@@ -678,6 +678,94 @@
         color: var(--gray-500);
       }
 
+      /* Blog Preview Section */
+      .blog-preview-section {
+        padding: 80px 0;
+        background: var(--white);
+      }
+
+      .blog-preview-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        margin-top: 40px;
+      }
+
+      .blog-preview-card {
+        background: var(--gray-100);
+        border-radius: 12px;
+        padding: 30px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .blog-preview-card:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-lg);
+      }
+
+      .blog-preview-card .category {
+        display: inline-block;
+        background: var(--primary);
+        color: var(--white);
+        padding: 4px 12px;
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+      }
+
+      .blog-preview-card h3 {
+        font-size: 1.2rem;
+        margin-bottom: 12px;
+        line-height: 1.4;
+      }
+
+      .blog-preview-card h3 a {
+        color: var(--gray-900);
+        text-decoration: none;
+      }
+
+      .blog-preview-card h3 a:hover {
+        color: var(--primary);
+      }
+
+      .blog-preview-card p {
+        color: var(--gray-700);
+        font-size: 0.95rem;
+        margin-bottom: 15px;
+        line-height: 1.6;
+      }
+
+      .blog-preview-card .read-more {
+        color: var(--primary);
+        font-weight: 600;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      .blog-preview-card .read-more:hover {
+        color: var(--primary-dark);
+      }
+
+      .view-all-posts {
+        text-align: center;
+        margin-top: 40px;
+      }
+
+      @media (max-width: 1024px) {
+        .blog-preview-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (max-width: 768px) {
+        .blog-preview-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
       /* FAQ Section */
       .faq-container {
         max-width: 800px;
@@ -1184,6 +1272,7 @@
           <li><a href="#how-it-works">How It Works</a></li>
           <li><a href="#why-us">Why Choose Us</a></li>
           <li><a href="#faq">FAQ</a></li>
+          <li><a href="/blog">Blog</a></li>
           <li>
             <a href="#contact" class="btn btn-primary">Free Consultation</a>
           </li>
@@ -1494,6 +1583,70 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Preview Section -->
+    <section class="blog-preview-section">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2>Learn More About Surplus Funds</h2>
+          <p>
+            Educational articles to help you understand your rights and options.
+          </p>
+        </div>
+        <div class="blog-preview-grid">
+          <article class="blog-preview-card fade-in">
+            <span class="category">Guide</span>
+            <h3>
+              <a href="/blog/what-are-surplus-funds"
+                >What Are Surplus Funds? A Complete Guide</a
+              >
+            </h3>
+            <p>
+              Understanding surplus funds from foreclosure sales — what they
+              are, where they come from, and why you might have money waiting.
+            </p>
+            <a href="/blog/what-are-surplus-funds" class="read-more"
+              >Read More →</a
+            >
+          </article>
+          <article class="blog-preview-card fade-in">
+            <span class="category">Legal</span>
+            <h3>
+              <a href="/blog/supreme-court-ruling-tyler-hennepin"
+                >The 2023 Supreme Court Ruling That Changed Everything</a
+              >
+            </h3>
+            <p>
+              How the Tyler v. Hennepin County decision unanimously affirmed
+              homeowners' rights to surplus funds nationwide.
+            </p>
+            <a
+              href="/blog/supreme-court-ruling-tyler-hennepin"
+              class="read-more"
+              >Read More →</a
+            >
+          </article>
+          <article class="blog-preview-card fade-in">
+            <span class="category">How-To</span>
+            <h3>
+              <a href="/blog/how-to-check-unclaimed-funds"
+                >How to Check If You Have Unclaimed Money</a
+              >
+            </h3>
+            <p>
+              Step-by-step guide to finding out if there are surplus funds from
+              your foreclosure waiting to be claimed.
+            </p>
+            <a href="/blog/how-to-check-unclaimed-funds" class="read-more"
+              >Read More →</a
+            >
+          </article>
+        </div>
+        <div class="view-all-posts">
+          <a href="/blog" class="btn btn-outline">View All Articles →</a>
         </div>
       </div>
     </section>
