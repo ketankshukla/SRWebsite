@@ -1594,7 +1594,11 @@
                 name="subject"
                 value="New Surplus Funds Inquiry from Website"
               />
-              <input type="hidden" name="redirect" id="redirectUrl" value="" />
+              <input
+                type="hidden"
+                name="redirect"
+                value="https://sr-website-seven.vercel.app/thank-you.html"
+              />
               <input
                 type="hidden"
                 name="from_name"
@@ -1745,10 +1749,6 @@
 
       // FAQ Accordion - Improved version
       document.addEventListener("DOMContentLoaded", function () {
-        // Set redirect URL dynamically based on current domain
-        document.getElementById("redirectUrl").value =
-          window.location.origin + "/thank-you.html";
-
         const faqButtons = document.querySelectorAll(".faq-question");
 
         faqButtons.forEach((button) => {
