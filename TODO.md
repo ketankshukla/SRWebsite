@@ -114,6 +114,11 @@
 - [x] Add featured article section to blog index
 - [x] Update sitemap with all blog pages
 - [x] Add prev/next navigation to all blog articles (top and bottom)
+- [x] Add images to all blog articles (2 unique images per post)
+  - 32 images total across 16 articles
+  - Images stored in `/images/` folder
+  - AI prompts documented in `IMAGE_PROMPTS.md`
+  - Styling: full-width, rounded corners, shadow, italic captions
 
 ## Value Proposition & Conversion
 

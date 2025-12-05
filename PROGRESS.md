@@ -165,28 +165,60 @@ Since this is a brand new business with no closed deals yet, made the following 
 - Styled with hover effects and responsive design
 - First article shows only "Next", last shows only "Previous"
 
+### Phase 17: Blog Images
+
+- Added 2 unique images to each of the 16 blog articles (32 images total)
+- Images generated using AI prompts stored in `IMAGE_PROMPTS.md`
+- Image styling: full-width, 12px border-radius, subtle shadow, italic captions
+- Each image has a contextual caption centered below
+- No image repeats within the same blog post
+
+**Image Distribution:**
+
+| Blog Post                              | Image 1        | Image 2        |
+| -------------------------------------- | -------------- | -------------- |
+| what-are-surplus-funds                 | image (5).jpg  | image (12).jpg |
+| how-to-check-unclaimed-funds           | image (1).jpg  | image (7).jpg  |
+| supreme-court-ruling-tyler-hennepin    | image (2).jpg  | image (8).jpg  |
+| state-deadlines-surplus-funds          | image (3).jpg  | image (9).jpg  |
+| why-banks-dont-tell-you                | image (4).jpg  | image (10).jpg |
+| tax-sale-vs-mortgage-foreclosure       | image (6).jpg  | image (11).jpg |
+| documents-needed-claim-surplus         | image (13).jpg | image (14).jpg |
+| common-mistakes-surplus-claims         | image (15).jpg | image (16).jpg |
+| heir-claims-deceased-owner             | image (17).jpg | image (18).jpg |
+| how-much-surplus-funds-expect          | image (19).jpg | image (20).jpg |
+| surplus-funds-scams-avoid              | image (21).jpg | image (22).jpg |
+| judicial-vs-nonjudicial-foreclosure    | image (23).jpg | image (24).jpg |
+| what-happens-unclaimed-surplus         | image (25).jpg | image (26).jpg |
+| surplus-funds-tax-implications         | image (27).jpg | image (28).jpg |
+| how-long-claim-process-takes           | image (29).jpg | image (30).jpg |
+| why-hire-professional-surplus-recovery | image (31).jpg | image.jpg      |
+
 ---
 
 ## Files Modified
 
 ### New Files Created
 
-| File                    | Purpose                             |
-| ----------------------- | ----------------------------------- |
-| `.gitignore`            | Git ignore rules                    |
-| `TODO.md`               | Task tracking                       |
-| `vercel.json`           | Vercel configuration (cleanUrls)    |
-| `PROGRESS.md`           | This document                       |
-| `privacy-policy.html`   | Privacy policy page                 |
-| `terms-of-service.html` | Terms of service page               |
-| `disclaimer.html`       | Legal disclaimer page               |
-| `sitemap.xml`           | XML sitemap for search engines      |
-| `robots.txt`            | Search engine crawling instructions |
-| `favicon.svg`           | Browser tab icon (SR logo)          |
-| `blog/index.html`       | Blog listing page                   |
-| `blog/*.html` (16)      | Individual blog articles            |
-| `images/og-image.png`   | Open Graph image for social sharing |
-| `images/og-image.svg`   | SVG version of OG image             |
+| File                      | Purpose                             |
+| ------------------------- | ----------------------------------- |
+| `.gitignore`              | Git ignore rules                    |
+| `TODO.md`                 | Task tracking                       |
+| `vercel.json`             | Vercel configuration (cleanUrls)    |
+| `PROGRESS.md`             | This document                       |
+| `privacy-policy.html`     | Privacy policy page                 |
+| `terms-of-service.html`   | Terms of service page               |
+| `disclaimer.html`         | Legal disclaimer page               |
+| `sitemap.xml`             | XML sitemap for search engines      |
+| `robots.txt`              | Search engine crawling instructions |
+| `favicon.svg`             | Browser tab icon (SR logo)          |
+| `blog/index.html`         | Blog listing page                   |
+| `blog/*.html` (16)        | Individual blog articles            |
+| `images/og-image.png`     | Open Graph image for social sharing |
+| `images/og-image.svg`     | SVG version of OG image             |
+| `images/image (1-31).jpg` | Blog article images (31 files)      |
+| `images/image.jpg`        | Additional blog image               |
+| `IMAGE_PROMPTS.md`        | AI image generation prompts         |
 
 ### Files Modified
 
@@ -227,6 +259,7 @@ Since this is a brand new business with no closed deals yet, made the following 
 - [x] 16 blog articles published
 - [x] SR logo integrated across all pages
 - [x] Blog navigation (prev/next) added
+- [x] Blog images added (2 per article, 32 total)
 
 ## Pending Tasks
 
