@@ -29,11 +29,11 @@
 - [x] Configure A record in GreenGeeks Zone Editor (`216.198.79.1`)
 - [x] Configure CNAME for www (`550bdf806002b399.vercel-dns-017.com`)
 - [x] Preserve email functionality (MX records intact)
-- [ ] **WAITING:** DNS propagation to complete (check: https://dnschecker.org/#A/surplusrecoveries.com)
-- [ ] **WAITING:** SSL certificate provisioning by Vercel
-- [ ] Verify site loads on https://surplusrecoveries.com
-- [ ] Test contact form redirect on custom domain
-- [ ] Verify clean URLs work on custom domain
+- [x] DNS propagation complete
+- [x] SSL certificate provisioned by Vercel
+- [x] Site loads on https://surplusrecoveries.com
+- [x] Contact form redirect works on custom domain
+- [x] Clean URLs work on custom domain
 
 ## SEO & Google Visibility
 
@@ -54,7 +54,6 @@
    - Added TXT record: `google-site-verification=djmul99h9hw3b0xeoabx7p6jPzQZ3CSkfhAzlEJsGBo`
    - Verified successfully
 5. [x] Submit sitemap: `https://surplusrecoveries.com/sitemap.xml`
-   - Status: "Couldn't fetch" (waiting for DNS propagation)
 6. [ ] **WAITING:** Re-check sitemap status after DNS propagates
 7. [ ] **WAITING:** Request indexing via URL Inspection after DNS propagates
 
@@ -64,7 +63,7 @@
 2. [ ] Click "Manage now" or "Add your business"
 3. [ ] Enter business name: "Surplus Recoveries"
 4. [ ] Choose category: "Financial Consultant" or "Business Service"
-5. [ ] Add your phone: (619) 669-8545
+5. [ ] Add your phone: (858) 230-8322
 6. [ ] Add your website: https://surplusrecoveries.com
 7. [ ] Add business hours: Mon-Fri 9AM-6PM PST
 8. [ ] Verify your business (Google will mail a postcard with a code, or call)
@@ -92,17 +91,63 @@
 - [x] Create blog folder structure
 - [x] Create blog index page (`/blog`)
 - [x] Add blog link to main navigation
-- [x] Create 5 educational articles:
+- [x] Create initial 5 educational articles
+- [x] Add 10 more articles (15 total):
   1. [x] What Are Surplus Funds? A Complete Guide
   2. [x] How to Check If You Have Unclaimed Foreclosure Money
   3. [x] The 2023 Supreme Court Ruling That Changed Everything (Tyler v. Hennepin)
   4. [x] State-by-State Deadlines for Claiming Surplus Funds
   5. [x] Why Banks Don't Tell You About Surplus Funds
+  6. [x] Tax Sale vs Mortgage Foreclosure: Key Differences
+  7. [x] Documents You Need to Claim Surplus Funds
+  8. [x] 7 Common Mistakes That Delay Surplus Fund Claims
+  9. [x] Claiming Surplus Funds as an Heir: Complete Guide
+  10. [x] How Much Surplus Funds Can You Expect?
+  11. [x] Surplus Funds Scams: How to Protect Yourself
+  12. [x] Judicial vs Non-Judicial Foreclosure: What It Means for Surplus
+  13. [x] What Happens to Unclaimed Surplus Funds?
+  14. [x] Are Surplus Funds Taxable? Tax Implications Explained
+  15. [x] How Long Does the Surplus Funds Claim Process Take?
+  16. [x] **FEATURED:** Why Hire a Professional for Surplus Funds Recovery?
 - [x] Add blog preview cards to homepage (3 latest articles)
-- [x] Update sitemap with blog pages
+- [x] Order blog articles by date descending (newest first)
+- [x] Add featured article section to blog index
+- [x] Update sitemap with all blog pages
+
+## Value Proposition & Conversion
+
+- [x] Add "Why Hire Us" section on homepage (DIY vs Professional comparison)
+  - 12 pain points for DIY approach
+  - 12 benefits for working with us
+  - Compelling CTA
+- [x] Create featured blog article explaining DIY vs professional recovery
+- [x] Fix logo click behavior (scrolls to top when on homepage)
+
+## Contact & Branding
+
+- [x] Update phone number to (858) 230-8322 across all pages
+- [x] Contact form working via Web3Forms (note: free tier has email delays)
+- [x] Thank you page redirect working
+
+## Social Sharing (Open Graph)
+
+- [x] Add og:image meta tags to all pages
+- [x] Add twitter:image meta tags to all pages
+- [x] Create SR logo image for social sharing (`images/og-image.png`)
+  - 800x800 square format
+  - Matches favicon style (S white, R green)
+  - Blue gradient background with rounded corners
 
 ## Post-DNS Tasks
 
-- [ ] Final testing of all functionality on custom domain
-- [ ] Test legal pages load correctly
-- [ ] Verify clean URLs work on custom domain
+- [x] Final testing of all functionality on custom domain
+- [x] Test legal pages load correctly
+- [x] Verify clean URLs work on custom domain
+
+## Future Enhancements (Optional)
+
+- [ ] Add Google Analytics tracking
+- [ ] Set up Google Business Profile
+- [ ] Add more blog articles as needed
+- [ ] Consider adding case study/success story section (once you have real clients)
+- [ ] Add FAQ schema markup for better SEO
