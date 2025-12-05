@@ -79,6 +79,14 @@
 5. [ ] Get your Measurement ID (starts with `G-`)
 6. [ ] Provide the ID to add tracking code to the website
 
+## Honesty & Credibility Updates (New Business)
+
+- [x] Replace fake stats ($2.5M, 500+ families, 98%) with honest value props ($0 upfront, Free case review, 100% contingency)
+- [x] Replace fake testimonials with educational "Did You Know?" industry facts section
+- [x] Replace fake "$12,847 average" with "Risk-Free Recovery" messaging
+- [x] Add favicon (SR logo) to all pages
+- [x] Add click-to-call floating button (mobile only)
+
 ## Post-DNS Tasks
 
 - [ ] Final testing of all functionality on custom domain

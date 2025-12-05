@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Surplus Recoveries | Recover Your Foreclosure Overage Funds</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
     <!-- SEO Meta Tags -->
     <meta
@@ -1023,6 +1024,40 @@
         box-shadow: var(--shadow-xl);
       }
 
+      /* Click to Call Button (Mobile) */
+      .click-to-call {
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        width: 60px;
+        height: 60px;
+        background: var(--secondary);
+        color: var(--white);
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        box-shadow: var(--shadow-lg);
+        transition: all 0.3s ease;
+        z-index: 999;
+        text-decoration: none;
+      }
+
+      .click-to-call:hover {
+        background: var(--secondary-dark);
+        transform: scale(1.1);
+        box-shadow: var(--shadow-xl);
+      }
+
+      @media (max-width: 768px) {
+        .click-to-call {
+          display: flex;
+        }
+      }
+
       /* Responsive */
       @media (max-width: 1024px) {
         .hero .container {
@@ -1185,24 +1220,26 @@
           </div>
           <div class="hero-stats">
             <div class="stat-item">
-              <div class="stat-number">$2.5M+</div>
-              <div class="stat-label">Recovered for Clients</div>
+              <div class="stat-number">$0</div>
+              <div class="stat-label">Upfront Fees</div>
             </div>
             <div class="stat-item">
-              <div class="stat-number">500+</div>
-              <div class="stat-label">Families Helped</div>
+              <div class="stat-number">Free</div>
+              <div class="stat-label">Case Review</div>
             </div>
             <div class="stat-item">
-              <div class="stat-number">98%</div>
-              <div class="stat-label">Success Rate</div>
+              <div class="stat-number">100%</div>
+              <div class="stat-label">Contingency Based</div>
             </div>
           </div>
         </div>
         <div class="hero-image">
           <div class="hero-card">
-            <h3>Your Potential Recovery</h3>
-            <div class="amount">$12,847</div>
-            <p>Average surplus funds recovered</p>
+            <h3>Why Choose Us?</h3>
+            <div class="amount" style="font-size: 1.8rem">
+              Risk-Free Recovery
+            </div>
+            <p>We only get paid when you do</p>
             <ul class="checkmark-list">
               <li><span class="checkmark">✓</span> No upfront fees required</li>
               <li><span class="checkmark">✓</span> We handle all paperwork</li>
@@ -1401,60 +1438,59 @@
       </div>
     </section>
 
-    <!-- Testimonials -->
-    <section class="testimonials-section" id="testimonials">
+    <!-- Industry Facts -->
+    <section class="testimonials-section" id="facts">
       <div class="container">
         <div class="section-header fade-in">
-          <h2>What Our Clients Say</h2>
+          <h2>Did You Know?</h2>
           <p>
-            Don't just take our word for it — hear from families we've helped
-            recover their surplus funds.
+            Important facts about surplus funds that every former homeowner
+            should know.
           </p>
         </div>
         <div class="testimonials-grid">
           <div class="testimonial-card fade-in">
-            <div class="stars">★★★★★</div>
+            <div class="stars">💰💰💰</div>
             <p>
-              "I had no idea I had money coming to me after losing my home.
-              Surplus Recoveries found over $15,000 that was just sitting there.
-              They handled everything professionally and I received my check
-              within 60 days."
+              "Billions of dollars in surplus funds go unclaimed every year
+              across the United States. Many former homeowners never realize
+              they have money waiting for them after a foreclosure sale."
             </p>
             <div class="testimonial-author">
-              <div class="author-avatar">MJ</div>
+              <div class="author-avatar">📊</div>
               <div class="author-info">
-                <strong>Michael J.</strong>
-                <span>San Diego, CA</span>
+                <strong>Industry Statistics</strong>
+                <span>National Data</span>
               </div>
             </div>
           </div>
           <div class="testimonial-card fade-in">
-            <div class="stars">★★★★★</div>
+            <div class="stars">⚖️⚖️⚖️</div>
             <p>
-              "After my foreclosure, I was devastated. Finding out there was
-              surplus money gave me hope. The team was compassionate,
-              professional, and made the whole process easy. Highly recommend!"
+              "The 2023 Supreme Court ruling in Tyler v. Hennepin County
+              unanimously affirmed that homeowners are entitled to surplus
+              funds. Government retention of these funds is unconstitutional."
             </p>
             <div class="testimonial-author">
-              <div class="author-avatar">ST</div>
+              <div class="author-avatar">🏛️</div>
               <div class="author-info">
-                <strong>Sandra T.</strong>
-                <span>Phoenix, AZ</span>
+                <strong>Supreme Court Ruling</strong>
+                <span>Tyler v. Hennepin County, 2023</span>
               </div>
             </div>
           </div>
           <div class="testimonial-card fade-in">
-            <div class="stars">★★★★★</div>
+            <div class="stars">⏰⏰⏰</div>
             <p>
-              "I was skeptical at first, but they were completely legitimate. No
-              upfront costs, constant communication, and they recovered $8,500
-              for me. This money helped me get back on my feet."
+              "Most states have strict deadlines for claiming surplus funds —
+              ranging from 60 days to 5 years depending on the state. Acting
+              quickly is essential to protect your rights."
             </p>
             <div class="testimonial-author">
-              <div class="author-avatar">RW</div>
+              <div class="author-avatar">📋</div>
               <div class="author-info">
-                <strong>Robert W.</strong>
-                <span>Dallas, TX</span>
+                <strong>Time-Sensitive Claims</strong>
+                <span>State Deadlines Vary</span>
               </div>
             </div>
           </div>
@@ -1760,6 +1796,9 @@
 
     <!-- Back to Top Button -->
     <button class="back-to-top" id="backToTop" title="Back to Top">↑</button>
+
+    <!-- Click to Call Button (Mobile) -->
+    <a href="tel:+16196698545" class="click-to-call" title="Call Us">📞</a>
 
     <!-- Footer -->
     <footer>
