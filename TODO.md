@@ -8,10 +8,10 @@
 
 ## Git & Vercel Deployment
 
-- [ ] Initialize Git repository
-- [ ] Create `.gitignore` file
-- [ ] Make initial commit
-- [ ] Push to GitHub/GitLab/Bitbucket
+- [x] Initialize Git repository
+- [x] Create `.gitignore` file
+- [x] Make initial commit
+- [x] Push to GitHub/GitLab/Bitbucket
 - [ ] Connect repository to Vercel
 - [ ] Deploy to Vercel
 - [ ] Update form redirect URL to Vercel domain (if not using custom domain)
