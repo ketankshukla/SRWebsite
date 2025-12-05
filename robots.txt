@@ -1,0 +1,8 @@
+# Robots.txt for Surplus Recoveries
+# https://surplusrecoveries.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://surplusrecoveries.com/sitemap.xml

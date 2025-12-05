@@ -2,9 +2,10 @@
 
 ## Pre-Deployment Tasks
 
-- [ ] Update copyright year from hardcoded 2024 to dynamic (or 2025)
-- [ ] Update social links in footer (currently placeholder `#`)
-- [ ] Add Privacy Policy, Terms of Service, Disclaimer pages (or remove links)
+- [x] Update copyright year to dynamic (JavaScript)
+- [ ] Update social links in footer (currently placeholder `#`) — SKIPPED per user preference
+- [x] Add Privacy Policy, Terms of Service, Disclaimer pages
+- [x] Update footer links to point to legal pages
 
 ## Git & Vercel Deployment
 
@@ -37,6 +38,5 @@
 ## Post-DNS Tasks
 
 - [ ] Final testing of all functionality on custom domain
-- [ ] Update copyright year
-- [ ] Update social links (or remove)
-- [ ] Add legal pages (or remove links)
+- [ ] Test legal pages load correctly
+- [ ] Verify clean URLs work on custom domain
