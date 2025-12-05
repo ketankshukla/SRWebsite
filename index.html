@@ -1,0 +1,1614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surplus Recoveries | Recover Your Foreclosure Overage Funds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1e5a7e;
+            --primary-dark: #154560;
+            --primary-light: #2a7aa8;
+            --secondary: #28a745;
+            --secondary-dark: #1e7e34;
+            --accent: #f4a261;
+            --dark: #1a1a2e;
+            --gray-900: #212529;
+            --gray-700: #495057;
+            --gray-500: #6c757d;
+            --gray-300: #dee2e6;
+            --gray-100: #f8f9fa;
+            --white: #ffffff;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--gray-700);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            color: var(--gray-900);
+            line-height: 1.3;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Navigation */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: var(--white);
+            padding: 15px 0;
+            box-shadow: var(--shadow);
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: var(--secondary);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--gray-700);
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        .mobile-menu-btn span {
+            display: block;
+            width: 25px;
+            height: 3px;
+            background: var(--gray-700);
+            margin: 5px 0;
+            transition: 0.3s;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 14px 32px;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background: var(--secondary);
+            color: var(--white);
+        }
+
+        .btn-primary:hover {
+            background: var(--secondary-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+        }
+
+        .btn-outline:hover {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            display: flex;
+            align-items: center;
+            padding-top: 80px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.5;
+        }
+
+        .hero .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-content {
+            color: var(--white);
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            color: var(--white);
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        .hero-image {
+            position: relative;
+        }
+
+        .hero-card {
+            background: var(--white);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: var(--shadow-xl);
+            transform: rotate(2deg);
+        }
+
+        .hero-card h3 {
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .hero-card .amount {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 10px;
+        }
+
+        .hero-card p {
+            color: var(--gray-500);
+        }
+
+        .checkmark-list {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .checkmark-list li {
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--gray-700);
+        }
+
+        .checkmark {
+            width: 24px;
+            height: 24px;
+            background: var(--secondary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 14px;
+            flex-shrink: 0;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 100px 0;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 60px;
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .section-header p {
+            font-size: 1.1rem;
+            color: var(--gray-500);
+        }
+
+        /* What Are Surplus Funds */
+        .about-section {
+            background: var(--gray-100);
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .about-content h2 {
+            margin-bottom: 20px;
+        }
+
+        .about-content p {
+            margin-bottom: 20px;
+        }
+
+        .info-box {
+            background: var(--white);
+            border-left: 4px solid var(--secondary);
+            padding: 20px 25px;
+            border-radius: 0 10px 10px 0;
+            margin: 25px 0;
+        }
+
+        .info-box strong {
+            color: var(--primary);
+        }
+
+        .about-image {
+            position: relative;
+        }
+
+        .process-visual {
+            background: var(--white);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .process-step-mini {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px;
+            border-bottom: 1px solid var(--gray-300);
+        }
+
+        .process-step-mini:last-child {
+            border-bottom: none;
+        }
+
+        .step-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+
+        .step-icon.green {
+            background: linear-gradient(135deg, var(--secondary), var(--secondary-dark));
+        }
+
+        /* How It Works */
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+        }
+
+        .step-card {
+            text-align: center;
+            padding: 40px 25px;
+            background: var(--white);
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+        }
+
+        .step-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .step-number {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 40px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .step-card .icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, var(--primary-light), var(--primary));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 1.8rem;
+            color: white;
+        }
+
+        .step-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .step-card p {
+            font-size: 0.95rem;
+            color: var(--gray-500);
+        }
+
+        /* Why Choose Us */
+        .why-section {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+        }
+
+        .why-section .section-header h2,
+        .why-section .section-header p {
+            color: white;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 35px;
+            border-radius: 16px;
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.15);
+        }
+
+        .feature-card .icon {
+            width: 60px;
+            height: 60px;
+            background: var(--accent);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .feature-card h3 {
+            color: white;
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+
+        .feature-card p {
+            opacity: 0.9;
+        }
+
+        /* Testimonials */
+        .testimonials-section {
+            background: var(--gray-100);
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .testimonial-card {
+            background: var(--white);
+            padding: 35px;
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+            position: relative;
+        }
+
+        .testimonial-card::before {
+            content: '"';
+            font-size: 5rem;
+            font-family: Georgia, serif;
+            color: var(--primary);
+            opacity: 0.1;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            line-height: 1;
+        }
+
+        .stars {
+            color: #ffc107;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        .testimonial-card p {
+            font-style: italic;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            background: var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+
+        .author-info strong {
+            display: block;
+            color: var(--gray-900);
+        }
+
+        .author-info span {
+            font-size: 0.9rem;
+            color: var(--gray-500);
+        }
+
+        /* FAQ Section */
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: var(--white);
+            border-radius: 12px;
+            margin-bottom: 15px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .faq-question {
+            width: 100%;
+            padding: 20px 25px;
+            background: none;
+            border: none;
+            text-align: left;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--gray-900);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: var(--gray-100);
+        }
+
+        .faq-question .icon {
+            font-size: 1.5rem;
+            color: var(--primary);
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-question .icon {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+        }
+
+        .faq-answer p {
+            padding: 0 25px 20px;
+            color: var(--gray-700);
+        }
+
+        /* Contact Section */
+        .contact-section {
+            background: linear-gradient(180deg, var(--white) 0%, var(--gray-100) 100%);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 60px;
+            align-items: start;
+        }
+
+        .contact-info h2 {
+            margin-bottom: 20px;
+        }
+
+        .contact-info > p {
+            margin-bottom: 30px;
+        }
+
+        .contact-methods {
+            margin-bottom: 30px;
+        }
+
+        .contact-method {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px 0;
+            border-bottom: 1px solid var(--gray-300);
+        }
+
+        .contact-method:last-child {
+            border-bottom: none;
+        }
+
+        .contact-method .icon {
+            width: 50px;
+            height: 50px;
+            background: var(--primary);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        .contact-method strong {
+            display: block;
+            color: var(--gray-900);
+        }
+
+        .contact-method span,
+        .contact-method a {
+            color: var(--gray-500);
+            text-decoration: none;
+        }
+
+        .contact-method a:hover {
+            color: var(--primary);
+        }
+
+        .trust-badges {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 15px;
+            background: var(--white);
+            border-radius: 8px;
+            font-size: 0.9rem;
+            color: var(--gray-700);
+            box-shadow: var(--shadow);
+        }
+
+        .badge .icon {
+            color: var(--secondary);
+        }
+
+        /* Contact Form */
+        .contact-form-container {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: var(--shadow-xl);
+        }
+
+        .contact-form-container h3 {
+            margin-bottom: 25px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: var(--gray-900);
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 14px 18px;
+            border: 2px solid var(--gray-300);
+            border-radius: 10px;
+            font-size: 1rem;
+            font-family: inherit;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(30, 90, 126, 0.1);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .form-group .error {
+            border-color: #dc3545;
+        }
+
+        .error-message {
+            color: #dc3545;
+            font-size: 0.85rem;
+            margin-top: 5px;
+            display: none;
+        }
+
+        .form-submit {
+            width: 100%;
+            padding: 16px;
+            font-size: 1.1rem;
+        }
+
+        .form-note {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: var(--gray-500);
+        }
+
+        .form-note .icon {
+            color: var(--secondary);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: var(--gray-300);
+            padding: 60px 0 30px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-brand .logo {
+            color: var(--white);
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+
+        .footer-brand p {
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 12px;
+        }
+
+        .social-links a {
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background: var(--primary);
+        }
+
+        .footer-column h4 {
+            color: var(--white);
+            font-family: 'Inter', sans-serif;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer-column ul a {
+            color: var(--gray-300);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-column ul a:hover {
+            color: var(--white);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 30px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        /* Animations - elements visible by default, animate on scroll */
+        .fade-in {
+            opacity: 1;
+            transform: translateY(0);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .fade-in.animate {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: var(--primary);
+            color: var(--white);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            box-shadow: var(--shadow-lg);
+            transition: all 0.3s ease;
+            z-index: 999;
+        }
+
+        .back-to-top:hover {
+            background: var(--primary-dark);
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .hero .container {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .hero-stats {
+                justify-content: center;
+            }
+
+            .hero-image {
+                display: none;
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .steps-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--white);
+                flex-direction: column;
+                padding: 20px;
+                box-shadow: var(--shadow);
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .section-header h2 {
+                font-size: 2rem;
+            }
+
+            .steps-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-stats {
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+
+        /* Success message */
+        .form-success {
+            display: none;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .form-success .icon {
+            width: 80px;
+            height: 80px;
+            background: var(--secondary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 2.5rem;
+            color: white;
+        }
+
+        .form-success h3 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Surplus<span>Recoveries</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">What Are Surplus Funds?</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#why-us">Why Choose Us</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact" class="btn btn-primary">Free Consultation</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">✓ Free Consultation • No Upfront Fees</span>
+                <h1>You May Have Unclaimed Money From Your Foreclosure</h1>
+                <p>When your home sold at auction for more than you owed, the extra money belongs to YOU. We help you recover it — with no upfront costs and no fees unless we succeed.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Check If You Have Funds →</a>
+                    <a href="#how-it-works" class="btn btn-outline" style="background: white;">See How It Works</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">$2.5M+</div>
+                        <div class="stat-label">Recovered for Clients</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Families Helped</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Success Rate</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-card">
+                    <h3>Your Potential Recovery</h3>
+                    <div class="amount">$12,847</div>
+                    <p>Average surplus funds recovered</p>
+                    <ul class="checkmark-list">
+                        <li><span class="checkmark">✓</span> No upfront fees required</li>
+                        <li><span class="checkmark">✓</span> We handle all paperwork</li>
+                        <li><span class="checkmark">✓</span> Money directly to you</li>
+                        <li><span class="checkmark">✓</span> 100% confidential</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content fade-in">
+                    <h2>What Are Surplus Funds?</h2>
+                    <p>When a home is sold at a foreclosure auction, it sometimes sells for <strong>more than what was owed</strong> to the bank or lender. This extra money — called "surplus funds" or "overage" — legally belongs to the former homeowner.</p>
+                    <p>Unfortunately, many people never claim this money simply because they don't know it exists or don't know how to navigate the complex legal process to recover it.</p>
+                    <div class="info-box">
+                        <strong>Did you know?</strong> Billions of dollars in surplus funds go unclaimed every year across the United States. Your money could be sitting in a county account right now, waiting to be claimed.
+                    </div>
+                    <p>That's where we come in. We specialize in locating these funds, verifying your eligibility, and handling the entire recovery process on your behalf — so you can get what's rightfully yours.</p>
+                    <a href="#contact" class="btn btn-primary">Find Out If You Have Funds</a>
+                </div>
+                <div class="about-image fade-in">
+                    <div class="process-visual">
+                        <div class="process-step-mini">
+                            <div class="step-icon">🏠</div>
+                            <div>
+                                <strong>Home Sells at Auction</strong>
+                                <p style="font-size: 0.9rem; color: var(--gray-500);">Sale price: $285,000</p>
+                            </div>
+                        </div>
+                        <div class="process-step-mini">
+                            <div class="step-icon">📋</div>
+                            <div>
+                                <strong>Debt Owed to Lender</strong>
+                                <p style="font-size: 0.9rem; color: var(--gray-500);">Amount: $260,000</p>
+                            </div>
+                        </div>
+                        <div class="process-step-mini">
+                            <div class="step-icon green">💰</div>
+                            <div>
+                                <strong>Your Surplus Funds</strong>
+                                <p style="font-size: 0.9rem; color: var(--secondary); font-weight: 600;">$25,000 belongs to YOU</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>How It Works</h2>
+                <p>Our simple 4-step process makes recovering your surplus funds easy and stress-free.</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card fade-in">
+                    <span class="step-number">1</span>
+                    <div class="icon">📞</div>
+                    <h3>Free Consultation</h3>
+                    <p>Contact us for a free, no-obligation review of your case. We'll determine if you have surplus funds waiting.</p>
+                </div>
+                <div class="step-card fade-in">
+                    <span class="step-number">2</span>
+                    <div class="icon">🔍</div>
+                    <h3>Research & Verification</h3>
+                    <p>We locate your surplus funds and verify the exact amount you're entitled to through official records.</p>
+                </div>
+                <div class="step-card fade-in">
+                    <span class="step-number">3</span>
+                    <div class="icon">📝</div>
+                    <h3>We Handle the Paperwork</h3>
+                    <p>Our team manages all documentation, legal requirements, and communication with county offices.</p>
+                </div>
+                <div class="step-card fade-in">
+                    <span class="step-number">4</span>
+                    <div class="icon">✅</div>
+                    <h3>You Get Paid</h3>
+                    <p>Once approved, your surplus funds are sent directly to you. You only pay us if we successfully recover your money.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-section" id="why-us">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Why Choose Surplus Recoveries?</h2>
+                <p>We're dedicated to helping families recover the money they're owed — with transparency, expertise, and care.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <div class="icon">💵</div>
+                    <h3>No Upfront Fees</h3>
+                    <p>You pay nothing until we successfully recover your funds. No recovery means no fee — that's our promise.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="icon">⚖️</div>
+                    <h3>Legal Expertise</h3>
+                    <p>We understand the complex legal processes involved and navigate county and state requirements efficiently.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="icon">🤝</div>
+                    <h3>Personalized Service</h3>
+                    <p>Every case is unique. We provide dedicated attention and keep you informed throughout the entire process.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="icon">⏱️</div>
+                    <h3>Fast Turnaround</h3>
+                    <p>We work diligently to recover your funds as quickly as possible, handling all the time-consuming legwork.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="icon">🔒</div>
+                    <h3>100% Confidential</h3>
+                    <p>Your personal information is always protected. We maintain strict confidentiality throughout our relationship.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="icon">📊</div>
+                    <h3>Transparent Process</h3>
+                    <p>No hidden fees or surprises. We explain everything clearly and keep you updated at every step.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>What Our Clients Say</h2>
+                <p>Don't just take our word for it — hear from families we've helped recover their surplus funds.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in">
+                    <div class="stars">★★★★★</div>
+                    <p>"I had no idea I had money coming to me after losing my home. Surplus Recoveries found over $15,000 that was just sitting there. They handled everything professionally and I received my check within 60 days."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MJ</div>
+                        <div class="author-info">
+                            <strong>Michael J.</strong>
+                            <span>San Diego, CA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-in">
+                    <div class="stars">★★★★★</div>
+                    <p>"After my foreclosure, I was devastated. Finding out there was surplus money gave me hope. The team was compassionate, professional, and made the whole process easy. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">ST</div>
+                        <div class="author-info">
+                            <strong>Sandra T.</strong>
+                            <span>Phoenix, AZ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-in">
+                    <div class="stars">★★★★★</div>
+                    <p>"I was skeptical at first, but they were completely legitimate. No upfront costs, constant communication, and they recovered $8,500 for me. This money helped me get back on my feet."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RW</div>
+                        <div class="author-info">
+                            <strong>Robert W.</strong>
+                            <span>Dallas, TX</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Frequently Asked Questions</h2>
+                <p>Get answers to common questions about surplus fund recovery.</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item fade-in">
+                    <button class="faq-question" type="button">
+                        <span>What exactly are surplus funds?</span>
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Surplus funds (also called "excess proceeds" or "overages") are the money remaining after a foreclosed property sells at auction for more than the mortgage debt plus associated costs and junior liens. For example, if your home sells at auction for $450,000 and the outstanding mortgage balance was $425,000, the resulting $25,000 surplus legally belongs to you — the former homeowner. The 2023 Supreme Court decision <em>Tyler v. Hennepin County</em> unanimously affirmed that homeowners are entitled to any surplus exceeding their debt, and government retention of these funds is unconstitutional.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <button class="faq-question" type="button">
+                        <span>How do I know if I have surplus funds?</span>
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The foreclosure trustee or court typically sends a "Notice of Surplus Funds" to your last known address after the sale. However, since that address is usually the foreclosed property itself, many homeowners never receive this notice. You can proactively check by contacting the foreclosure trustee (their info appears on the Notice of Trustee Sale), checking with the county clerk of court where surplus funds are deposited, or searching state unclaimed property databases like MissingMoney.com. Contact us for a free consultation — we'll research public records to determine if surplus funds exist from your foreclosure.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <button class="faq-question" type="button">
+                        <span>How much do your services cost?</span>
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We work on a contingency basis, meaning you pay absolutely nothing upfront. We only get paid if we successfully recover your surplus funds — our fee is a percentage of the recovered amount, which we'll clearly explain before you sign anything. If we don't recover money for you, you owe us nothing. Industry-standard contingency fees typically range from 10-25% depending on case complexity. We're transparent about our fees and will never ask for payment before services are rendered.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <button class="faq-question" type="button">
+                        <span>How long does the recovery process take?</span>
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Straightforward claims with single owners, no competing claims, and complete documentation typically resolve in <strong>90-120 days</strong>. Under optimal conditions, some claims complete in as little as 30-60 days. More complex situations — such as multiple property owners, competing lienholders, deceased former owners requiring probate, or interpleader actions — can extend to 4-7 months or longer. We work diligently to expedite your claim and keep you informed at every step of the process.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <button class="faq-question" type="button">
+                        <span>Is this legitimate? How do I know it's not a scam?</span>
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Surplus funds are absolutely real and legally protected — the Supreme Court has affirmed homeowner rights to these funds. To verify legitimacy: we never ask for upfront fees; we clearly disclose the full amount you're entitled to before any agreement; you can confirm surplus amounts independently by contacting the trustee or court directly; and you're welcome to check our credentials. <strong>Warning signs of scams include:</strong> demands for upfront payment, requests to sign over your rights, high-pressure tactics, refusal to disclose actual amounts owed, or offers of small cash payments for signing documents. We encourage you to verify everything independently.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <button class="faq-question" type="button">
+                        <span>What states do you operate in?</span>
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We help clients recover surplus funds from foreclosures across multiple states. Virtually all states have surplus funds provisions, though deadlines vary significantly: Florida requires claims within 60-120 days; Texas enforces a 2-year deadline; California has a 1-year limitation; Georgia allows 5 years; and many other states fall somewhere in between. Contact us with your specific situation — we'll let you know if we can assist with your case and explain any relevant deadlines that may apply.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info fade-in">
+                    <h2>Get Your Free Consultation</h2>
+                    <p>Ready to find out if you have surplus funds waiting? Contact us today for a free, no-obligation review of your case. There's no risk — and you could have money coming to you.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="icon">📞</div>
+                            <div>
+                                <strong>Call Us</strong>
+                                <a href="tel:+16196698545">(619) 669-8545</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="icon">✉️</div>
+                            <div>
+                                <strong>Email Us</strong>
+                                <a href="mailto:info@surplusrecoveries.com">info@surplusrecoveries.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="icon">🕐</div>
+                            <div>
+                                <strong>Business Hours</strong>
+                                <span>Mon-Fri: 9AM - 6PM (PST)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trust-badges">
+                        <div class="badge">
+                            <span class="icon">🔒</span>
+                            <span>Secure & Confidential</span>
+                        </div>
+                        <div class="badge">
+                            <span class="icon">✓</span>
+                            <span>No Upfront Fees</span>
+                        </div>
+                        <div class="badge">
+                            <span class="icon">⭐</span>
+                            <span>5-Star Rated</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container fade-in">
+                    <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                        <h3>Request Your Free Case Review</h3>
+                        
+                        <!-- Web3Forms Configuration -->
+                        <input type="hidden" name="access_key" value="c021d7c9-4b64-4a46-a658-2aa51b556b04">
+                        <input type="hidden" name="subject" value="New Surplus Funds Inquiry from Website">
+                        <input type="hidden" name="redirect" value="https://surplusrecoveries.com/thank-you.html">
+                        <input type="hidden" name="from_name" value="Surplus Recoveries Website">
+                        <input type="checkbox" name="botcheck" class="hidden" style="display:none">
+                        
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                            <span class="error-message">Please enter your name</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email">
+                            <span class="error-message">Please enter a valid email</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="(555) 123-4567">
+                            <span class="error-message">Please enter your phone number</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Property Address (where foreclosure occurred)</label>
+                            <input type="text" id="address" name="address" placeholder="123 Main St, City, State ZIP">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional Information (optional)</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your situation..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit">Submit Free Consultation Request</button>
+                        <p class="form-note"><span class="icon">🔒</span> Your information is secure and confidential. We'll never share your details.</p>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <div class="icon">✓</div>
+                        <h3>Thank You!</h3>
+                        <p>Your request has been submitted. We'll review your case and contact you within 24 hours.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" title="Back to Top">↑</button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Surplus<span>Recoveries</span></a>
+                    <p>We help former homeowners recover surplus funds from foreclosure sales. Your money is waiting — let us help you claim it.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Twitter">𝕏</a>
+                        <a href="#" aria-label="LinkedIn">in</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">What Are Surplus Funds?</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#why-us">Why Choose Us</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:+16196698545">(619) 669-8545</a></li>
+                        <li><a href="mailto:info@surplusrecoveries.com">info@surplusrecoveries.com</a></li>
+                        <li>Mon-Fri: 9AM - 6PM PST</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Surplus Recoveries. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+
+        // FAQ Accordion - Improved version
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqButtons = document.querySelectorAll('.faq-question');
+            
+            faqButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const faqItem = this.parentElement;
+                    const isActive = faqItem.classList.contains('active');
+                    
+                    // Close all FAQ items
+                    document.querySelectorAll('.faq-item').forEach(item => {
+                        item.classList.remove('active');
+                    });
+                    
+                    // Open clicked item if it wasn't already open
+                    if (!isActive) {
+                        faqItem.classList.add('active');
+                    }
+                });
+            });
+        });
+
+        // Form Validation (works with Web3Forms)
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            const name = document.getElementById('name');
+            const email = document.getElementById('email');
+            const phone = document.getElementById('phone');
+            
+            // Simple validation - just check if required fields have values
+            if (!name.value.trim() || !email.value.trim() || !phone.value.trim()) {
+                e.preventDefault();
+                alert('Please fill in all required fields (Name, Email, and Phone).');
+                return false;
+            }
+            
+            // Email format check
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) {
+                e.preventDefault();
+                alert('Please enter a valid email address.');
+                return false;
+            }
+            
+            // If we get here, form is valid - let it submit naturally
+            return true;
+        });
+
+        // Phone number formatting - Auto-format as (xxx) xxx-xxxx
+        document.getElementById('phone').addEventListener('input', function(e) {
+            // Get only digits from input
+            let value = e.target.value.replace(/\D/g, '');
+            
+            // Limit to 10 digits
+            value = value.substring(0, 10);
+            
+            // Format based on length
+            if (value.length === 0) {
+                e.target.value = '';
+            } else if (value.length <= 3) {
+                e.target.value = '(' + value;
+            } else if (value.length <= 6) {
+                e.target.value = '(' + value.substring(0, 3) + ') ' + value.substring(3);
+            } else {
+                e.target.value = '(' + value.substring(0, 3) + ') ' + value.substring(3, 6) + '-' + value.substring(6);
+            }
+        });
+
+        // Scroll Animation - graceful degradation (content visible if JS fails)
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    entry.target.classList.remove('animate');
+                }
+            });
+        }, observerOptions);
+
+        // Initialize animations after page loads
+        document.querySelectorAll('.fade-in').forEach(el => {
+            el.classList.add('animate'); // Hide initially for animation
+            observer.observe(el);
+        });
+
+        // Fallback: show all content after 2 seconds if observer doesn't work
+        setTimeout(() => {
+            document.querySelectorAll('.fade-in').forEach(el => {
+                el.classList.remove('animate');
+                el.classList.add('visible');
+            });
+        }, 2000);
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    // Close mobile menu if open
+                    document.querySelector('.nav-links').classList.remove('active');
+                    
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Navbar background on scroll
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.style.background = 'rgba(255, 255, 255, 0.98)';
+                navbar.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.1)';
+            } else {
+                navbar.style.background = 'var(--white)';
+                navbar.style.boxShadow = 'var(--shadow)';
+            }
+        });
+
+        // Back to Top Button
+        document.getElementById('backToTop').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
