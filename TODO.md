@@ -44,9 +44,41 @@
 - [x] Add canonical URLs to all pages
 - [x] Create sitemap.xml
 - [x] Create robots.txt
-- [ ] Submit sitemap to Google Search Console
-- [ ] Create Google Business Profile (recommended)
-- [ ] Add Google Analytics tracking (optional)
+
+### Google Search Console (Do this after DNS propagates)
+
+1. [ ] Go to https://search.google.com/search-console
+2. [ ] Click "Add Property"
+3. [ ] Select "Domain" and enter `surplusrecoveries.com`
+4. [ ] Verify ownership:
+   - Google will give you a TXT record to add
+   - Go to GreenGeeks cPanel → Zone Editor
+   - Add a TXT record with the value Google provides
+   - Wait a few minutes, then click "Verify" in Google
+5. [ ] Once verified, go to "Sitemaps" in the left menu
+6. [ ] Enter `sitemap.xml` and click "Submit"
+7. [ ] Check "URL Inspection" to request indexing of your homepage
+
+### Google Business Profile (Recommended for local SEO)
+
+1. [ ] Go to https://business.google.com
+2. [ ] Click "Manage now" or "Add your business"
+3. [ ] Enter business name: "Surplus Recoveries"
+4. [ ] Choose category: "Financial Consultant" or "Business Service"
+5. [ ] Add your phone: (619) 669-8545
+6. [ ] Add your website: https://surplusrecoveries.com
+7. [ ] Add business hours: Mon-Fri 9AM-6PM PST
+8. [ ] Verify your business (Google will mail a postcard with a code, or call)
+9. [ ] Once verified, add photos and respond to any reviews
+
+### Google Analytics (Optional - for tracking visitors)
+
+1. [ ] Go to https://analytics.google.com
+2. [ ] Click "Start measuring"
+3. [ ] Create an account name (e.g., "Surplus Recoveries")
+4. [ ] Create a property for your website
+5. [ ] Get your Measurement ID (starts with `G-`)
+6. [ ] Provide the ID to add tracking code to the website
 
 ## Post-DNS Tasks
 
