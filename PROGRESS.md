@@ -99,6 +99,14 @@
 - Created `sitemap.xml` with all pages and priorities
 - Created `robots.txt` pointing to sitemap
 
+### Phase 9: Google Search Console Setup
+
+- Added property for `surplusrecoveries.com`
+- Verified ownership via TXT record: `google-site-verification=djmul99h9hw3b0xeoabx7p6jPzQZ3CSkfhAzlEJsGBo`
+- Submitted sitemap: `https://surplusrecoveries.com/sitemap.xml`
+- **Status:** Sitemap shows "Couldn't fetch" — waiting for DNS propagation
+- URL Inspection shows "URL is not on Google" — expected for new site, will work after DNS propagates
+
 ---
 
 ## Files Modified

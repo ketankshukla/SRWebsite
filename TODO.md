@@ -45,19 +45,18 @@
 - [x] Create sitemap.xml
 - [x] Create robots.txt
 
-### Google Search Console (Do this after DNS propagates)
+### Google Search Console
 
-1. [ ] Go to https://search.google.com/search-console
-2. [ ] Click "Add Property"
-3. [ ] Select "Domain" and enter `surplusrecoveries.com`
-4. [ ] Verify ownership:
-   - Google will give you a TXT record to add
-   - Go to GreenGeeks cPanel → Zone Editor
-   - Add a TXT record with the value Google provides
-   - Wait a few minutes, then click "Verify" in Google
-5. [ ] Once verified, go to "Sitemaps" in the left menu
-6. [ ] Enter `sitemap.xml` and click "Submit"
-7. [ ] Check "URL Inspection" to request indexing of your homepage
+1. [x] Go to https://search.google.com/search-console
+2. [x] Click "Add Property"
+3. [x] Select "Domain" and enter `surplusrecoveries.com`
+4. [x] Verify ownership:
+   - Added TXT record: `google-site-verification=djmul99h9hw3b0xeoabx7p6jPzQZ3CSkfhAzlEJsGBo`
+   - Verified successfully
+5. [x] Submit sitemap: `https://surplusrecoveries.com/sitemap.xml`
+   - Status: "Couldn't fetch" (waiting for DNS propagation)
+6. [ ] **WAITING:** Re-check sitemap status after DNS propagates
+7. [ ] **WAITING:** Request indexing via URL Inspection after DNS propagates
 
 ### Google Business Profile (Recommended for local SEO)
 
