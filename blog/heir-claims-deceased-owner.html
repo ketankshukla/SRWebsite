@@ -309,7 +309,23 @@
         color: var(--white);
       }
 
-            .article-nav {
+      .article-image {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        margin: 30px 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+      .article-image-caption {
+        text-align: center;
+        font-size: 0.9rem;
+        color: var(--gray-500);
+        font-style: italic;
+        margin-top: -20px;
+        margin-bottom: 30px;
+      }
+
+      .article-nav {
         display: flex;
         justify-content: space-between;
         align-items: stretch;
@@ -335,8 +351,12 @@
         transform: translateY(-2px);
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       }
-      .article-nav a.prev { text-align: left; }
-      .article-nav a.next { text-align: right; }
+      .article-nav a.prev {
+        text-align: left;
+      }
+      .article-nav a.next {
+        text-align: right;
+      }
       .article-nav .nav-label {
         font-size: 0.8rem;
         color: var(--gray-500);
@@ -351,9 +371,15 @@
         color: var(--gray-900);
         line-height: 1.4;
       }
-      .article-nav a.prev .nav-label::before { content: "← "; }
-      .article-nav a.next .nav-label::after { content: " →"; }
-      .article-nav .placeholder { flex: 1; }
+      .article-nav a.prev .nav-label::before {
+        content: "← ";
+      }
+      .article-nav a.next .nav-label::after {
+        content: " →";
+      }
+      .article-nav .placeholder {
+        flex: 1;
+      }
 
       @media (max-width: 768px) {
         .nav-links {
@@ -366,9 +392,16 @@
           flex-direction: column;
           gap: 10px;
         }
-              .article-nav { flex-direction: column; }
-        .article-nav a.prev, .article-nav a.next { text-align: left; }
-        .article-nav .nav-title { font-size: 1rem; }
+        .article-nav {
+          flex-direction: column;
+        }
+        .article-nav a.prev,
+        .article-nav a.next {
+          text-align: left;
+        }
+        .article-nav .nav-title {
+          font-size: 1rem;
+        }
       }
     </style>
   </head>
@@ -404,11 +437,13 @@
       </div>
     </header>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="article-nav">
       <a href="/blog/common-mistakes-surplus-claims" class="prev">
         <span class="nav-label">Previous</span>
-        <span class="nav-title">7 Common Mistakes That Delay Surplus Fund Claims</span>
+        <span class="nav-title"
+          >7 Common Mistakes That Delay Surplus Fund Claims</span
+        >
       </a>
       <a href="/blog/how-much-surplus-funds-expect" class="next">
         <span class="nav-label">Next</span>
@@ -430,6 +465,16 @@
           <p>
             This guide explains how heirs can successfully claim surplus funds
             from a deceased owner's foreclosed property.
+          </p>
+
+          <img
+            src="/images/image (17).jpg"
+            alt="Family inheritance"
+            class="article-image"
+          />
+          <p class="article-image-caption">
+            Heirs have legal rights to claim surplus funds from a deceased
+            owner's property
           </p>
 
           <h2>Who Can Claim as an Heir?</h2>
@@ -532,6 +577,15 @@
               others may need to waive their claim or join in
             </li>
           </ul>
+
+          <img
+            src="/images/image (18).jpg"
+            alt="Professional estate assistance"
+            class="article-image"
+          />
+          <p class="article-image-caption">
+            Professional help can navigate the complex heir claim process
+          </p>
 
           <h2>Common Scenarios</h2>
 
@@ -696,11 +750,13 @@
       </div>
     </article>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="article-nav">
       <a href="/blog/common-mistakes-surplus-claims" class="prev">
         <span class="nav-label">Previous</span>
-        <span class="nav-title">7 Common Mistakes That Delay Surplus Fund Claims</span>
+        <span class="nav-title"
+          >7 Common Mistakes That Delay Surplus Fund Claims</span
+        >
       </a>
       <a href="/blog/how-much-surplus-funds-expect" class="next">
         <span class="nav-label">Next</span>
@@ -722,4 +778,3 @@
     </script>
   </body>
 </html>
-

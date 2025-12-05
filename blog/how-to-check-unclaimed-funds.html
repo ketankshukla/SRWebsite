@@ -305,6 +305,22 @@
         background: var(--gray-100);
       }
 
+      .article-image {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        margin: 30px 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+      .article-image-caption {
+        text-align: center;
+        font-size: 0.9rem;
+        color: var(--gray-500);
+        font-style: italic;
+        margin-top: -20px;
+        margin-bottom: 30px;
+      }
+
       footer {
         background: var(--gray-900);
         color: var(--gray-500);
@@ -317,7 +333,7 @@
         text-decoration: none;
       }
 
-            .article-nav {
+      .article-nav {
         display: flex;
         justify-content: space-between;
         align-items: stretch;
@@ -343,8 +359,12 @@
         transform: translateY(-2px);
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       }
-      .article-nav a.prev { text-align: left; }
-      .article-nav a.next { text-align: right; }
+      .article-nav a.prev {
+        text-align: left;
+      }
+      .article-nav a.next {
+        text-align: right;
+      }
       .article-nav .nav-label {
         font-size: 0.8rem;
         color: var(--gray-500);
@@ -359,9 +379,15 @@
         color: var(--gray-900);
         line-height: 1.4;
       }
-      .article-nav a.prev .nav-label::before { content: "← "; }
-      .article-nav a.next .nav-label::after { content: " →"; }
-      .article-nav .placeholder { flex: 1; }
+      .article-nav a.prev .nav-label::before {
+        content: "← ";
+      }
+      .article-nav a.next .nav-label::after {
+        content: " →";
+      }
+      .article-nav .placeholder {
+        flex: 1;
+      }
 
       @media (max-width: 768px) {
         .nav-links {
@@ -374,9 +400,16 @@
           flex-direction: column;
           gap: 10px;
         }
-              .article-nav { flex-direction: column; }
-        .article-nav a.prev, .article-nav a.next { text-align: left; }
-        .article-nav .nav-title { font-size: 1rem; }
+        .article-nav {
+          flex-direction: column;
+        }
+        .article-nav a.prev,
+        .article-nav a.next {
+          text-align: left;
+        }
+        .article-nav .nav-title {
+          font-size: 1rem;
+        }
       }
     </style>
   </head>
@@ -413,11 +446,13 @@
       </div>
     </header>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="article-nav">
       <a href="/blog/supreme-court-ruling-tyler-hennepin" class="prev">
         <span class="nav-label">Previous</span>
-        <span class="nav-title">The 2023 Supreme Court Ruling That Changed Everything</span>
+        <span class="nav-title"
+          >The 2023 Supreme Court Ruling That Changed Everything</span
+        >
       </a>
       <a href="/blog/what-are-surplus-funds" class="next">
         <span class="nav-label">Next</span>
@@ -439,6 +474,16 @@
             This guide will walk you through the process of checking whether you
             have unclaimed foreclosure money and what steps to take to recover
             it.
+          </p>
+
+          <img
+            src="/images/image (1).jpg"
+            alt="Family discovering unclaimed funds"
+            class="article-image"
+          />
+          <p class="article-image-caption">
+            Many families discover they have money waiting for them after
+            foreclosure
           </p>
 
           <h2>What Information You'll Need</h2>
@@ -522,6 +567,16 @@
               <li>Search under your name and any previous names</li>
             </ul>
           </div>
+
+          <img
+            src="/images/image (7).jpg"
+            alt="Professional helping with surplus funds claim"
+            class="article-image"
+          />
+          <p class="article-image-caption">
+            Working with a professional can help navigate the complex claims
+            process
+          </p>
 
           <div class="step-box">
             <h3>Step 4: Review Your Foreclosure Documents</h3>
@@ -691,11 +746,13 @@
       </div>
     </article>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="article-nav">
       <a href="/blog/supreme-court-ruling-tyler-hennepin" class="prev">
         <span class="nav-label">Previous</span>
-        <span class="nav-title">The 2023 Supreme Court Ruling That Changed Everything</span>
+        <span class="nav-title"
+          >The 2023 Supreme Court Ruling That Changed Everything</span
+        >
       </a>
       <a href="/blog/what-are-surplus-funds" class="next">
         <span class="nav-label">Next</span>
@@ -717,4 +774,3 @@
     </script>
   </body>
 </html>
-

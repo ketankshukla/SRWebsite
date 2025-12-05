@@ -310,6 +310,22 @@
         background: var(--gray-100);
       }
 
+      .article-image {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        margin: 30px 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+      .article-image-caption {
+        text-align: center;
+        font-size: 0.9rem;
+        color: var(--gray-500);
+        font-style: italic;
+        margin-top: -20px;
+        margin-bottom: 30px;
+      }
+
       footer {
         background: var(--gray-900);
         color: var(--gray-500);
@@ -321,7 +337,7 @@
         color: var(--white);
       }
 
-            .article-nav {
+      .article-nav {
         display: flex;
         justify-content: space-between;
         align-items: stretch;
@@ -347,8 +363,12 @@
         transform: translateY(-2px);
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       }
-      .article-nav a.prev { text-align: left; }
-      .article-nav a.next { text-align: right; }
+      .article-nav a.prev {
+        text-align: left;
+      }
+      .article-nav a.next {
+        text-align: right;
+      }
       .article-nav .nav-label {
         font-size: 0.8rem;
         color: var(--gray-500);
@@ -363,9 +383,15 @@
         color: var(--gray-900);
         line-height: 1.4;
       }
-      .article-nav a.prev .nav-label::before { content: "← "; }
-      .article-nav a.next .nav-label::after { content: " →"; }
-      .article-nav .placeholder { flex: 1; }
+      .article-nav a.prev .nav-label::before {
+        content: "← ";
+      }
+      .article-nav a.next .nav-label::after {
+        content: " →";
+      }
+      .article-nav .placeholder {
+        flex: 1;
+      }
 
       @media (max-width: 768px) {
         .nav-links {
@@ -378,9 +404,16 @@
           flex-direction: column;
           gap: 10px;
         }
-              .article-nav { flex-direction: column; }
-        .article-nav a.prev, .article-nav a.next { text-align: left; }
-        .article-nav .nav-title { font-size: 1rem; }
+        .article-nav {
+          flex-direction: column;
+        }
+        .article-nav a.prev,
+        .article-nav a.next {
+          text-align: left;
+        }
+        .article-nav .nav-title {
+          font-size: 1rem;
+        }
       }
     </style>
   </head>
@@ -416,7 +449,7 @@
       </div>
     </header>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="article-nav">
       <a href="/blog/heir-claims-deceased-owner" class="prev">
         <span class="nav-label">Previous</span>
@@ -424,7 +457,9 @@
       </a>
       <a href="/blog/surplus-funds-scams-avoid" class="next">
         <span class="nav-label">Next</span>
-        <span class="nav-title">Surplus Funds Scams: How to Protect Yourself</span>
+        <span class="nav-title"
+          >Surplus Funds Scams: How to Protect Yourself</span
+        >
       </a>
     </nav>
 
@@ -436,6 +471,16 @@
             much money am I actually owed?" The answer depends on several
             factors, and understanding how surplus amounts are calculated can
             help you set realistic expectations.
+          </p>
+
+          <img
+            src="/images/image (19).jpg"
+            alt="Calculating surplus funds"
+            class="article-image"
+          />
+          <p class="article-image-caption">
+            Understanding how surplus is calculated helps set realistic
+            expectations
           </p>
 
           <h2>The Basic Calculation</h2>
@@ -525,6 +570,16 @@
           <p>
             If the property sold for less than market value due to condition
             issues, there's less money available for surplus.
+          </p>
+
+          <img
+            src="/images/image (20).jpg"
+            alt="Surplus funds recovery"
+            class="article-image"
+          />
+          <p class="article-image-caption">
+            Real recoveries can range from thousands to hundreds of thousands of
+            dollars
           </p>
 
           <h2>Real-World Examples</h2>
@@ -684,7 +739,7 @@
       </div>
     </article>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="article-nav">
       <a href="/blog/heir-claims-deceased-owner" class="prev">
         <span class="nav-label">Previous</span>
@@ -692,7 +747,9 @@
       </a>
       <a href="/blog/surplus-funds-scams-avoid" class="next">
         <span class="nav-label">Next</span>
-        <span class="nav-title">Surplus Funds Scams: How to Protect Yourself</span>
+        <span class="nav-title"
+          >Surplus Funds Scams: How to Protect Yourself</span
+        >
       </a>
     </nav>
 
@@ -710,4 +767,3 @@
     </script>
   </body>
 </html>
-

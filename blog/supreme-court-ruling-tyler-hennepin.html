@@ -310,6 +310,22 @@
         background: var(--gray-100);
       }
 
+      .article-image {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        margin: 30px 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+      .article-image-caption {
+        text-align: center;
+        font-size: 0.9rem;
+        color: var(--gray-500);
+        font-style: italic;
+        margin-top: -20px;
+        margin-bottom: 30px;
+      }
+
       footer {
         background: var(--gray-900);
         color: var(--gray-500);
@@ -322,7 +338,7 @@
         text-decoration: none;
       }
 
-            .article-nav {
+      .article-nav {
         display: flex;
         justify-content: space-between;
         align-items: stretch;
@@ -348,8 +364,12 @@
         transform: translateY(-2px);
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       }
-      .article-nav a.prev { text-align: left; }
-      .article-nav a.next { text-align: right; }
+      .article-nav a.prev {
+        text-align: left;
+      }
+      .article-nav a.next {
+        text-align: right;
+      }
       .article-nav .nav-label {
         font-size: 0.8rem;
         color: var(--gray-500);
@@ -364,9 +384,15 @@
         color: var(--gray-900);
         line-height: 1.4;
       }
-      .article-nav a.prev .nav-label::before { content: "← "; }
-      .article-nav a.next .nav-label::after { content: " →"; }
-      .article-nav .placeholder { flex: 1; }
+      .article-nav a.prev .nav-label::before {
+        content: "← ";
+      }
+      .article-nav a.next .nav-label::after {
+        content: " →";
+      }
+      .article-nav .placeholder {
+        flex: 1;
+      }
 
       @media (max-width: 768px) {
         .nav-links {
@@ -379,9 +405,16 @@
           flex-direction: column;
           gap: 10px;
         }
-              .article-nav { flex-direction: column; }
-        .article-nav a.prev, .article-nav a.next { text-align: left; }
-        .article-nav .nav-title { font-size: 1rem; }
+        .article-nav {
+          flex-direction: column;
+        }
+        .article-nav a.prev,
+        .article-nav a.next {
+          text-align: left;
+        }
+        .article-nav .nav-title {
+          font-size: 1rem;
+        }
       }
     </style>
   </head>
@@ -417,15 +450,19 @@
       </div>
     </header>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="article-nav">
       <a href="/blog/state-deadlines-surplus-funds" class="prev">
         <span class="nav-label">Previous</span>
-        <span class="nav-title">State-by-State Deadlines for Claiming Surplus Funds</span>
+        <span class="nav-title"
+          >State-by-State Deadlines for Claiming Surplus Funds</span
+        >
       </a>
       <a href="/blog/how-to-check-unclaimed-funds" class="next">
         <span class="nav-label">Next</span>
-        <span class="nav-title">How to Check If You Have Unclaimed Foreclosure Money</span>
+        <span class="nav-title"
+          >How to Check If You Have Unclaimed Foreclosure Money</span
+        >
       </a>
     </nav>
 
@@ -446,6 +483,16 @@
           <p>
             For former homeowners who lost property to tax foreclosure, this
             ruling opened new doors to recover money that was rightfully theirs.
+          </p>
+
+          <img
+            src="/images/image (2).jpg"
+            alt="Justice for homeowners"
+            class="article-image"
+          />
+          <p class="article-image-caption">
+            The Supreme Court ruling brought hope to thousands of former
+            homeowners
           </p>
 
           <h2>The Case: Geraldine Tyler's Fight for Justice</h2>
@@ -547,6 +594,15 @@
             Some former homeowners may be able to pursue claims for surplus
             funds that were improperly retained in past years, depending on
             state statutes of limitations.
+          </p>
+
+          <img
+            src="/images/image (8).jpg"
+            alt="Professional surplus funds assistance"
+            class="article-image"
+          />
+          <p class="article-image-caption">
+            Understanding your rights is the first step to claiming what's yours
           </p>
 
           <h3>Increased Scrutiny of Foreclosure Practices</h3>
@@ -717,15 +773,19 @@
       </div>
     </article>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="article-nav">
       <a href="/blog/state-deadlines-surplus-funds" class="prev">
         <span class="nav-label">Previous</span>
-        <span class="nav-title">State-by-State Deadlines for Claiming Surplus Funds</span>
+        <span class="nav-title"
+          >State-by-State Deadlines for Claiming Surplus Funds</span
+        >
       </a>
       <a href="/blog/how-to-check-unclaimed-funds" class="next">
         <span class="nav-label">Next</span>
-        <span class="nav-title">How to Check If You Have Unclaimed Foreclosure Money</span>
+        <span class="nav-title"
+          >How to Check If You Have Unclaimed Foreclosure Money</span
+        >
       </a>
     </nav>
 
@@ -743,4 +803,3 @@
     </script>
   </body>
 </html>
-

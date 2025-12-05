@@ -316,6 +316,22 @@
         background: var(--gray-100);
       }
 
+      .article-image {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        margin: 30px 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+      .article-image-caption {
+        text-align: center;
+        font-size: 0.9rem;
+        color: var(--gray-500);
+        font-style: italic;
+        margin-top: -20px;
+        margin-bottom: 30px;
+      }
+
       footer {
         background: var(--gray-900);
         color: var(--gray-500);
@@ -327,7 +343,7 @@
         color: var(--white);
       }
 
-            .article-nav {
+      .article-nav {
         display: flex;
         justify-content: space-between;
         align-items: stretch;
@@ -353,8 +369,12 @@
         transform: translateY(-2px);
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       }
-      .article-nav a.prev { text-align: left; }
-      .article-nav a.next { text-align: right; }
+      .article-nav a.prev {
+        text-align: left;
+      }
+      .article-nav a.next {
+        text-align: right;
+      }
       .article-nav .nav-label {
         font-size: 0.8rem;
         color: var(--gray-500);
@@ -369,9 +389,15 @@
         color: var(--gray-900);
         line-height: 1.4;
       }
-      .article-nav a.prev .nav-label::before { content: "← "; }
-      .article-nav a.next .nav-label::after { content: " →"; }
-      .article-nav .placeholder { flex: 1; }
+      .article-nav a.prev .nav-label::before {
+        content: "← ";
+      }
+      .article-nav a.next .nav-label::after {
+        content: " →";
+      }
+      .article-nav .placeholder {
+        flex: 1;
+      }
 
       @media (max-width: 768px) {
         .nav-links {
@@ -384,9 +410,16 @@
           flex-direction: column;
           gap: 10px;
         }
-              .article-nav { flex-direction: column; }
-        .article-nav a.prev, .article-nav a.next { text-align: left; }
-        .article-nav .nav-title { font-size: 1rem; }
+        .article-nav {
+          flex-direction: column;
+        }
+        .article-nav a.prev,
+        .article-nav a.next {
+          text-align: left;
+        }
+        .article-nav .nav-title {
+          font-size: 1rem;
+        }
       }
     </style>
   </head>
@@ -422,7 +455,7 @@
       </div>
     </header>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="article-nav">
       <a href="/blog/how-much-surplus-funds-expect" class="prev">
         <span class="nav-label">Previous</span>
@@ -443,6 +476,15 @@
             recover money from foreclosure sales. Knowing how to identify scams
             can save you from losing money — or worse, your personal
             information.
+          </p>
+
+          <img
+            src="/images/image (21).jpg"
+            alt="Protecting yourself from scams"
+            class="article-image"
+          />
+          <p class="article-image-caption">
+            Learn to identify and avoid surplus funds scams
           </p>
 
           <div class="warning-box">
@@ -553,6 +595,15 @@
               clear, written agreements
             </li>
           </ul>
+
+          <img
+            src="/images/image (22).jpg"
+            alt="Legitimate recovery service"
+            class="article-image"
+          />
+          <p class="article-image-caption">
+            Work only with verified, legitimate recovery services
+          </p>
 
           <h2>Signs of a Legitimate Recovery Service</h2>
 
@@ -697,7 +748,7 @@
       </div>
     </article>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="article-nav">
       <a href="/blog/how-much-surplus-funds-expect" class="prev">
         <span class="nav-label">Previous</span>
@@ -723,4 +774,3 @@
     </script>
   </body>
 </html>
-

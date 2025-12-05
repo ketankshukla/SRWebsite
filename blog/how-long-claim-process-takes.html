@@ -312,6 +312,22 @@
         background: var(--gray-100);
       }
 
+      .article-image {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        margin: 30px 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+      .article-image-caption {
+        text-align: center;
+        font-size: 0.9rem;
+        color: var(--gray-500);
+        font-style: italic;
+        margin-top: -20px;
+        margin-bottom: 30px;
+      }
+
       footer {
         background: var(--gray-900);
         color: var(--gray-500);
@@ -323,7 +339,7 @@
         color: var(--white);
       }
 
-            .article-nav {
+      .article-nav {
         display: flex;
         justify-content: space-between;
         align-items: stretch;
@@ -349,8 +365,12 @@
         transform: translateY(-2px);
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       }
-      .article-nav a.prev { text-align: left; }
-      .article-nav a.next { text-align: right; }
+      .article-nav a.prev {
+        text-align: left;
+      }
+      .article-nav a.next {
+        text-align: right;
+      }
       .article-nav .nav-label {
         font-size: 0.8rem;
         color: var(--gray-500);
@@ -365,9 +385,15 @@
         color: var(--gray-900);
         line-height: 1.4;
       }
-      .article-nav a.prev .nav-label::before { content: "← "; }
-      .article-nav a.next .nav-label::after { content: " →"; }
-      .article-nav .placeholder { flex: 1; }
+      .article-nav a.prev .nav-label::before {
+        content: "← ";
+      }
+      .article-nav a.next .nav-label::after {
+        content: " →";
+      }
+      .article-nav .placeholder {
+        flex: 1;
+      }
 
       @media (max-width: 768px) {
         .nav-links {
@@ -386,9 +412,16 @@
         .timeline-stage .time {
           min-width: auto;
         }
-              .article-nav { flex-direction: column; }
-        .article-nav a.prev, .article-nav a.next { text-align: left; }
-        .article-nav .nav-title { font-size: 1rem; }
+        .article-nav {
+          flex-direction: column;
+        }
+        .article-nav a.prev,
+        .article-nav a.next {
+          text-align: left;
+        }
+        .article-nav .nav-title {
+          font-size: 1rem;
+        }
       }
     </style>
   </head>
@@ -424,7 +457,7 @@
       </div>
     </header>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="article-nav">
       <a href="/blog/surplus-funds-tax-implications" class="prev">
         <span class="nav-label">Previous</span>
@@ -441,6 +474,15 @@
             "How long will this take?" The honest answer is that it varies — but
             understanding the typical timeline can help you plan and set
             realistic expectations.
+          </p>
+
+          <img
+            src="/images/image (29).jpg"
+            alt="Claim timeline"
+            class="article-image"
+          />
+          <p class="article-image-caption">
+            Most claims take 30-120 days from filing to payment
           </p>
 
           <h2>The Quick Answer</h2>
@@ -551,6 +593,15 @@
               how to avoid common delays
             </li>
           </ul>
+
+          <img
+            src="/images/image (30).jpg"
+            alt="Speeding up your claim"
+            class="article-image"
+          />
+          <p class="article-image-caption">
+            Professional help can significantly speed up the claims process
+          </p>
 
           <h2>Factors That Slow Down Claims</h2>
 
@@ -716,7 +767,7 @@
       </div>
     </article>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="article-nav">
       <a href="/blog/surplus-funds-tax-implications" class="prev">
         <span class="nav-label">Previous</span>
@@ -739,4 +790,3 @@
     </script>
   </body>
 </html>
-

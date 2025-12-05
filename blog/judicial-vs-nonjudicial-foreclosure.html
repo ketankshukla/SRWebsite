@@ -319,6 +319,22 @@
         background: var(--gray-100);
       }
 
+      .article-image {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        margin: 30px 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+      .article-image-caption {
+        text-align: center;
+        font-size: 0.9rem;
+        color: var(--gray-500);
+        font-style: italic;
+        margin-top: -20px;
+        margin-bottom: 30px;
+      }
+
       footer {
         background: var(--gray-900);
         color: var(--gray-500);
@@ -330,7 +346,7 @@
         color: var(--white);
       }
 
-            .article-nav {
+      .article-nav {
         display: flex;
         justify-content: space-between;
         align-items: stretch;
@@ -356,8 +372,12 @@
         transform: translateY(-2px);
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       }
-      .article-nav a.prev { text-align: left; }
-      .article-nav a.next { text-align: right; }
+      .article-nav a.prev {
+        text-align: left;
+      }
+      .article-nav a.next {
+        text-align: right;
+      }
       .article-nav .nav-label {
         font-size: 0.8rem;
         color: var(--gray-500);
@@ -372,9 +392,15 @@
         color: var(--gray-900);
         line-height: 1.4;
       }
-      .article-nav a.prev .nav-label::before { content: "← "; }
-      .article-nav a.next .nav-label::after { content: " →"; }
-      .article-nav .placeholder { flex: 1; }
+      .article-nav a.prev .nav-label::before {
+        content: "← ";
+      }
+      .article-nav a.next .nav-label::after {
+        content: " →";
+      }
+      .article-nav .placeholder {
+        flex: 1;
+      }
 
       @media (max-width: 768px) {
         .nav-links {
@@ -393,9 +419,16 @@
         .state-list {
           column-count: 2;
         }
-              .article-nav { flex-direction: column; }
-        .article-nav a.prev, .article-nav a.next { text-align: left; }
-        .article-nav .nav-title { font-size: 1rem; }
+        .article-nav {
+          flex-direction: column;
+        }
+        .article-nav a.prev,
+        .article-nav a.next {
+          text-align: left;
+        }
+        .article-nav .nav-title {
+          font-size: 1rem;
+        }
       }
     </style>
   </head>
@@ -432,11 +465,13 @@
       </div>
     </header>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="article-nav">
       <a href="/blog/surplus-funds-scams-avoid" class="prev">
         <span class="nav-label">Previous</span>
-        <span class="nav-title">Surplus Funds Scams: How to Protect Yourself</span>
+        <span class="nav-title"
+          >Surplus Funds Scams: How to Protect Yourself</span
+        >
       </a>
       <a href="/blog/what-happens-unclaimed-surplus" class="next">
         <span class="nav-label">Next</span>
@@ -457,6 +492,15 @@
           <p>
             Understanding these differences is essential for successfully
             recovering surplus funds from your foreclosure.
+          </p>
+
+          <img
+            src="/images/image (23).jpg"
+            alt="Understanding foreclosure types"
+            class="article-image"
+          />
+          <p class="article-image-caption">
+            The type of foreclosure affects how you claim surplus funds
           </p>
 
           <h2>What Is Judicial Foreclosure?</h2>
@@ -555,6 +599,15 @@
               </ul>
             </div>
           </div>
+
+          <img
+            src="/images/image (24).jpg"
+            alt="State foreclosure laws"
+            class="article-image"
+          />
+          <p class="article-image-caption">
+            Each state has different foreclosure laws affecting your claim
+          </p>
 
           <h2>Which States Use Which Method?</h2>
 
@@ -718,11 +771,13 @@
       </div>
     </article>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="article-nav">
       <a href="/blog/surplus-funds-scams-avoid" class="prev">
         <span class="nav-label">Previous</span>
-        <span class="nav-title">Surplus Funds Scams: How to Protect Yourself</span>
+        <span class="nav-title"
+          >Surplus Funds Scams: How to Protect Yourself</span
+        >
       </a>
       <a href="/blog/what-happens-unclaimed-surplus" class="next">
         <span class="nav-label">Next</span>
@@ -744,4 +799,3 @@
     </script>
   </body>
 </html>
-

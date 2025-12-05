@@ -308,6 +308,22 @@
         background: var(--gray-100);
       }
 
+      .article-image {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        margin: 30px 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+      .article-image-caption {
+        text-align: center;
+        font-size: 0.9rem;
+        color: var(--gray-500);
+        font-style: italic;
+        margin-top: -20px;
+        margin-bottom: 30px;
+      }
+
       footer {
         background: var(--gray-900);
         color: var(--gray-500);
@@ -319,7 +335,7 @@
         color: var(--white);
       }
 
-            .article-nav {
+      .article-nav {
         display: flex;
         justify-content: space-between;
         align-items: stretch;
@@ -345,8 +361,12 @@
         transform: translateY(-2px);
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       }
-      .article-nav a.prev { text-align: left; }
-      .article-nav a.next { text-align: right; }
+      .article-nav a.prev {
+        text-align: left;
+      }
+      .article-nav a.next {
+        text-align: right;
+      }
       .article-nav .nav-label {
         font-size: 0.8rem;
         color: var(--gray-500);
@@ -361,9 +381,15 @@
         color: var(--gray-900);
         line-height: 1.4;
       }
-      .article-nav a.prev .nav-label::before { content: "← "; }
-      .article-nav a.next .nav-label::after { content: " →"; }
-      .article-nav .placeholder { flex: 1; }
+      .article-nav a.prev .nav-label::before {
+        content: "← ";
+      }
+      .article-nav a.next .nav-label::after {
+        content: " →";
+      }
+      .article-nav .placeholder {
+        flex: 1;
+      }
 
       @media (max-width: 768px) {
         .nav-links {
@@ -376,9 +402,16 @@
           flex-direction: column;
           gap: 10px;
         }
-              .article-nav { flex-direction: column; }
-        .article-nav a.prev, .article-nav a.next { text-align: left; }
-        .article-nav .nav-title { font-size: 1rem; }
+        .article-nav {
+          flex-direction: column;
+        }
+        .article-nav a.prev,
+        .article-nav a.next {
+          text-align: left;
+        }
+        .article-nav .nav-title {
+          font-size: 1rem;
+        }
       }
     </style>
   </head>
@@ -414,15 +447,19 @@
       </div>
     </header>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="article-nav">
       <a href="/blog/tax-sale-vs-mortgage-foreclosure" class="prev">
         <span class="nav-label">Previous</span>
-        <span class="nav-title">Tax Sale vs Mortgage Foreclosure: Key Differences</span>
+        <span class="nav-title"
+          >Tax Sale vs Mortgage Foreclosure: Key Differences</span
+        >
       </a>
       <a href="/blog/common-mistakes-surplus-claims" class="next">
         <span class="nav-label">Next</span>
-        <span class="nav-title">7 Common Mistakes That Delay Surplus Fund Claims</span>
+        <span class="nav-title"
+          >7 Common Mistakes That Delay Surplus Fund Claims</span
+        >
       </a>
     </nav>
 
@@ -441,6 +478,15 @@
           <p>
             While requirements vary by state and county, most surplus fund
             claims require some combination of the following documents:
+          </p>
+
+          <img
+            src="/images/image (13).jpg"
+            alt="Document preparation"
+            class="article-image"
+          />
+          <p class="article-image-caption">
+            Having the right documents ready speeds up your claim process
           </p>
 
           <h3>Identity Verification</h3>
@@ -541,6 +587,15 @@
               owner, often required when there's no will.
             </p>
           </div>
+
+          <img
+            src="/images/image (14).jpg"
+            alt="Getting help with documents"
+            class="article-image"
+          />
+          <p class="article-image-caption">
+            Don't let missing documents delay your rightful claim
+          </p>
 
           <h2>Where to Obtain Missing Documents</h2>
 
@@ -665,15 +720,19 @@
       </div>
     </article>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="article-nav">
       <a href="/blog/tax-sale-vs-mortgage-foreclosure" class="prev">
         <span class="nav-label">Previous</span>
-        <span class="nav-title">Tax Sale vs Mortgage Foreclosure: Key Differences</span>
+        <span class="nav-title"
+          >Tax Sale vs Mortgage Foreclosure: Key Differences</span
+        >
       </a>
       <a href="/blog/common-mistakes-surplus-claims" class="next">
         <span class="nav-label">Next</span>
-        <span class="nav-title">7 Common Mistakes That Delay Surplus Fund Claims</span>
+        <span class="nav-title"
+          >7 Common Mistakes That Delay Surplus Fund Claims</span
+        >
       </a>
     </nav>
 
@@ -691,4 +750,3 @@
     </script>
   </body>
 </html>
-

@@ -338,6 +338,22 @@
         background: var(--gray-100);
       }
 
+      .article-image {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        margin: 30px 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+      .article-image-caption {
+        text-align: center;
+        font-size: 0.9rem;
+        color: var(--gray-500);
+        font-style: italic;
+        margin-top: -20px;
+        margin-bottom: 30px;
+      }
+
       footer {
         background: var(--gray-900);
         color: var(--gray-500);
@@ -350,7 +366,7 @@
         text-decoration: none;
       }
 
-            .article-nav {
+      .article-nav {
         display: flex;
         justify-content: space-between;
         align-items: stretch;
@@ -376,8 +392,12 @@
         transform: translateY(-2px);
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       }
-      .article-nav a.prev { text-align: left; }
-      .article-nav a.next { text-align: right; }
+      .article-nav a.prev {
+        text-align: left;
+      }
+      .article-nav a.next {
+        text-align: right;
+      }
       .article-nav .nav-label {
         font-size: 0.8rem;
         color: var(--gray-500);
@@ -392,9 +412,15 @@
         color: var(--gray-900);
         line-height: 1.4;
       }
-      .article-nav a.prev .nav-label::before { content: "← "; }
-      .article-nav a.next .nav-label::after { content: " →"; }
-      .article-nav .placeholder { flex: 1; }
+      .article-nav a.prev .nav-label::before {
+        content: "← ";
+      }
+      .article-nav a.next .nav-label::after {
+        content: " →";
+      }
+      .article-nav .placeholder {
+        flex: 1;
+      }
 
       @media (max-width: 768px) {
         .nav-links {
@@ -414,9 +440,16 @@
         .state-table td {
           padding: 8px 10px;
         }
-              .article-nav { flex-direction: column; }
-        .article-nav a.prev, .article-nav a.next { text-align: left; }
-        .article-nav .nav-title { font-size: 1rem; }
+        .article-nav {
+          flex-direction: column;
+        }
+        .article-nav a.prev,
+        .article-nav a.next {
+          text-align: left;
+        }
+        .article-nav .nav-title {
+          font-size: 1rem;
+        }
       }
     </style>
   </head>
@@ -452,15 +485,19 @@
       </div>
     </header>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="article-nav">
       <a href="/blog/why-banks-dont-tell-you" class="prev">
         <span class="nav-label">Previous</span>
-        <span class="nav-title">Why Banks Don't Tell You About Surplus Funds</span>
+        <span class="nav-title"
+          >Why Banks Don't Tell You About Surplus Funds</span
+        >
       </a>
       <a href="/blog/supreme-court-ruling-tyler-hennepin" class="next">
         <span class="nav-label">Next</span>
-        <span class="nav-title">The 2023 Supreme Court Ruling That Changed Everything</span>
+        <span class="nav-title"
+          >The 2023 Supreme Court Ruling That Changed Everything</span
+        >
       </a>
     </nav>
 
@@ -479,6 +516,15 @@
             This guide provides an overview of claim deadlines across the United
             States. However, laws change frequently, so always verify current
             deadlines with your county or a professional.
+          </p>
+
+          <img
+            src="/images/image (3).jpg"
+            alt="Surplus funds recovery"
+            class="article-image"
+          />
+          <p class="article-image-caption">
+            Don't let deadlines pass - your surplus funds won't wait forever
           </p>
 
           <div class="warning-box">
@@ -797,6 +843,16 @@
             </p>
           </div>
 
+          <img
+            src="/images/image (9).jpg"
+            alt="Professional helping with claim"
+            class="article-image"
+          />
+          <p class="article-image-caption">
+            Professional guidance can help ensure you don't miss critical
+            deadlines
+          </p>
+
           <h2>What Happens After the Deadline?</h2>
 
           <p>
@@ -903,15 +959,19 @@
       </div>
     </article>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="article-nav">
       <a href="/blog/why-banks-dont-tell-you" class="prev">
         <span class="nav-label">Previous</span>
-        <span class="nav-title">Why Banks Don't Tell You About Surplus Funds</span>
+        <span class="nav-title"
+          >Why Banks Don't Tell You About Surplus Funds</span
+        >
       </a>
       <a href="/blog/supreme-court-ruling-tyler-hennepin" class="next">
         <span class="nav-label">Next</span>
-        <span class="nav-title">The 2023 Supreme Court Ruling That Changed Everything</span>
+        <span class="nav-title"
+          >The 2023 Supreme Court Ruling That Changed Everything</span
+        >
       </a>
     </nav>
 
@@ -929,4 +989,3 @@
     </script>
   </body>
 </html>
-
