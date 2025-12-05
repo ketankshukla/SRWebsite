@@ -35,6 +35,19 @@
 - [ ] Test contact form redirect on custom domain
 - [ ] Verify clean URLs work on custom domain
 
+## SEO & Google Visibility
+
+- [x] Add SEO meta tags (description, keywords, author, robots)
+- [x] Add Open Graph tags for social sharing
+- [x] Add Twitter card meta tags
+- [x] Add Schema.org LocalBusiness structured data
+- [x] Add canonical URLs to all pages
+- [x] Create sitemap.xml
+- [x] Create robots.txt
+- [ ] Submit sitemap to Google Search Console
+- [ ] Create Google Business Profile (recommended)
+- [ ] Add Google Analytics tracking (optional)
+
 ## Post-DNS Tasks
 
 - [ ] Final testing of all functionality on custom domain
