@@ -87,6 +87,20 @@
 - [x] Add favicon (SR logo) to all pages
 - [x] Add click-to-call floating button (mobile only)
 
+## Blog (Educational Content)
+
+- [x] Create blog folder structure
+- [x] Create blog index page (`/blog`)
+- [x] Add blog link to main navigation
+- [x] Create 5 educational articles:
+  1. [x] What Are Surplus Funds? A Complete Guide
+  2. [x] How to Check If You Have Unclaimed Foreclosure Money
+  3. [x] The 2023 Supreme Court Ruling That Changed Everything (Tyler v. Hennepin)
+  4. [x] State-by-State Deadlines for Claiming Surplus Funds
+  5. [x] Why Banks Don't Tell You About Surplus Funds
+- [x] Add blog preview cards to homepage (3 latest articles)
+- [x] Update sitemap with blog pages
+
 ## Post-DNS Tasks
 
 - [ ] Final testing of all functionality on custom domain
