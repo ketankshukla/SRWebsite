@@ -129,12 +129,23 @@
       }
 
       .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
         font-family: "Playfair Display", serif;
         font-size: 1.5rem;
         font-weight: 700;
         color: var(--primary);
+        text-decoration: none;
       }
-      .logo span {
+
+      .logo img {
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+      }
+
+      .logo span span {
         color: var(--secondary);
       }
 
@@ -323,7 +334,12 @@
   <body>
     <nav class="navbar">
       <div class="container">
-        <a href="/" class="logo">Surplus<span>Recoveries</span></a>
+        <a href="/" class="logo"
+          ><img src="/images/og-image.png" alt="SR Logo" /><span
+            class="logo-text"
+            >Surplus<span>Recoveries</span></span
+          ></a
+        >
         <div class="nav-links">
           <a href="/#about">About</a>
           <a href="/#how-it-works">How It Works</a>
