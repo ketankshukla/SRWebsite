@@ -766,6 +766,158 @@
         }
       }
 
+      /* Why Hire Us Section */
+      .why-hire-section {
+        padding: 80px 0;
+        background: linear-gradient(
+          135deg,
+          #1a4d6b 0%,
+          var(--primary-dark) 100%
+        );
+        color: var(--white);
+      }
+
+      .why-hire-section .section-header h2 {
+        color: var(--white);
+      }
+
+      .why-hire-section .section-header p {
+        color: rgba(255, 255, 255, 0.9);
+      }
+
+      .why-hire-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        margin-top: 50px;
+        align-items: start;
+      }
+
+      .diy-column,
+      .pro-column {
+        padding: 35px;
+        border-radius: 16px;
+      }
+
+      .diy-column {
+        background: rgba(255, 255, 255, 0.1);
+        border: 2px solid rgba(255, 255, 255, 0.2);
+      }
+
+      .pro-column {
+        background: var(--white);
+        color: var(--gray-700);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        position: relative;
+      }
+
+      .pro-column::before {
+        content: "RECOMMENDED";
+        position: absolute;
+        top: -12px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--secondary);
+        color: white;
+        padding: 5px 20px;
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+
+      .column-header {
+        text-align: center;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      }
+
+      .pro-column .column-header {
+        border-bottom-color: var(--gray-300);
+      }
+
+      .column-header h3 {
+        font-size: 1.5rem;
+        margin-bottom: 8px;
+      }
+
+      .pro-column .column-header h3 {
+        color: var(--primary);
+      }
+
+      .column-header .subtitle {
+        font-size: 0.95rem;
+        opacity: 0.8;
+      }
+
+      .pro-column .column-header .subtitle {
+        color: var(--gray-500);
+      }
+
+      .comparison-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .comparison-list li {
+        padding: 12px 0;
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        font-size: 0.95rem;
+        line-height: 1.5;
+      }
+
+      .comparison-list .icon {
+        font-size: 1.1rem;
+        flex-shrink: 0;
+        margin-top: 2px;
+      }
+
+      .diy-column .comparison-list .icon {
+        color: #ffc107;
+      }
+
+      .pro-column .comparison-list .icon {
+        color: var(--secondary);
+      }
+
+      .why-hire-cta {
+        text-align: center;
+        margin-top: 50px;
+      }
+
+      .why-hire-cta p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        color: rgba(255, 255, 255, 0.9);
+      }
+
+      .why-hire-cta .btn {
+        background: var(--secondary);
+        color: white;
+        padding: 16px 40px;
+        font-size: 1.1rem;
+      }
+
+      .why-hire-cta .btn:hover {
+        background: #218838;
+        transform: translateY(-3px);
+      }
+
+      @media (max-width: 900px) {
+        .why-hire-grid {
+          grid-template-columns: 1fr;
+          gap: 40px;
+        }
+
+        .pro-column {
+          order: -1;
+        }
+      }
+
       /* FAQ Section */
       .faq-container {
         max-width: 800px;
@@ -1341,6 +1493,151 @@
               <li><span class="checkmark">✓</span> 100% confidential</li>
             </ul>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Hire Us Section -->
+    <section class="why-hire-section" id="why-hire-us">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2>Can't I Just Do This Myself?</h2>
+          <p>You can try — but here's what you're really signing up for</p>
+        </div>
+        <div class="why-hire-grid">
+          <div class="diy-column fade-in">
+            <div class="column-header">
+              <h3>Do It Yourself</h3>
+              <p class="subtitle">The hard way</p>
+            </div>
+            <ul class="comparison-list">
+              <li>
+                <span class="icon">⚠️</span>
+                <span
+                  ><strong>Research which office holds your funds</strong> — It
+                  varies by county, state, and foreclosure type. File with the
+                  wrong one and start over.</span
+                >
+              </li>
+              <li>
+                <span class="icon">⚠️</span>
+                <span
+                  ><strong>Navigate complex legal procedures</strong> — Each
+                  jurisdiction has different forms, requirements, and deadlines.
+                  Miss one detail and your claim is denied.</span
+                >
+              </li>
+              <li>
+                <span class="icon">⚠️</span>
+                <span
+                  ><strong>Gather extensive documentation</strong> — Deeds,
+                  death certificates, probate documents, ID verification — and
+                  know exactly what format each office requires.</span
+                >
+              </li>
+              <li>
+                <span class="icon">⚠️</span>
+                <span
+                  ><strong>Make countless phone calls</strong> — Expect to be
+                  transferred, put on hold, and told to call back. Government
+                  offices aren't known for quick responses.</span
+                >
+              </li>
+              <li>
+                <span class="icon">⚠️</span>
+                <span
+                  ><strong>Risk missing strict deadlines</strong> — Some states
+                  give you as little as 60 days. Miss it and your money is gone
+                  forever.</span
+                >
+              </li>
+              <li>
+                <span class="icon">⚠️</span>
+                <span
+                  ><strong>Handle competing claims</strong> — Junior
+                  lienholders, other heirs, or even scammers may file claims. Do
+                  you know how to protect your rights?</span
+                >
+              </li>
+              <li>
+                <span class="icon">⚠️</span>
+                <span
+                  ><strong>Wait months with no updates</strong> — And wonder if
+                  your claim was lost, denied, or still processing.</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="pro-column fade-in">
+            <div class="column-header">
+              <h3>Work With Us</h3>
+              <p class="subtitle">The smart way</p>
+            </div>
+            <ul class="comparison-list">
+              <li>
+                <span class="icon">✓</span>
+                <span
+                  ><strong>We locate your funds</strong> — We know exactly where
+                  to look and who to contact in every county and state.</span
+                >
+              </li>
+              <li>
+                <span class="icon">✓</span>
+                <span
+                  ><strong>We handle all paperwork</strong> — Every form, every
+                  document, every signature — prepared correctly the first
+                  time.</span
+                >
+              </li>
+              <li>
+                <span class="icon">✓</span>
+                <span
+                  ><strong>We meet every deadline</strong> — We track all dates
+                  and ensure nothing falls through the cracks.</span
+                >
+              </li>
+              <li>
+                <span class="icon">✓</span>
+                <span
+                  ><strong>We deal with the bureaucracy</strong> — The phone
+                  calls, the follow-ups, the waiting — that's our job, not
+                  yours.</span
+                >
+              </li>
+              <li>
+                <span class="icon">✓</span>
+                <span
+                  ><strong>We protect your claim</strong> — We know how to
+                  handle competing claims and ensure you get what's rightfully
+                  yours.</span
+                >
+              </li>
+              <li>
+                <span class="icon">✓</span>
+                <span
+                  ><strong>You pay nothing upfront</strong> — Zero risk. We only
+                  get paid when you successfully recover your money.</span
+                >
+              </li>
+              <li>
+                <span class="icon">✓</span>
+                <span
+                  ><strong>You've been through enough</strong> — Losing a home
+                  is stressful. Let us handle this so you can move
+                  forward.</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="why-hire-cta fade-in">
+          <p>
+            Most people who try DIY give up after weeks of frustration — or
+            worse, miss their deadline entirely.
+          </p>
+          <a href="#contact" class="btn"
+            >Let Us Handle It — Free Consultation →</a
+          >
         </div>
       </div>
     </section>
