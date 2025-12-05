@@ -3,10 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <title>OG Image Template - Screenshot This</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap"
-      rel="stylesheet"
-    />
     <style>
       * {
         margin: 0;
@@ -21,6 +17,8 @@
         min-height: 100vh;
         background: #f0f0f0;
         padding: 40px;
+        flex-direction: column;
+        gap: 40px;
       }
 
       .og-image {
@@ -34,105 +32,68 @@
         );
         position: relative;
         overflow: hidden;
-        font-family: "Inter", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
-      /* Decorative elements */
+      /* Subtle decorative circles */
       .circle-1 {
         position: absolute;
-        width: 400px;
-        height: 400px;
+        width: 600px;
+        height: 600px;
         border-radius: 50%;
-        background: rgba(40, 167, 69, 0.15);
-        top: -100px;
-        right: -100px;
+        background: rgba(40, 167, 69, 0.08);
+        top: -200px;
+        left: -100px;
       }
 
       .circle-2 {
         position: absolute;
-        width: 300px;
-        height: 300px;
+        width: 500px;
+        height: 500px;
         border-radius: 50%;
-        background: rgba(40, 167, 69, 0.1);
-        bottom: -80px;
-        left: -80px;
+        background: rgba(40, 167, 69, 0.06);
+        bottom: -150px;
+        right: -50px;
       }
 
-      .circle-3 {
-        position: absolute;
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        background: rgba(255, 255, 255, 0.05);
-        top: 50%;
-        right: 20%;
-      }
-
-      /* Content */
-      .content {
+      /* Centered logo container */
+      .logo-container {
         position: relative;
         z-index: 10;
-        height: 100%;
+        width: 400px;
+        height: 400px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 80px;
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        padding: 60px 80px;
+        align-items: center;
       }
 
-      .logo {
-        font-family: "Playfair Display", serif;
-        font-size: 42px;
-        font-weight: 700;
+      .sr-logo {
+        position: relative;
+        font-family: Georgia, serif;
+        font-weight: bold;
+      }
+
+      .sr-logo .s {
+        font-size: 220px;
         color: white;
-        margin-bottom: 40px;
+        line-height: 1;
       }
 
-      .logo span {
+      .sr-logo .r {
+        font-size: 120px;
         color: #28a745;
-      }
-
-      .headline {
-        font-family: "Playfair Display", serif;
-        font-size: 64px;
-        font-weight: 700;
-        color: white;
-        line-height: 1.2;
-        margin-bottom: 25px;
-        max-width: 900px;
-      }
-
-      .subheadline {
-        font-size: 26px;
-        color: rgba(255, 255, 255, 0.9);
-        max-width: 700px;
-        line-height: 1.5;
-      }
-
-      .badge {
         position: absolute;
-        bottom: 60px;
-        right: 80px;
-        background: #28a745;
-        color: white;
-        padding: 15px 30px;
-        border-radius: 50px;
-        font-weight: 700;
-        font-size: 18px;
-      }
-
-      /* Money icon decoration */
-      .money-icon {
-        position: absolute;
-        right: 100px;
-        top: 50%;
-        transform: translateY(-50%);
-        font-size: 180px;
-        opacity: 0.15;
+        bottom: 20px;
+        right: -60px;
+        line-height: 1;
       }
 
       /* Instructions */
       .instructions {
-        margin-top: 40px;
         background: white;
         padding: 30px;
         border-radius: 12px;
@@ -162,49 +123,39 @@
     </style>
   </head>
   <body>
-    <div>
-      <div class="og-image">
-        <div class="circle-1"></div>
-        <div class="circle-2"></div>
-        <div class="circle-3"></div>
-        <div class="money-icon">💰</div>
+    <div class="og-image">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
 
-        <div class="content">
-          <div class="logo">Surplus<span>Recoveries</span></div>
-          <h1 class="headline">Your Foreclosure Money Is Waiting</h1>
-          <p class="subheadline">
-            We help former homeowners recover surplus funds from foreclosure
-            sales — with no upfront costs.
-          </p>
+      <div class="logo-container">
+        <div class="sr-logo">
+          <span class="s">S</span>
+          <span class="r">R</span>
         </div>
-
-        <div class="badge">Free Consultation</div>
       </div>
+    </div>
 
-      <div class="instructions">
-        <h2>How to Create Your OG Image</h2>
-        <ol>
-          <li>Open this file in Chrome browser</li>
-          <li>
-            Right-click on the image above and select <strong>"Inspect"</strong>
-          </li>
-          <li>
-            In DevTools, right-click on the
-            <code>&lt;div class="og-image"&gt;</code> element
-          </li>
-          <li>Select <strong>"Capture node screenshot"</strong></li>
-          <li>
-            Save the file as <code>og-image.png</code> in your website folder
-          </li>
-          <li>
-            Or use Windows Snipping Tool to capture exactly 1200x630 pixels
-          </li>
-        </ol>
-        <p style="margin-top: 15px; color: #6c757d">
-          <strong>Tip:</strong> The image should be exactly 1200x630 pixels for
-          best results on social media.
-        </p>
-      </div>
+    <div class="instructions">
+      <h2>How to Create Your OG Image</h2>
+      <ol>
+        <li>Open this file in Chrome browser</li>
+        <li>
+          Right-click on the image above and select <strong>"Inspect"</strong>
+        </li>
+        <li>
+          In DevTools, right-click on the
+          <code>&lt;div class="og-image"&gt;</code> element
+        </li>
+        <li>Select <strong>"Capture node screenshot"</strong></li>
+        <li>
+          Save the file as <code>og-image.png</code> in your
+          <code>images</code> folder
+        </li>
+      </ol>
+      <p style="margin-top: 15px; color: #6c757d">
+        <strong>Tip:</strong> The image is exactly 1200x630 pixels - the
+        standard OG image size.
+      </p>
     </div>
   </body>
 </html>
