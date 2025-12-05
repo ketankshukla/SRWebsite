@@ -329,6 +329,71 @@
         text-decoration: none;
       }
 
+      .article-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 30px 20px;
+      }
+
+      .article-nav a {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 25px;
+        background: var(--gray-100);
+        border-radius: 12px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        border: 2px solid transparent;
+      }
+
+      .article-nav a:hover {
+        background: var(--white);
+        border-color: var(--primary);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      .article-nav a.prev {
+        text-align: left;
+      }
+
+      .article-nav a.next {
+        text-align: right;
+      }
+
+      .article-nav .nav-label {
+        font-size: 0.8rem;
+        color: var(--gray-500);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+      }
+
+      .article-nav .nav-title {
+        font-family: "Playfair Display", serif;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--gray-900);
+        line-height: 1.4;
+      }
+
+      .article-nav a.prev .nav-label::before {
+        content: "← ";
+      }
+
+      .article-nav a.next .nav-label::after {
+        content: " →";
+      }
+
+      .article-nav .placeholder {
+        flex: 1;
+      }
+
       @media (max-width: 768px) {
         .nav-links {
           display: none;
@@ -341,6 +406,19 @@
         .article-meta {
           flex-direction: column;
           gap: 10px;
+        }
+
+        .article-nav {
+          flex-direction: column;
+        }
+
+        .article-nav a.prev,
+        .article-nav a.next {
+          text-align: left;
+        }
+
+        .article-nav .nav-title {
+          font-size: 1rem;
         }
       }
     </style>
@@ -377,6 +455,22 @@
         </div>
       </div>
     </header>
+
+    <!-- Top Navigation -->
+    <nav class="article-nav">
+      <a href="/blog/how-to-check-unclaimed-funds" class="prev">
+        <span class="nav-label">Previous</span>
+        <span class="nav-title"
+          >How to Check If You Have Unclaimed Foreclosure Money</span
+        >
+      </a>
+      <a href="/blog/tax-sale-vs-mortgage-foreclosure" class="next">
+        <span class="nav-label">Next</span>
+        <span class="nav-title"
+          >Tax Sale vs Mortgage Foreclosure: Key Differences</span
+        >
+      </a>
+    </nav>
 
     <article class="article-content">
       <div class="article-container">
@@ -614,6 +708,22 @@
         </div>
       </div>
     </article>
+
+    <!-- Bottom Navigation -->
+    <nav class="article-nav">
+      <a href="/blog/how-to-check-unclaimed-funds" class="prev">
+        <span class="nav-label">Previous</span>
+        <span class="nav-title"
+          >How to Check If You Have Unclaimed Foreclosure Money</span
+        >
+      </a>
+      <a href="/blog/tax-sale-vs-mortgage-foreclosure" class="next">
+        <span class="nav-label">Next</span>
+        <span class="nav-title"
+          >Tax Sale vs Mortgage Foreclosure: Key Differences</span
+        >
+      </a>
+    </nav>
 
     <footer>
       <p>
