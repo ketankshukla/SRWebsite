@@ -22,50 +22,15 @@
       }
 
       .og-image {
-        width: 1200px;
-        height: 630px;
+        width: 800px;
+        height: 800px;
         background: linear-gradient(
           135deg,
           #1e5a7e 0%,
           #154560 60%,
           #0d2d3d 100%
         );
-        position: relative;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      /* Subtle decorative circles */
-      .circle-1 {
-        position: absolute;
-        width: 600px;
-        height: 600px;
-        border-radius: 50%;
-        background: rgba(40, 167, 69, 0.08);
-        top: -200px;
-        left: -100px;
-      }
-
-      .circle-2 {
-        position: absolute;
-        width: 500px;
-        height: 500px;
-        border-radius: 50%;
-        background: rgba(40, 167, 69, 0.06);
-        bottom: -150px;
-        right: -50px;
-      }
-
-      /* Centered logo container */
-      .logo-container {
-        position: relative;
-        z-index: 10;
-        width: 400px;
-        height: 400px;
-        background: rgba(255, 255, 255, 0.1);
-        border-radius: 80px;
+        border-radius: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -78,17 +43,17 @@
       }
 
       .sr-logo .s {
-        font-size: 220px;
+        font-size: 400px;
         color: white;
         line-height: 1;
       }
 
       .sr-logo .r {
-        font-size: 120px;
+        font-size: 220px;
         color: #28a745;
         position: absolute;
-        bottom: 20px;
-        right: -60px;
+        bottom: 40px;
+        right: -110px;
         line-height: 1;
       }
 
@@ -124,14 +89,9 @@
   </head>
   <body>
     <div class="og-image">
-      <div class="circle-1"></div>
-      <div class="circle-2"></div>
-
-      <div class="logo-container">
-        <div class="sr-logo">
-          <span class="s">S</span>
-          <span class="r">R</span>
-        </div>
+      <div class="sr-logo">
+        <span class="s">S</span>
+        <span class="r">R</span>
       </div>
     </div>
 
@@ -153,8 +113,7 @@
         </li>
       </ol>
       <p style="margin-top: 15px; color: #6c757d">
-        <strong>Tip:</strong> The image is exactly 1200x630 pixels - the
-        standard OG image size.
+        <strong>Tip:</strong> The image is 800x800 pixels - a square format.
       </p>
     </div>
   </body>
