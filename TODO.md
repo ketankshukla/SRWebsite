@@ -18,5 +18,5 @@
 
 ## Optional Enhancements
 
-- [ ] Add `vercel.json` for custom routing/headers
+- [x] Add `vercel.json` for custom routing/headers (cleanUrls enabled)
 - [ ] Set up custom domain on Vercel (surplusrecoveries.com)
