@@ -172,11 +172,20 @@
       }
 
       .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
         font-family: "Playfair Display", serif;
         font-size: 1.5rem;
         font-weight: 700;
         color: var(--primary);
         text-decoration: none;
+      }
+
+      .logo img {
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
       }
 
       .logo span {
@@ -1357,6 +1366,15 @@
       }
 
       @media (max-width: 768px) {
+        .logo {
+          font-size: 1.2rem;
+        }
+
+        .logo img {
+          width: 32px;
+          height: 32px;
+        }
+
         .nav-links {
           display: none;
           position: absolute;
@@ -1436,8 +1454,10 @@
           href="/"
           class="logo"
           onclick="if(window.location.pathname==='/'){window.scrollTo({top:0,behavior:'smooth'});return false;}"
-          >Surplus<span>Recoveries</span></a
         >
+          <img src="/images/og-image.png" alt="SR Logo" />
+          Surplus<span>Recoveries</span>
+        </a>
         <ul class="nav-links">
           <li><a href="#about">What Are Surplus Funds?</a></li>
           <li><a href="#how-it-works">How It Works</a></li>
@@ -2354,7 +2374,10 @@
       <div class="container">
         <div class="footer-grid">
           <div class="footer-brand">
-            <a href="#" class="logo">Surplus<span>Recoveries</span></a>
+            <a href="/" class="logo">
+              <img src="/images/og-image.png" alt="SR Logo" />
+              Surplus<span>Recoveries</span>
+            </a>
             <p>
               We help former homeowners recover surplus funds from foreclosure
               sales. Your money is waiting — let us help you claim it.
