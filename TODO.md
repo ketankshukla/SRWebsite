@@ -128,6 +128,14 @@
   - Compelling CTA
 - [x] Create featured blog article explaining DIY vs professional recovery
 - [x] Fix logo click behavior (scrolls to top when on homepage)
+- [x] Update "Why Choose Us" cards for honesty (new business)
+  - Replaced "Legal Expertise" → "Thorough Research"
+  - Replaced "Fast Turnaround" → "Focused Expertise"
+- [x] Add interactive flip cards with hover effect
+  - 3D flip animation on all 6 cards
+  - Back shows 3 bullet points per card
+  - "Hover to flip" hint next to icons
+  - Responsive mobile design
 
 ## Contact & Branding
 

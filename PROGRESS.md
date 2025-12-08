@@ -173,6 +173,31 @@ Since this is a brand new business with no closed deals yet, made the following 
 - Each image has a contextual caption centered below
 - No image repeats within the same blog post
 
+### Phase 18: Why Choose Us Section Updates (Dec 8, 2025)
+
+**Card Content Updates:**
+
+- Replaced "Legal Expertise" card with "Thorough Research" (more honest for new business)
+- Replaced "Fast Turnaround" card with "Focused Expertise" (avoids overpromising on timelines)
+
+**Interactive Flip Cards:**
+
+- Added 3D flip animation on hover for all 6 feature cards
+- Each card back shows a title + 3 bullet points with checkmarks
+- Added "↻ Hover to flip" hint next to each card icon
+- Smooth 0.6s transition with perspective effect
+- Responsive design with adjusted height for mobile
+
+**Card Back Content:**
+| Card | Back Title | 3 Points |
+|------|------------|----------|
+| No Upfront Fees | What This Means For You | Zero costs to start, We get paid when you do, No financial risk |
+| Thorough Research | Our Research Process | Search county/court records, Verify sale amounts, Identify all surplus owed |
+| Personalized Service | How We Support You | Direct communication, Regular updates, Answers when needed |
+| Focused Expertise | Why Focus Matters | Deep process knowledge, County-specific familiarity, Maximize recovery |
+| 100% Confidential | Your Privacy Protected | Secure documents, Never shared, Discreet communication |
+| Transparent Process | Complete Clarity | Clear fees upfront, Step-by-step walkthrough, No surprises |
+
 **Image Distribution:**
 
 | Blog Post                              | Image 1        | Image 2        |
@@ -260,6 +285,8 @@ Since this is a brand new business with no closed deals yet, made the following 
 - [x] SR logo integrated across all pages
 - [x] Blog navigation (prev/next) added
 - [x] Blog images added (2 per article, 32 total)
+- [x] Why Choose Us cards updated (removed misleading claims)
+- [x] Interactive flip cards with hover effect added
 
 ## Pending Tasks
 
