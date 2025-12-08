@@ -1,20 +1,7 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "rewrites": [
-    { "source": "/course", "destination": "/Course/index.html" },
-    { "source": "/course/", "destination": "/Course/index.html" },
-    {
-      "source": "/course/chapters/:path*",
-      "destination": "/Course/chapters/:path*"
-    },
-    { "source": "/course/:path*", "destination": "/Course/:path*" }
-  ],
   "headers": [
-    {
-      "source": "/Course/(.*)",
-      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
-    },
     {
       "source": "/course/(.*)",
       "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
