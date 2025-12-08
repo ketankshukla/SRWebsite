@@ -225,25 +225,31 @@ Since this is a brand new business with no closed deals yet, made the following 
 
 ### New Files Created
 
-| File                      | Purpose                             |
-| ------------------------- | ----------------------------------- |
-| `.gitignore`              | Git ignore rules                    |
-| `TODO.md`                 | Task tracking                       |
-| `vercel.json`             | Vercel configuration (cleanUrls)    |
-| `PROGRESS.md`             | This document                       |
-| `privacy-policy.html`     | Privacy policy page                 |
-| `terms-of-service.html`   | Terms of service page               |
-| `disclaimer.html`         | Legal disclaimer page               |
-| `sitemap.xml`             | XML sitemap for search engines      |
-| `robots.txt`              | Search engine crawling instructions |
-| `favicon.svg`             | Browser tab icon (SR logo)          |
-| `blog/index.html`         | Blog listing page                   |
-| `blog/*.html` (16)        | Individual blog articles            |
-| `images/og-image.png`     | Open Graph image for social sharing |
-| `images/og-image.svg`     | SVG version of OG image             |
-| `images/image (1-31).jpg` | Blog article images (31 files)      |
-| `images/image.jpg`        | Additional blog image               |
-| `IMAGE_PROMPTS.md`        | AI image generation prompts         |
+| File                                                 | Purpose                             |
+| ---------------------------------------------------- | ----------------------------------- |
+| `.gitignore`                                         | Git ignore rules                    |
+| `TODO.md`                                            | Task tracking                       |
+| `vercel.json`                                        | Vercel configuration (cleanUrls)    |
+| `PROGRESS.md`                                        | This document                       |
+| `privacy-policy.html`                                | Privacy policy page                 |
+| `terms-of-service.html`                              | Terms of service page               |
+| `disclaimer.html`                                    | Legal disclaimer page               |
+| `sitemap.xml`                                        | XML sitemap for search engines      |
+| `robots.txt`                                         | Search engine crawling instructions |
+| `favicon.svg`                                        | Browser tab icon (SR logo)          |
+| `blog/index.html`                                    | Blog listing page                   |
+| `blog/*.html` (16)                                   | Individual blog articles            |
+| `images/og-image.png`                                | Open Graph image for social sharing |
+| `images/og-image.svg`                                | SVG version of OG image             |
+| `images/image (1-31).jpg`                            | Blog article images (31 files)      |
+| `images/image.jpg`                                   | Additional blog image               |
+| `IMAGE_PROMPTS.md`                                   | AI image generation prompts         |
+| `course/index.html`                                  | Course main page with sidebar nav   |
+| `course/chapters/*.html`                             | 30 HTML chapter files               |
+| `course/video-scripts/*.txt`                         | 30 HeyGen video scripts             |
+| `course/video-scripts/README-HEYGEN-INSTRUCTIONS.md` | HeyGen guide                        |
+| `course/video-scripts/udemy.md`                      | Udemy course creation guide         |
+| `course/video-scripts/PROMPTS-AND-SOLUTIONS.md`      | Session log                         |
 
 ### Files Modified
 
@@ -288,12 +294,65 @@ Since this is a brand new business with no closed deals yet, made the following 
 - [x] Why Choose Us cards updated (removed misleading claims)
 - [x] Interactive flip cards with hover effect added
 
+### Phase 19: Course Development (Dec 8, 2025)
+
+**HTML Course Created:**
+
+- Created `/course` folder with complete course structure
+- Built `course/index.html` with tree-like navigation sidebar
+- Created 30 HTML chapter files in `/course/chapters/`
+- Dynamic content loading with JavaScript fetch API
+- Progress tracking with localStorage
+- Responsive design matching main website colors
+
+**Course Structure:**
+
+- 8 Modules, 30 Chapters
+- Module 1: Foundation (Chapters 1-3)
+- Module 2: Finding Leads (Chapters 4-6)
+- Module 3: Outreach (Chapters 7-10)
+- Module 4: Objection Handling (Chapters 11-15)
+- Module 5: Closing & Claims (Chapters 16-18)
+- Module 6: Outsourcing (Chapters 19-22)
+- Module 7: Scaling (Chapters 23-27)
+- Module 8: Advanced Strategies (Chapters 28-30)
+
+**Privacy Protection:**
+
+- Added noindex headers in `vercel.json`
+- Added disallow rules in `robots.txt`
+- Course not indexed by search engines
+
+### Phase 20: HeyGen Video Scripts (Dec 8, 2025)
+
+**Video Scripts Created:**
+
+- Created `/course/video-scripts/` folder
+- Generated 30 HeyGen-ready video scripts (one per chapter)
+- Each script includes:
+  - Scene-by-scene breakdown with `[SCENE X]` markers
+  - Natural speaking language (no markdown)
+  - Duration estimates (7-12 minutes each)
+  - Recommended HeyGen settings
+
+**Documentation Created:**
+
+- `README-HEYGEN-INSTRUCTIONS.md` - Complete HeyGen workflow guide
+- `udemy.md` - Full Udemy course creation guide
+- `PROMPTS-AND-SOLUTIONS.md` - Session prompts and solutions log
+
+**Total Video Content:** ~4.5 hours across 30 videos
+
+---
+
 ## Pending Tasks
 
 1. **Create Google Business Profile** (recommended for local SEO)
 2. **Add Google Analytics** (track visitor behavior)
 3. **Add real testimonials** (once clients are available)
 4. **Consider live chat widget** (for instant engagement)
+5. **Generate HeyGen videos** (using created scripts)
+6. **Publish Udemy course** (after video generation)
 
 ---
 
@@ -303,6 +362,7 @@ Since this is a brand new business with no closed deals yet, made the following 
 - **Vercel Deployment:** https://sr-website-seven.vercel.app/
 - **Custom Domain:** https://surplusrecoveries.com ✓
 - **Blog:** https://surplusrecoveries.com/blog
+- **Course:** https://surplusrecoveries.com/course (private, not indexed)
 - **DNS Checker:** https://dnschecker.org/#A/surplusrecoveries.com
 
 ---

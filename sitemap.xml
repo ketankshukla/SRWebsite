@@ -6,6 +6,7 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  <!-- Note: /course pages are intentionally excluded - private content not for indexing -->
   <url>
     <loc>https://surplusrecoveries.com/blog</loc>
     <lastmod>2025-12-05</lastmod>
