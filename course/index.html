@@ -1072,7 +1072,9 @@
         const container = document.getElementById("chapterContainer");
 
         try {
-          const response = await fetch(`chapters/chapter-${chapterNum}.html`);
+          const response = await fetch(
+            `/course/chapters/chapter-${chapterNum}.html`
+          );
           if (response.ok) {
             const content = await response.text();
             container.innerHTML = content;
