@@ -592,21 +592,77 @@
         gap: 30px;
       }
 
+      /* Flip Card Container */
+      .feature-card-container {
+        perspective: 1000px;
+        height: 280px;
+      }
+
       .feature-card {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: transform 0.6s ease;
+      }
+
+      .feature-card-container:hover .feature-card {
+        transform: rotateY(180deg);
+      }
+
+      .feature-card-front,
+      .feature-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
         background: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(10px);
         padding: 35px;
         border-radius: 16px;
         border: 1px solid rgba(255, 255, 255, 0.2);
-        transition: transform 0.3s ease, background 0.3s ease;
+        box-sizing: border-box;
       }
 
-      .feature-card:hover {
-        transform: translateY(-5px);
-        background: rgba(255, 255, 255, 0.15);
+      .feature-card-back {
+        transform: rotateY(180deg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
       }
 
-      .feature-card .icon {
+      .feature-card-back h4 {
+        color: var(--accent);
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+      }
+
+      .feature-card-back ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .feature-card-back li {
+        color: white;
+        opacity: 0.9;
+        padding: 8px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        font-size: 0.95rem;
+      }
+
+      .feature-card-back li:last-child {
+        border-bottom: none;
+      }
+
+      .feature-card-back li::before {
+        content: "✓ ";
+        color: var(--accent);
+        font-weight: bold;
+      }
+
+      .feature-card-front .icon {
         width: 60px;
         height: 60px;
         background: var(--accent);
@@ -618,13 +674,13 @@
         margin-bottom: 20px;
       }
 
-      .feature-card h3 {
+      .feature-card-front h3 {
         color: white;
         font-size: 1.3rem;
         margin-bottom: 10px;
       }
 
-      .feature-card p {
+      .feature-card-front p {
         opacity: 0.9;
       }
 
@@ -1391,6 +1447,10 @@
           grid-template-columns: 1fr;
         }
 
+        .feature-card-container {
+          height: 260px;
+        }
+
         .footer-grid {
           grid-template-columns: 1fr;
         }
@@ -1872,53 +1932,136 @@
           </p>
         </div>
         <div class="features-grid">
-          <div class="feature-card fade-in">
-            <div class="icon">💵</div>
-            <h3>No Upfront Fees</h3>
-            <p>
-              You pay nothing until we successfully recover your funds. No
-              recovery means no fee — that's our promise.
-            </p>
+          <!-- Card 1: No Upfront Fees -->
+          <div class="feature-card-container fade-in">
+            <div class="feature-card">
+              <div class="feature-card-front">
+                <div class="icon">💵</div>
+                <h3>No Upfront Fees</h3>
+                <p>
+                  You pay nothing until we successfully recover your funds. No
+                  recovery means no fee — that's our promise.
+                </p>
+              </div>
+              <div class="feature-card-back">
+                <h4>What This Means For You</h4>
+                <ul>
+                  <li>Zero out-of-pocket costs to get started</li>
+                  <li>We only get paid when you get paid</li>
+                  <li>No financial risk on your part</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="feature-card fade-in">
-            <div class="icon">🔍</div>
-            <h3>Thorough Research</h3>
-            <p>
-              We dig deep into county records, court documents, and foreclosure
-              files to find every dollar you're entitled to.
-            </p>
+
+          <!-- Card 2: Thorough Research -->
+          <div class="feature-card-container fade-in">
+            <div class="feature-card">
+              <div class="feature-card-front">
+                <div class="icon">🔍</div>
+                <h3>Thorough Research</h3>
+                <p>
+                  We dig deep into county records, court documents, and foreclosure
+                  files to find every dollar you're entitled to.
+                </p>
+              </div>
+              <div class="feature-card-back">
+                <h4>Our Research Process</h4>
+                <ul>
+                  <li>Search county clerk and court records</li>
+                  <li>Verify foreclosure sale amounts and dates</li>
+                  <li>Identify all potential surplus funds owed</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="feature-card fade-in">
-            <div class="icon">🤝</div>
-            <h3>Personalized Service</h3>
-            <p>
-              Every case is unique. We provide dedicated attention and keep you
-              informed throughout the entire process.
-            </p>
+
+          <!-- Card 3: Personalized Service -->
+          <div class="feature-card-container fade-in">
+            <div class="feature-card">
+              <div class="feature-card-front">
+                <div class="icon">🤝</div>
+                <h3>Personalized Service</h3>
+                <p>
+                  Every case is unique. We provide dedicated attention and keep you
+                  informed throughout the entire process.
+                </p>
+              </div>
+              <div class="feature-card-back">
+                <h4>How We Support You</h4>
+                <ul>
+                  <li>Direct communication with your case handler</li>
+                  <li>Regular status updates on your claim</li>
+                  <li>Answers to your questions when you need them</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="feature-card fade-in">
-            <div class="icon">🎯</div>
-            <h3>Focused Expertise</h3>
-            <p>
-              Surplus fund recovery is all we do. Our entire focus is on
-              getting your money back.
-            </p>
+
+          <!-- Card 4: Focused Expertise -->
+          <div class="feature-card-container fade-in">
+            <div class="feature-card">
+              <div class="feature-card-front">
+                <div class="icon">🎯</div>
+                <h3>Focused Expertise</h3>
+                <p>
+                  Surplus fund recovery is all we do. Our entire focus is on
+                  getting your money back.
+                </p>
+              </div>
+              <div class="feature-card-back">
+                <h4>Why Focus Matters</h4>
+                <ul>
+                  <li>Deep knowledge of surplus fund processes</li>
+                  <li>Familiar with county-specific requirements</li>
+                  <li>Dedicated to maximizing your recovery</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="feature-card fade-in">
-            <div class="icon">🔒</div>
-            <h3>100% Confidential</h3>
-            <p>
-              Your personal information is always protected. We maintain strict
-              confidentiality throughout our relationship.
-            </p>
+
+          <!-- Card 5: 100% Confidential -->
+          <div class="feature-card-container fade-in">
+            <div class="feature-card">
+              <div class="feature-card-front">
+                <div class="icon">🔒</div>
+                <h3>100% Confidential</h3>
+                <p>
+                  Your personal information is always protected. We maintain strict
+                  confidentiality throughout our relationship.
+                </p>
+              </div>
+              <div class="feature-card-back">
+                <h4>Your Privacy Protected</h4>
+                <ul>
+                  <li>Secure handling of all documents</li>
+                  <li>Information never shared with third parties</li>
+                  <li>Discreet communication at all times</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="feature-card fade-in">
-            <div class="icon">📊</div>
-            <h3>Transparent Process</h3>
-            <p>
-              No hidden fees or surprises. We explain everything clearly and
-              keep you updated at every step.
-            </p>
+
+          <!-- Card 6: Transparent Process -->
+          <div class="feature-card-container fade-in">
+            <div class="feature-card">
+              <div class="feature-card-front">
+                <div class="icon">📊</div>
+                <h3>Transparent Process</h3>
+                <p>
+                  No hidden fees or surprises. We explain everything clearly and
+                  keep you updated at every step.
+                </p>
+              </div>
+              <div class="feature-card-back">
+                <h4>Complete Clarity</h4>
+                <ul>
+                  <li>Clear fee structure explained upfront</li>
+                  <li>Step-by-step process walkthrough</li>
+                  <li>No surprises or hidden costs</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
