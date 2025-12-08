@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Surplus Funds Recovery Business Mastery Course | Surplus Recoveries
+    </title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primary: #1e5a7e;
+        --primary-dark: #154560;
+        --primary-light: #2a7aa8;
+        --secondary: #28a745;
+        --secondary-dark: #1e7e34;
+        --accent: #f4a261;
+        --dark: #1a1a2e;
+        --gray-900: #212529;
+        --gray-700: #495057;
+        --gray-500: #6c757d;
+        --gray-300: #dee2e6;
+        --gray-200: #e9ecef;
+        --gray-100: #f8f9fa;
+        --white: #ffffff;
+        --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+          0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+          0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        --sidebar-width: 320px;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        color: var(--gray-700);
+        line-height: 1.6;
+        background: var(--gray-100);
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Playfair Display", serif;
+        color: var(--gray-900);
+        line-height: 1.3;
+      }
+
+      /* Top Header */
+      .course-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        background: linear-gradient(
+          135deg,
+          var(--primary) 0%,
+          var(--primary-dark) 100%
+        );
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        z-index: 1000;
+        box-shadow: var(--shadow-lg);
+      }
+
+      .course-header .logo {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: var(--white);
+        text-decoration: none;
+        font-family: "Playfair Display", serif;
+        font-size: 1.3rem;
+        font-weight: 700;
+      }
+
+      .course-header .logo img {
+        width: 36px;
+        height: 36px;
+        border-radius: 8px;
+      }
+
+      .course-header .logo span span {
+        color: var(--accent);
+      }
+
+      .course-title-header {
+        color: var(--white);
+        font-size: 1rem;
+        font-weight: 500;
+        opacity: 0.9;
+      }
+
+      .header-actions {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+
+      .progress-indicator {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: var(--white);
+        font-size: 0.85rem;
+      }
+
+      .progress-bar-mini {
+        width: 120px;
+        height: 6px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 3px;
+        overflow: hidden;
+      }
+
+      .progress-bar-mini-fill {
+        height: 100%;
+        background: var(--accent);
+        border-radius: 3px;
+        width: 0%;
+        transition: width 0.3s ease;
+      }
+
+      .menu-toggle {
+        display: none;
+        background: rgba(255, 255, 255, 0.2);
+        border: none;
+        color: var(--white);
+        padding: 8px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 1.2rem;
+      }
+
+      /* Layout */
+      .course-layout {
+        display: flex;
+        margin-top: 60px;
+        min-height: calc(100vh - 60px);
+      }
+
+      /* Sidebar */
+      .sidebar {
+        width: var(--sidebar-width);
+        background: var(--white);
+        border-right: 1px solid var(--gray-300);
+        position: fixed;
+        top: 60px;
+        left: 0;
+        bottom: 0;
+        overflow-y: auto;
+        z-index: 100;
+        transition: transform 0.3s ease;
+      }
+
+      .sidebar-header {
+        padding: 25px 20px;
+        background: linear-gradient(
+          135deg,
+          var(--primary-light) 0%,
+          var(--primary) 100%
+        );
+        color: var(--white);
+      }
+
+      .sidebar-header h2 {
+        color: var(--white);
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+      }
+
+      .sidebar-header p {
+        font-size: 0.85rem;
+        opacity: 0.9;
+      }
+
+      .sidebar-nav {
+        padding: 15px 0;
+      }
+
+      .module-group {
+        margin-bottom: 5px;
+      }
+
+      .module-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 20px;
+        cursor: pointer;
+        background: var(--gray-100);
+        border: none;
+        width: 100%;
+        text-align: left;
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: var(--gray-900);
+        transition: background 0.2s ease;
+      }
+
+      .module-header:hover {
+        background: var(--gray-200);
+      }
+
+      .module-header .module-icon {
+        font-size: 1.1rem;
+        margin-right: 10px;
+      }
+
+      .module-header .module-title {
+        flex: 1;
+      }
+
+      .module-header .chevron {
+        transition: transform 0.3s ease;
+        font-size: 0.8rem;
+        color: var(--gray-500);
+      }
+
+      .module-group.expanded .module-header .chevron {
+        transform: rotate(90deg);
+      }
+
+      .module-chapters {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        background: var(--white);
+      }
+
+      .module-group.expanded .module-chapters {
+        max-height: 1000px;
+      }
+
+      .chapter-link {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 20px 10px 45px;
+        color: var(--gray-700);
+        text-decoration: none;
+        font-size: 0.85rem;
+        transition: all 0.2s ease;
+        border-left: 3px solid transparent;
+      }
+
+      .chapter-link:hover {
+        background: var(--gray-100);
+        color: var(--primary);
+      }
+
+      .chapter-link.active {
+        background: rgba(30, 90, 126, 0.1);
+        color: var(--primary);
+        border-left-color: var(--primary);
+        font-weight: 600;
+      }
+
+      .chapter-link.completed::before {
+        content: "✓";
+        color: var(--secondary);
+        font-weight: bold;
+      }
+
+      .chapter-number {
+        color: var(--gray-500);
+        font-size: 0.75rem;
+        min-width: 20px;
+      }
+
+      /* Main Content */
+      .main-content {
+        flex: 1;
+        margin-left: var(--sidebar-width);
+        padding: 40px;
+        max-width: 900px;
+      }
+
+      .content-wrapper {
+        background: var(--white);
+        border-radius: 16px;
+        box-shadow: var(--shadow);
+        padding: 50px;
+        min-height: calc(100vh - 140px);
+      }
+
+      /* Welcome Screen */
+      .welcome-screen {
+        text-align: center;
+        padding: 60px 20px;
+      }
+
+      .welcome-icon {
+        font-size: 4rem;
+        margin-bottom: 20px;
+      }
+
+      .welcome-screen h1 {
+        font-size: 2.2rem;
+        margin-bottom: 15px;
+        color: var(--primary);
+      }
+
+      .welcome-screen .subtitle {
+        font-size: 1.1rem;
+        color: var(--gray-500);
+        margin-bottom: 40px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .course-stats {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+      }
+
+      .stat-box {
+        text-align: center;
+        padding: 20px 30px;
+        background: var(--gray-100);
+        border-radius: 12px;
+      }
+
+      .stat-box .number {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--primary);
+        display: block;
+      }
+
+      .stat-box .label {
+        font-size: 0.9rem;
+        color: var(--gray-500);
+      }
+
+      .start-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 16px 40px;
+        background: var(--secondary);
+        color: var(--white);
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 1.1rem;
+        transition: all 0.3s ease;
+      }
+
+      .start-btn:hover {
+        background: var(--secondary-dark);
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-lg);
+      }
+
+      /* Chapter Content Styles */
+      .chapter-content {
+        display: none;
+      }
+
+      .chapter-content.active {
+        display: block;
+      }
+
+      .chapter-header {
+        margin-bottom: 40px;
+        padding-bottom: 25px;
+        border-bottom: 2px solid var(--gray-200);
+      }
+
+      .chapter-meta {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 10px;
+      }
+
+      .chapter-badge {
+        display: inline-block;
+        padding: 4px 12px;
+        background: var(--primary);
+        color: var(--white);
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 600;
+      }
+
+      .chapter-time {
+        color: var(--gray-500);
+        font-size: 0.85rem;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      .chapter-content h1 {
+        font-size: 2rem;
+        color: var(--gray-900);
+        margin-bottom: 10px;
+      }
+
+      .chapter-intro {
+        font-size: 1.1rem;
+        color: var(--gray-500);
+      }
+
+      /* Content Typography */
+      .content-body h2 {
+        font-size: 1.5rem;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        color: var(--primary);
+        padding-bottom: 10px;
+        border-bottom: 2px solid var(--gray-200);
+      }
+
+      .content-body h3 {
+        font-size: 1.25rem;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        color: var(--gray-900);
+      }
+
+      .content-body h4 {
+        font-size: 1.1rem;
+        margin-top: 25px;
+        margin-bottom: 12px;
+        color: var(--gray-700);
+      }
+
+      .content-body p {
+        margin-bottom: 16px;
+        line-height: 1.8;
+      }
+
+      .content-body ul,
+      .content-body ol {
+        margin-bottom: 20px;
+        padding-left: 25px;
+      }
+
+      .content-body li {
+        margin-bottom: 8px;
+        line-height: 1.7;
+      }
+
+      .content-body strong {
+        color: var(--gray-900);
+      }
+
+      .content-body code {
+        background: var(--gray-100);
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-size: 0.9em;
+        color: var(--primary-dark);
+      }
+
+      .content-body pre {
+        background: var(--gray-900);
+        color: var(--gray-100);
+        padding: 20px;
+        border-radius: 10px;
+        overflow-x: auto;
+        margin: 20px 0;
+        font-size: 0.9rem;
+        line-height: 1.6;
+      }
+
+      .content-body pre code {
+        background: none;
+        padding: 0;
+        color: inherit;
+      }
+
+      .content-body blockquote {
+        border-left: 4px solid var(--primary);
+        padding: 15px 20px;
+        margin: 20px 0;
+        background: var(--gray-100);
+        border-radius: 0 10px 10px 0;
+        font-style: italic;
+        color: var(--gray-700);
+      }
+
+      .content-body hr {
+        border: none;
+        height: 2px;
+        background: var(--gray-200);
+        margin: 40px 0;
+      }
+
+      /* Tables */
+      .content-body table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 0.95rem;
+      }
+
+      .content-body th {
+        background: var(--primary);
+        color: var(--white);
+        padding: 12px 15px;
+        text-align: left;
+        font-weight: 600;
+      }
+
+      .content-body td {
+        padding: 12px 15px;
+        border-bottom: 1px solid var(--gray-200);
+      }
+
+      .content-body tr:hover {
+        background: var(--gray-100);
+      }
+
+      /* Info Boxes */
+      .info-box {
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px 0;
+        display: flex;
+        gap: 15px;
+      }
+
+      .info-box.tip {
+        background: rgba(40, 167, 69, 0.1);
+        border-left: 4px solid var(--secondary);
+      }
+
+      .info-box.warning {
+        background: rgba(244, 162, 97, 0.1);
+        border-left: 4px solid var(--accent);
+      }
+
+      .info-box.important {
+        background: rgba(30, 90, 126, 0.1);
+        border-left: 4px solid var(--primary);
+      }
+
+      .info-box-icon {
+        font-size: 1.5rem;
+        flex-shrink: 0;
+      }
+
+      /* Checklist */
+      .checklist {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+      }
+
+      .checklist li {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 10px 0;
+        border-bottom: 1px solid var(--gray-200);
+      }
+
+      .checklist li:last-child {
+        border-bottom: none;
+      }
+
+      .checklist .checkbox {
+        width: 22px;
+        height: 22px;
+        border: 2px solid var(--gray-300);
+        border-radius: 4px;
+        flex-shrink: 0;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s ease;
+      }
+
+      .checklist .checkbox.checked {
+        background: var(--secondary);
+        border-color: var(--secondary);
+        color: var(--white);
+      }
+
+      /* Navigation Footer */
+      .chapter-nav {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        padding-top: 30px;
+        border-top: 2px solid var(--gray-200);
+      }
+
+      .nav-btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 20px;
+        background: var(--gray-100);
+        color: var(--gray-700);
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 500;
+        transition: all 0.2s ease;
+      }
+
+      .nav-btn:hover {
+        background: var(--primary);
+        color: var(--white);
+      }
+
+      .nav-btn.next {
+        background: var(--primary);
+        color: var(--white);
+      }
+
+      .nav-btn.next:hover {
+        background: var(--primary-dark);
+      }
+
+      /* Mobile Responsive */
+      @media (max-width: 1024px) {
+        .main-content {
+          padding: 20px;
+        }
+
+        .content-wrapper {
+          padding: 30px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .menu-toggle {
+          display: block;
+        }
+
+        .sidebar {
+          transform: translateX(-100%);
+        }
+
+        .sidebar.open {
+          transform: translateX(0);
+        }
+
+        .main-content {
+          margin-left: 0;
+        }
+
+        .course-title-header {
+          display: none;
+        }
+
+        .progress-indicator {
+          display: none;
+        }
+
+        .chapter-nav {
+          flex-direction: column;
+          gap: 10px;
+        }
+
+        .nav-btn {
+          justify-content: center;
+        }
+      }
+
+      /* Sidebar overlay for mobile */
+      .sidebar-overlay {
+        display: none;
+        position: fixed;
+        top: 60px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 99;
+      }
+
+      .sidebar-overlay.active {
+        display: block;
+      }
+
+      /* Scrollbar styling */
+      .sidebar::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      .sidebar::-webkit-scrollbar-track {
+        background: var(--gray-100);
+      }
+
+      .sidebar::-webkit-scrollbar-thumb {
+        background: var(--gray-300);
+        border-radius: 3px;
+      }
+
+      .sidebar::-webkit-scrollbar-thumb:hover {
+        background: var(--gray-500);
+      }
+
+      /* Print styles */
+      @media print {
+        .sidebar,
+        .course-header,
+        .chapter-nav {
+          display: none;
+        }
+
+        .main-content {
+          margin-left: 0;
+        }
+
+        .content-wrapper {
+          box-shadow: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="course-header">
+      <a href="/" class="logo">
+        <img src="/favicon.svg" alt="Surplus Recoveries" />
+        <span>Surplus <span>Recoveries</span></span>
+      </a>
+      <span class="course-title-header">📚 Business Mastery Course</span>
+      <div class="header-actions">
+        <div class="progress-indicator">
+          <span>Progress</span>
+          <div class="progress-bar-mini">
+            <div class="progress-bar-mini-fill" id="progressFill"></div>
+          </div>
+          <span id="progressText">0%</span>
+        </div>
+        <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
+      </div>
+    </header>
+
+    <!-- Sidebar Overlay -->
+    <div
+      class="sidebar-overlay"
+      id="sidebarOverlay"
+      onclick="toggleSidebar()"
+    ></div>
+
+    <!-- Layout -->
+    <div class="course-layout">
+      <!-- Sidebar -->
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+          <h2>🎓 Course Navigation</h2>
+          <p>8 Modules • 30 Chapters</p>
+        </div>
+        <nav class="sidebar-nav">
+          <!-- Module 1 -->
+          <div class="module-group expanded">
+            <button class="module-header" onclick="toggleModule(this)">
+              <span class="module-icon">🏛️</span>
+              <span class="module-title">Module 1: Foundation</span>
+              <span class="chevron">▶</span>
+            </button>
+            <div class="module-chapters">
+              <a href="#chapter-1" class="chapter-link" data-chapter="1">
+                <span class="chapter-number">01</span>
+                Understanding the Industry
+              </a>
+              <a href="#chapter-2" class="chapter-link" data-chapter="2">
+                <span class="chapter-number">02</span>
+                Legal & Ethical Framework
+              </a>
+              <a href="#chapter-3" class="chapter-link" data-chapter="3">
+                <span class="chapter-number">03</span>
+                Your Role as Specialist
+              </a>
+            </div>
+          </div>
+
+          <!-- Module 2 -->
+          <div class="module-group">
+            <button class="module-header" onclick="toggleModule(this)">
+              <span class="module-icon">🔍</span>
+              <span class="module-title">Module 2: Finding Leads</span>
+              <span class="chevron">▶</span>
+            </button>
+            <div class="module-chapters">
+              <a href="#chapter-4" class="chapter-link" data-chapter="4">
+                <span class="chapter-number">04</span>
+                Finding Surplus Funds
+              </a>
+              <a href="#chapter-5" class="chapter-link" data-chapter="5">
+                <span class="chapter-number">05</span>
+                Skip Tracing
+              </a>
+              <a href="#chapter-6" class="chapter-link" data-chapter="6">
+                <span class="chapter-number">06</span>
+                Qualifying Leads
+              </a>
+            </div>
+          </div>
+
+          <!-- Module 3 -->
+          <div class="module-group">
+            <button class="module-header" onclick="toggleModule(this)">
+              <span class="module-icon">🎯</span>
+              <span class="module-title">Module 3: The Approach</span>
+              <span class="chevron">▶</span>
+            </button>
+            <div class="module-chapters">
+              <a href="#chapter-7" class="chapter-link" data-chapter="7">
+                <span class="chapter-number">07</span>
+                Psychology of Foreclosure
+              </a>
+              <a href="#chapter-8" class="chapter-link" data-chapter="8">
+                <span class="chapter-number">08</span>
+                Cold Calling Scripts
+              </a>
+              <a href="#chapter-9" class="chapter-link" data-chapter="9">
+                <span class="chapter-number">09</span>
+                Direct Mail Campaigns
+              </a>
+              <a href="#chapter-10" class="chapter-link" data-chapter="10">
+                <span class="chapter-number">10</span>
+                Door Knocking Strategies
+              </a>
+            </div>
+          </div>
+
+          <!-- Module 4 -->
+          <div class="module-group">
+            <button class="module-header" onclick="toggleModule(this)">
+              <span class="module-icon">💬</span>
+              <span class="module-title">Module 4: Objections</span>
+              <span class="chevron">▶</span>
+            </button>
+            <div class="module-chapters">
+              <a href="#chapter-11" class="chapter-link" data-chapter="11">
+                <span class="chapter-number">11</span>
+                Objection Handling Guide
+              </a>
+              <a href="#chapter-12" class="chapter-link" data-chapter="12">
+                <span class="chapter-number">12</span>
+                Trust Objections
+              </a>
+              <a href="#chapter-13" class="chapter-link" data-chapter="13">
+                <span class="chapter-number">13</span>
+                Fee Objections
+              </a>
+              <a href="#chapter-14" class="chapter-link" data-chapter="14">
+                <span class="chapter-number">14</span>
+                Timing Objections
+              </a>
+              <a href="#chapter-15" class="chapter-link" data-chapter="15">
+                <span class="chapter-number">15</span>
+                Competition & DIY
+              </a>
+            </div>
+          </div>
+
+          <!-- Module 5 -->
+          <div class="module-group">
+            <button class="module-header" onclick="toggleModule(this)">
+              <span class="module-icon">🤝</span>
+              <span class="module-title">Module 5: Closing</span>
+              <span class="chevron">▶</span>
+            </button>
+            <div class="module-chapters">
+              <a href="#chapter-16" class="chapter-link" data-chapter="16">
+                <span class="chapter-number">16</span>
+                Closing Techniques
+              </a>
+              <a href="#chapter-17" class="chapter-link" data-chapter="17">
+                <span class="chapter-number">17</span>
+                Contracts & Documents
+              </a>
+              <a href="#chapter-18" class="chapter-link" data-chapter="18">
+                <span class="chapter-number">18</span>
+                The Claims Process
+              </a>
+            </div>
+          </div>
+
+          <!-- Module 6 -->
+          <div class="module-group">
+            <button class="module-header" onclick="toggleModule(this)">
+              <span class="module-icon">🌐</span>
+              <span class="module-title">Module 6: Outsourcing</span>
+              <span class="chevron">▶</span>
+            </button>
+            <div class="module-chapters">
+              <a href="#chapter-19" class="chapter-link" data-chapter="19">
+                <span class="chapter-number">19</span>
+                What to Outsource
+              </a>
+              <a href="#chapter-20" class="chapter-link" data-chapter="20">
+                <span class="chapter-number">20</span>
+                Hiring Virtual Assistants
+              </a>
+              <a href="#chapter-21" class="chapter-link" data-chapter="21">
+                <span class="chapter-number">21</span>
+                Training Your VA Team
+              </a>
+              <a href="#chapter-22" class="chapter-link" data-chapter="22">
+                <span class="chapter-number">22</span>
+                Tools & Software
+              </a>
+            </div>
+          </div>
+
+          <!-- Module 7 -->
+          <div class="module-group">
+            <button class="module-header" onclick="toggleModule(this)">
+              <span class="module-icon">📈</span>
+              <span class="module-title">Module 7: Scaling</span>
+              <span class="chevron">▶</span>
+            </button>
+            <div class="module-chapters">
+              <a href="#chapter-23" class="chapter-link" data-chapter="23">
+                <span class="chapter-number">23</span>
+                Owner-Operator Model
+              </a>
+              <a href="#chapter-24" class="chapter-link" data-chapter="24">
+                <span class="chapter-number">24</span>
+                Hiring Callers
+              </a>
+              <a href="#chapter-25" class="chapter-link" data-chapter="25">
+                <span class="chapter-number">25</span>
+                Commission Structures
+              </a>
+              <a href="#chapter-26" class="chapter-link" data-chapter="26">
+                <span class="chapter-number">26</span>
+                Quality Control
+              </a>
+              <a href="#chapter-27" class="chapter-link" data-chapter="27">
+                <span class="chapter-number">27</span>
+                Scaling to Markets
+              </a>
+            </div>
+          </div>
+
+          <!-- Module 8 -->
+          <div class="module-group">
+            <button class="module-header" onclick="toggleModule(this)">
+              <span class="module-icon">🚀</span>
+              <span class="module-title">Module 8: Advanced</span>
+              <span class="chevron">▶</span>
+            </button>
+            <div class="module-chapters">
+              <a href="#chapter-28" class="chapter-link" data-chapter="28">
+                <span class="chapter-number">28</span>
+                Strategic Partnerships
+              </a>
+              <a href="#chapter-29" class="chapter-link" data-chapter="29">
+                <span class="chapter-number">29</span>
+                Marketing & Branding
+              </a>
+              <a href="#chapter-30" class="chapter-link" data-chapter="30">
+                <span class="chapter-number">30</span>
+                Business Sustainability
+              </a>
+            </div>
+          </div>
+        </nav>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <div class="content-wrapper">
+          <!-- Welcome Screen -->
+          <div class="welcome-screen" id="welcomeScreen">
+            <div class="welcome-icon">🎓</div>
+            <h1>Surplus Funds Recovery Business Mastery</h1>
+            <p class="subtitle">
+              Your complete guide to building, scaling, and systematizing a
+              successful surplus funds recovery business. From first contact to
+              fully outsourced operations.
+            </p>
+            <div class="course-stats">
+              <div class="stat-box">
+                <span class="number">8</span>
+                <span class="label">Modules</span>
+              </div>
+              <div class="stat-box">
+                <span class="number">30</span>
+                <span class="label">Chapters</span>
+              </div>
+              <div class="stat-box">
+                <span class="number">50+</span>
+                <span class="label">Objection Scripts</span>
+              </div>
+              <div class="stat-box">
+                <span class="number">∞</span>
+                <span class="label">Potential</span>
+              </div>
+            </div>
+            <a href="#chapter-1" class="start-btn" onclick="loadChapter(1)">
+              Start Learning →
+            </a>
+          </div>
+
+          <!-- Chapter Content Container -->
+          <div id="chapterContainer"></div>
+        </div>
+      </main>
+    </div>
+
+    <script>
+      // Chapter data will be loaded dynamically
+      let currentChapter = 0;
+      let completedChapters = JSON.parse(
+        localStorage.getItem("completedChapters") || "[]"
+      );
+
+      // Toggle sidebar on mobile
+      function toggleSidebar() {
+        document.getElementById("sidebar").classList.toggle("open");
+        document.getElementById("sidebarOverlay").classList.toggle("active");
+      }
+
+      // Toggle module expansion
+      function toggleModule(button) {
+        const moduleGroup = button.parentElement;
+        moduleGroup.classList.toggle("expanded");
+      }
+
+      // Load chapter content
+      async function loadChapter(chapterNum) {
+        currentChapter = chapterNum;
+
+        // Hide welcome screen
+        document.getElementById("welcomeScreen").style.display = "none";
+
+        // Update active state in sidebar
+        document.querySelectorAll(".chapter-link").forEach((link) => {
+          link.classList.remove("active");
+          if (parseInt(link.dataset.chapter) === chapterNum) {
+            link.classList.add("active");
+            // Expand parent module
+            const moduleGroup = link.closest(".module-group");
+            if (moduleGroup) {
+              moduleGroup.classList.add("expanded");
+            }
+          }
+        });
+
+        // Load chapter content
+        const container = document.getElementById("chapterContainer");
+
+        try {
+          const response = await fetch(`chapters/chapter-${chapterNum}.html`);
+          if (response.ok) {
+            const content = await response.text();
+            container.innerHTML = content;
+          } else {
+            container.innerHTML = `
+              <div class="chapter-content active">
+                <div class="chapter-header">
+                  <h1>Chapter ${chapterNum}</h1>
+                  <p class="chapter-intro">Content loading...</p>
+                </div>
+                <div class="content-body">
+                  <p>This chapter content is being prepared. Please check back soon!</p>
+                </div>
+              </div>
+            `;
+          }
+        } catch (error) {
+          console.error("Error loading chapter:", error);
+        }
+
+        // Close sidebar on mobile
+        if (window.innerWidth <= 768) {
+          toggleSidebar();
+        }
+
+        // Scroll to top
+        window.scrollTo(0, 0);
+
+        // Update progress
+        updateProgress();
+      }
+
+      // Mark chapter as complete
+      function markComplete(chapterNum) {
+        if (!completedChapters.includes(chapterNum)) {
+          completedChapters.push(chapterNum);
+          localStorage.setItem(
+            "completedChapters",
+            JSON.stringify(completedChapters)
+          );
+          updateProgress();
+
+          // Update sidebar
+          const link = document.querySelector(
+            `.chapter-link[data-chapter="${chapterNum}"]`
+          );
+          if (link) {
+            link.classList.add("completed");
+          }
+        }
+      }
+
+      // Update progress bar
+      function updateProgress() {
+        const totalChapters = 30;
+        const completed = completedChapters.length;
+        const percentage = Math.round((completed / totalChapters) * 100);
+
+        document.getElementById("progressFill").style.width = percentage + "%";
+        document.getElementById("progressText").textContent = percentage + "%";
+
+        // Update completed states in sidebar
+        completedChapters.forEach((num) => {
+          const link = document.querySelector(
+            `.chapter-link[data-chapter="${num}"]`
+          );
+          if (link) {
+            link.classList.add("completed");
+          }
+        });
+      }
+
+      // Navigate to next/previous chapter
+      function navigateChapter(direction) {
+        const newChapter = currentChapter + direction;
+        if (newChapter >= 1 && newChapter <= 30) {
+          loadChapter(newChapter);
+        }
+      }
+
+      // Initialize
+      document.addEventListener("DOMContentLoaded", () => {
+        updateProgress();
+
+        // Handle hash navigation
+        if (window.location.hash) {
+          const chapterMatch = window.location.hash.match(/chapter-(\d+)/);
+          if (chapterMatch) {
+            loadChapter(parseInt(chapterMatch[1]));
+          }
+        }
+
+        // Add click handlers to chapter links
+        document.querySelectorAll(".chapter-link").forEach((link) => {
+          link.addEventListener("click", (e) => {
+            e.preventDefault();
+            const chapterNum = parseInt(link.dataset.chapter);
+            loadChapter(chapterNum);
+            history.pushState(null, "", `#chapter-${chapterNum}`);
+          });
+        });
+      });
+
+      // Handle browser back/forward
+      window.addEventListener("popstate", () => {
+        if (window.location.hash) {
+          const chapterMatch = window.location.hash.match(/chapter-(\d+)/);
+          if (chapterMatch) {
+            loadChapter(parseInt(chapterMatch[1]));
+          }
+        } else {
+          document.getElementById("welcomeScreen").style.display = "block";
+          document.getElementById("chapterContainer").innerHTML = "";
+        }
+      });
+    </script>
+  </body>
+</html>
