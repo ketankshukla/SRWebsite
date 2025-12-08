@@ -3,6 +3,11 @@
   "trailingSlash": false,
   "rewrites": [
     { "source": "/course", "destination": "/Course/index.html" },
+    { "source": "/course/", "destination": "/Course/index.html" },
+    {
+      "source": "/course/chapters/:path*",
+      "destination": "/Course/chapters/:path*"
+    },
     { "source": "/course/:path*", "destination": "/Course/:path*" }
   ],
   "headers": [
