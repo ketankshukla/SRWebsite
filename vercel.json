@@ -1,4 +1,18 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/course", "destination": "/Course/index.html" },
+    { "source": "/course/:path*", "destination": "/Course/:path*" }
+  ],
+  "headers": [
+    {
+      "source": "/Course/(.*)",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+    },
+    {
+      "source": "/course/(.*)",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+    }
+  ]
 }

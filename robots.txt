@@ -3,6 +3,8 @@
 
 User-agent: *
 Allow: /
+Disallow: /Course/
+Disallow: /course/
 
 # Sitemap location
 Sitemap: https://surplusrecoveries.com/sitemap.xml
