@@ -1,0 +1,151 @@
+CHAPTER 26: QUALITY CONTROL AND SUPERVISION
+Video Script for HeyGen
+Duration: Approximately 8-10 minutes
+================================================
+
+[SCENE 1 - INTRO]
+Welcome back. This is Chapter 26, and we're covering quality control and supervision.
+
+As you scale, maintaining quality becomes critical. Let's build systems that ensure excellence.
+
+---
+
+[SCENE 2 - WHY QUALITY CONTROL MATTERS]
+Quality control matters for three reasons.
+
+First, client satisfaction. Poor quality leads to unhappy clients and damaged reputation.
+
+Second, efficiency. Catching errors early prevents costly rework later.
+
+Third, team development. Feedback helps your team improve continuously.
+
+Without quality control, small problems become big problems.
+
+---
+
+[SCENE 3 - THE FOUR PILLARS]
+Quality control has four pillars.
+
+Pillar 1 is Standards. What does "good" look like?
+
+Pillar 2 is Monitoring. How do you check work regularly?
+
+Pillar 3 is Feedback. How do you communicate findings?
+
+Pillar 4 is Improvement. How do you make things better over time?
+
+Let's go through each one.
+
+---
+
+[SCENE 4 - SETTING STANDARDS]
+Define clear standards for each role.
+
+For research quality: Data accuracy of 98% or higher. All required fields complete. Same-day entry. Consistent format matching your template.
+
+For calling quality: Script adherence of 90% or higher. Professional tone with no complaints. Complete notes for every call. 100% compliance with regulations.
+
+For claims quality: All documents complete and accurate. Filed within 48 hours of receiving documents. Follow-up on schedule. Client communication within standards.
+
+Write these standards down and share them with your team.
+
+---
+
+[SCENE 5 - MONITORING METHODS]
+Monitor work regularly using these methods.
+
+For research, spot-check 10 to 20% of entries. Verify accuracy against source documents.
+
+For calling, review recorded calls. Use a scoring rubric to evaluate objectively.
+
+For claims, review documents before filing. Check follow-up logs weekly.
+
+Create a monitoring schedule. New team members need more frequent checks. Experienced team members need periodic verification.
+
+---
+
+[SCENE 6 - CALL SCORING RUBRIC]
+Here's a sample call scoring rubric out of 100 points.
+
+Opening and greeting: 10 points.
+
+Script adherence: 20 points.
+
+Tone and professionalism: 15 points.
+
+Listening skills: 15 points.
+
+Objection handling: 15 points.
+
+Close and next steps: 15 points.
+
+Documentation: 10 points.
+
+Score calls weekly and track trends over time.
+
+---
+
+[SCENE 7 - GIVING FEEDBACK]
+Use the SBI-I model for feedback.
+
+S is Situation: When and where did this happen?
+
+B is Behavior: What specifically did they do?
+
+I is Impact: What was the result?
+
+I is Improvement: What should they do differently?
+
+Example: "On yesterday's call with Mr. Johnson, you interrupted him twice while he was explaining his concern. This made him defensive and he ended the call. Next time, let the prospect finish speaking before you respond."
+
+Be specific, timely, and constructive.
+
+---
+
+[SCENE 8 - FEEDBACK FREQUENCY]
+Provide feedback at multiple frequencies.
+
+Real-time feedback for urgent corrections that can't wait.
+
+Daily feedback at end of day for quick wins and fixes.
+
+Weekly feedback in one-on-one meetings for comprehensive review.
+
+Monthly feedback for big picture performance discussions.
+
+More frequent feedback accelerates improvement.
+
+---
+
+[SCENE 9 - CONTINUOUS IMPROVEMENT]
+Build a culture of continuous improvement.
+
+Ask monthly: What's working well? What's causing problems? What can be improved? What should be eliminated?
+
+Involve your team in finding solutions. They often have the best ideas.
+
+Celebrate improvements and recognize team members who contribute.
+
+Document changes to your processes and update SOPs accordingly.
+
+---
+
+[SCENE 10 - SUMMARY AND ACTION ITEMS]
+Let's recap. Set clear standards for each role. Monitor work regularly and systematically. Give timely, constructive feedback. Build a culture of continuous improvement.
+
+Your action items: Define quality standards for each role. Create quality checklists. Set up a monitoring schedule. Develop feedback templates. Schedule your first quality review session.
+
+In the next chapter, we'll cover scaling to multiple markets.
+
+See you there.
+
+================================================
+END OF SCRIPT
+================================================
+
+HEYGEN SETTINGS RECOMMENDED:
+- Avatar: Same as previous chapters
+- Background: Office with quality/management feel
+- Add four pillars as visual graphic
+- Show call scoring rubric as table
+- Display SBI-I framework as overlay

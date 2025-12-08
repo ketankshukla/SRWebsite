@@ -1,0 +1,165 @@
+CHAPTER 18: THE CLAIMS PROCESS
+Video Script for HeyGen
+Duration: Approximately 10-12 minutes
+================================================
+
+[SCENE 1 - INTRO]
+Welcome back. This is Chapter 18, and we're walking through the complete claims process from start to finish.
+
+This is where you deliver on your promise to clients. Let's make sure you do it right.
+
+---
+
+[SCENE 2 - PROCESS OVERVIEW]
+The claims process has five distinct phases.
+
+Phase 1 is Document Gathering, which takes 1 to 2 weeks.
+
+Phase 2 is Claim Preparation, which takes 1 to 3 days.
+
+Phase 3 is Filing, which takes 1 day.
+
+Phase 4 is Processing, which takes 30 to 90 days depending on the county.
+
+Phase 5 is Approval and Disbursement, which takes 1 to 4 weeks.
+
+Total timeline is typically 2 to 4 months from signing to payment.
+
+Let's go through each phase.
+
+---
+
+[SCENE 3 - DOCUMENT GATHERING]
+Phase 1 is Document Gathering. You need documents from three sources.
+
+From your client, you need: Government-issued photo ID like a driver's license or passport. Social Security card or number. Proof of former address such as a utility bill. And signed authorization forms.
+
+From public records, you need: The deed showing former ownership. Foreclosure sale confirmation. Surplus funds verification. And any court orders.
+
+From the county, you need: Claim forms. Surplus funds statement. And filing instructions.
+
+Create a checklist and track what you've received and what's still needed.
+
+---
+
+[SCENE 4 - CLAIM PREPARATION]
+Phase 2 is Claim Preparation. Here's your checklist.
+
+Completed claim form with all fields filled accurately.
+
+Copy of client's ID, clear and legible.
+
+Proof of ownership or identity.
+
+Authorization to act on their behalf.
+
+Supporting documentation as required.
+
+Cover letter if required by the county.
+
+Notarization if required.
+
+Review everything twice before filing. Mistakes cause delays.
+
+---
+
+[SCENE 5 - FILING]
+Phase 3 is Filing. You have several options.
+
+In-person filing gives you immediate confirmation but is time-consuming.
+
+Certified mail provides proof of delivery but is slower.
+
+Online portals are fast and convenient but not always available.
+
+Email is quick but may not be accepted by all counties.
+
+Whichever method you use, always get confirmation of receipt and keep copies of everything you submit.
+
+---
+
+[SCENE 6 - PROCESSING]
+Phase 4 is Processing. Here's what happens at the county.
+
+The county receives and logs your claim.
+
+Staff reviews for completeness.
+
+They verify the claimant's identity.
+
+They check for competing claims.
+
+Legal review occurs if required.
+
+Then they either approve the claim or request more information.
+
+This phase is largely out of your control, but you can influence it through follow-up.
+
+---
+
+[SCENE 7 - FOLLOW-UP SCHEDULE]
+Follow up regularly during processing.
+
+Week 2: Confirm receipt of your claim.
+
+Week 4: Check on status and ask if anything is needed.
+
+Week 6: Follow up if you haven't received an update.
+
+Week 8 and beyond: Weekly check-ins until resolved.
+
+Build relationships with county staff. Be polite and professional. They process many claims and will remember people who are pleasant to work with.
+
+---
+
+[SCENE 8 - APPROVAL AND DISBURSEMENT]
+Phase 5 is Approval and Disbursement.
+
+When you receive approval notification, confirm the disbursement method and amount.
+
+Notify your client immediately with the good news.
+
+Track the check or wire status.
+
+Once the client receives funds, collect your fee.
+
+Disbursement methods vary: Check mailed to client is most common. Check mailed to you if assignment is allowed. Wire transfer for large amounts. Or court-ordered distribution for complex cases.
+
+---
+
+[SCENE 9 - HANDLING COMPLICATIONS]
+Be prepared for complications.
+
+Missing documents: Request from client promptly and follow up.
+
+Competing claims: May need legal resolution. Consult an attorney.
+
+Deceased owner: Heir documentation and possibly probate required.
+
+Name discrepancies: Provide supporting documents like marriage certificates.
+
+Delays: Escalate by asking to speak with a supervisor.
+
+Document every issue and how you resolved it.
+
+---
+
+[SCENE 10 - SUMMARY AND ACTION ITEMS]
+Let's recap. The claims process has 5 phases: gathering, preparation, filing, processing, and disbursement. Thorough document gathering prevents delays. Always confirm receipt of filings. Follow up regularly during processing. Be prepared to handle complications.
+
+Your action items: Create a document checklist for each county you work. Set up a claims tracking system. Establish a follow-up schedule. Build relationships with county contacts. Document your process for consistency.
+
+Congratulations on completing Module 5! In the next chapter, we start Module 6 on outsourcing and scaling.
+
+See you there.
+
+================================================
+END OF SCRIPT
+================================================
+
+HEYGEN SETTINGS RECOMMENDED:
+- Avatar: Same as previous chapters
+- Background: Office with filing/paperwork visible
+- Add 5-phase timeline as visual graphic
+- Show document checklist as overlay
+- Display follow-up schedule as calendar visual

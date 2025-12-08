@@ -1,0 +1,136 @@
+CHAPTER 25: COMMISSION STRUCTURES AND COMPENSATION
+Video Script for HeyGen
+Duration: Approximately 8-10 minutes
+================================================
+
+[SCENE 1 - INTRO]
+Welcome back. This is Chapter 25, and we're diving deep into commission structures and compensation.
+
+Getting this right motivates your team and ensures profitability. Let's design your compensation system.
+
+---
+
+[SCENE 2 - COMPENSATION PHILOSOPHY]
+Your compensation structure should be five things.
+
+Fair: Competitive with market rates.
+
+Motivating: Rewards good performance.
+
+Aligned: Team wins when the business wins.
+
+Sustainable: Business remains profitable.
+
+Clear: Everyone understands how they're paid.
+
+If your structure doesn't meet all five criteria, it needs work.
+
+---
+
+[SCENE 3 - COMPENSATION MODELS]
+There are three main compensation models.
+
+Model 1 is Straight Hourly. Fixed hourly rate with no performance pay. It's simple to manage and predictable, but provides no performance incentive. Best for administrative roles and training periods.
+
+Model 2 is Hourly Plus Commission. Base hourly rate plus commission on results. It provides strong incentive while offering stability, but is more complex to track. Best for callers and appointment setters.
+
+Model 3 is Commission Only. No base pay, 100% commission. Zero cost if no results and maximum alignment, but it's hard to find good people willing to take this risk. Best for experienced closers.
+
+---
+
+[SCENE 4 - ROLE-SPECIFIC COMPENSATION]
+Let me give you specific numbers for each role.
+
+For Research VAs: Base hourly of $5 to $10. Weekly quality bonus of $25 to $50. Monthly performance bonus of $50 to $100.
+
+For Cold Callers: Base hourly of $8 to $15. Per qualified transfer of $10 to $25. Per deal closed of $25 to $75.
+
+For Closers: Base if any of $15 to $25 per hour. Per deal closed of $200 to $500. Or a percentage of 5 to 15% of the fee.
+
+Adjust based on your market and the results you're seeing.
+
+---
+
+[SCENE 5 - DESIGNING YOUR STRUCTURE]
+Here's how to design your compensation structure.
+
+Step 1: Know your numbers. What's your average fee collected? What are your direct costs? What's your gross margin per deal?
+
+Step 2: Allocate to roles. What percentage of each deal goes to research, calling, closing, claims, overhead, and your profit?
+
+Step 3: Work backwards. If research gets 2% of a $7,500 fee, that's $150 per deal. How many deals does a researcher support? That determines their effective compensation.
+
+---
+
+[SCENE 6 - EXAMPLE ALLOCATION]
+Let me show you an example allocation for a $7,500 average fee.
+
+Research gets 2%, which is $150.
+
+Calling gets 3%, which is $225.
+
+Closing gets 10%, which is $750.
+
+Claims processing gets 2%, which is $150.
+
+Overhead is 10%, which is $750.
+
+Your profit is 73%, which is $5,475.
+
+This is just an example. Adjust based on your actual costs and market rates.
+
+---
+
+[SCENE 7 - TRACKING AND PAYMENT]
+Track compensation accurately.
+
+Use a spreadsheet or software to track every deal and who contributed.
+
+Document the compensation formula clearly so there are no disputes.
+
+Pay on a consistent schedule, whether weekly, bi-weekly, or monthly.
+
+Provide statements showing how compensation was calculated.
+
+Transparency builds trust with your team.
+
+---
+
+[SCENE 8 - COMMON MISTAKES]
+Avoid these compensation mistakes.
+
+Paying too little and losing good people.
+
+Paying too much and destroying profitability.
+
+Complicated structures that confuse your team.
+
+Misaligned incentives that reward the wrong behaviors.
+
+Inconsistent payment that damages trust.
+
+Changing structures too often without good reason.
+
+Get it right from the start, then adjust based on data.
+
+---
+
+[SCENE 9 - SUMMARY AND ACTION ITEMS]
+Let's recap. Choose a compensation model based on the role. Balance base pay with performance incentives. Know your numbers before setting commissions. Track everything transparently. Review and adjust based on results.
+
+Your action items: Calculate your per-deal economics. Design compensation for each role. Create a commission tracking system. Document your pay policies clearly. Review quarterly and adjust as needed.
+
+In the next chapter, we'll cover quality control and supervision.
+
+See you there.
+
+================================================
+END OF SCRIPT
+================================================
+
+HEYGEN SETTINGS RECOMMENDED:
+- Avatar: Same as previous chapters
+- Background: Office with financial/business feel
+- Add compensation models as comparison table
+- Show allocation example as pie chart
+- Display role-specific rates as visual breakdown
