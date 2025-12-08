@@ -662,6 +662,13 @@
         font-weight: bold;
       }
 
+      .feature-card-front .icon-row {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 20px;
+      }
+
       .feature-card-front .icon {
         width: 60px;
         height: 60px;
@@ -671,7 +678,22 @@
         align-items: center;
         justify-content: center;
         font-size: 1.5rem;
-        margin-bottom: 20px;
+        flex-shrink: 0;
+      }
+
+      .feature-card-front .flip-hint {
+        font-size: 0.75rem;
+        color: rgba(255, 255, 255, 0.6);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      .feature-card-front .flip-hint::before {
+        content: "↻";
+        font-size: 1rem;
       }
 
       .feature-card-front h3 {
@@ -1936,7 +1958,10 @@
           <div class="feature-card-container fade-in">
             <div class="feature-card">
               <div class="feature-card-front">
-                <div class="icon">💵</div>
+                <div class="icon-row">
+                  <div class="icon">💵</div>
+                  <span class="flip-hint">Hover to flip</span>
+                </div>
                 <h3>No Upfront Fees</h3>
                 <p>
                   You pay nothing until we successfully recover your funds. No
@@ -1958,7 +1983,10 @@
           <div class="feature-card-container fade-in">
             <div class="feature-card">
               <div class="feature-card-front">
-                <div class="icon">🔍</div>
+                <div class="icon-row">
+                  <div class="icon">🔍</div>
+                  <span class="flip-hint">Hover to flip</span>
+                </div>
                 <h3>Thorough Research</h3>
                 <p>
                   We dig deep into county records, court documents, and foreclosure
@@ -1980,7 +2008,10 @@
           <div class="feature-card-container fade-in">
             <div class="feature-card">
               <div class="feature-card-front">
-                <div class="icon">🤝</div>
+                <div class="icon-row">
+                  <div class="icon">🤝</div>
+                  <span class="flip-hint">Hover to flip</span>
+                </div>
                 <h3>Personalized Service</h3>
                 <p>
                   Every case is unique. We provide dedicated attention and keep you
@@ -2002,7 +2033,10 @@
           <div class="feature-card-container fade-in">
             <div class="feature-card">
               <div class="feature-card-front">
-                <div class="icon">🎯</div>
+                <div class="icon-row">
+                  <div class="icon">🎯</div>
+                  <span class="flip-hint">Hover to flip</span>
+                </div>
                 <h3>Focused Expertise</h3>
                 <p>
                   Surplus fund recovery is all we do. Our entire focus is on
@@ -2024,7 +2058,10 @@
           <div class="feature-card-container fade-in">
             <div class="feature-card">
               <div class="feature-card-front">
-                <div class="icon">🔒</div>
+                <div class="icon-row">
+                  <div class="icon">🔒</div>
+                  <span class="flip-hint">Hover to flip</span>
+                </div>
                 <h3>100% Confidential</h3>
                 <p>
                   Your personal information is always protected. We maintain strict
@@ -2046,7 +2083,10 @@
           <div class="feature-card-container fade-in">
             <div class="feature-card">
               <div class="feature-card-front">
-                <div class="icon">📊</div>
+                <div class="icon-row">
+                  <div class="icon">📊</div>
+                  <span class="flip-hint">Hover to flip</span>
+                </div>
                 <h3>Transparent Process</h3>
                 <p>
                   No hidden fees or surprises. We explain everything clearly and
