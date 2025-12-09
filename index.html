@@ -412,26 +412,6 @@
         pointer-events: none;
       }
 
-      .hero-video-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 10;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: rgba(0, 0, 0, 0.4);
-        transition: background 0.3s ease, opacity 0.3s ease;
-      }
-
-      .hero-video-container.playing .hero-video-overlay {
-        background: transparent;
-        opacity: 0;
-        pointer-events: none;
-      }
-
       .video-play-indicator {
         width: 80px;
         height: 80px;
@@ -483,7 +463,7 @@
         margin-right: 8px;
       }
 
-      /* Video thumbnail/poster */
+      /* Video thumbnail/poster with badge inside */
       .hero-video-thumbnail {
         position: absolute;
         top: 0;
@@ -496,6 +476,7 @@
           var(--primary-dark) 100%
         );
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         z-index: 5;
@@ -507,31 +488,6 @@
         pointer-events: none;
       }
 
-      .thumbnail-text {
-        color: white;
-        text-align: center;
-        padding: 20px;
-      }
-
-      .thumbnail-text h4 {
-        font-size: 1.2rem;
-        color: white;
-        margin-bottom: 10px;
-      }
-
-      .thumbnail-text p {
-        font-size: 0.9rem;
-        opacity: 0.9;
-      }
-
-      /* Video attention indicator */
-      .video-attention-wrapper {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-
       .watch-first-badge {
         background: linear-gradient(135deg, #ff6b6b, var(--accent), #ffd93d);
         color: var(--gray-900);
@@ -539,7 +495,7 @@
         border-radius: 30px;
         font-size: 1.1rem;
         font-weight: 700;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
         animation: pulse-badge 1.5s ease-in-out infinite;
         box-shadow: 0 6px 30px rgba(244, 162, 97, 0.5);
         text-transform: uppercase;
@@ -1671,13 +1627,7 @@
         .hero-video-container {
           max-width: none !important;
           width: 100% !important;
-          aspect-ratio: 9/14;
-          max-height: 55vh;
-        }
-
-        .video-attention-wrapper {
-          width: 100%;
-          padding: 0;
+          aspect-ratio: 9/16;
         }
 
         .hero-image {
@@ -1686,13 +1636,9 @@
           order: -1;
         }
 
-        .video-arrow-hint {
-          display: none;
-        }
-
         .watch-first-badge {
-          font-size: 0.95rem;
-          padding: 10px 20px;
+          font-size: 0.9rem;
+          padding: 10px 18px;
           margin-bottom: 15px;
         }
 
@@ -1876,23 +1822,15 @@
         </div>
         <div class="hero-image">
           <!-- YouTube Video Player (Portrait/Shorts format) -->
-          <div class="video-attention-wrapper">
-            <div class="watch-first-badge">Watch This First</div>
-            <div
-              class="hero-video-container"
-              id="heroVideoContainer"
-              onclick="toggleHeroVideo()"
-            >
-              <div id="heroVideoPlayer"></div>
-              <div class="hero-video-thumbnail" id="videoThumbnail">
-                <div class="thumbnail-text">
-                  <h4>🎬 Watch Video</h4>
-                  <p>Learn how we help you recover your money</p>
-                </div>
-              </div>
-              <div class="hero-video-overlay">
-                <div class="video-play-indicator play" id="playIndicator"></div>
-              </div>
+          <div
+            class="hero-video-container"
+            id="heroVideoContainer"
+            onclick="toggleHeroVideo()"
+          >
+            <div id="heroVideoPlayer"></div>
+            <div class="hero-video-thumbnail" id="videoThumbnail">
+              <div class="watch-first-badge">Watch This First</div>
+              <div class="video-play-indicator play" id="playIndicator"></div>
             </div>
           </div>
         </div>
