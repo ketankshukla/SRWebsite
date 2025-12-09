@@ -520,6 +520,116 @@
         opacity: 0.9;
       }
 
+      /* Video attention indicator */
+      .video-attention-wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .watch-first-badge {
+        background: var(--accent);
+        color: var(--gray-900);
+        padding: 8px 20px;
+        border-radius: 25px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+        animation: pulse-badge 2s ease-in-out infinite;
+        box-shadow: 0 4px 15px rgba(244, 162, 97, 0.4);
+      }
+
+      .watch-first-badge::before {
+        content: "👆 ";
+      }
+
+      @keyframes pulse-badge {
+        0%,
+        100% {
+          transform: scale(1);
+          box-shadow: 0 4px 15px rgba(244, 162, 97, 0.4);
+        }
+        50% {
+          transform: scale(1.05);
+          box-shadow: 0 6px 25px rgba(244, 162, 97, 0.6);
+        }
+      }
+
+      /* Glowing border animation for video */
+      .hero-video-container::before {
+        content: "";
+        position: absolute;
+        top: -3px;
+        left: -3px;
+        right: -3px;
+        bottom: -3px;
+        background: linear-gradient(
+          45deg,
+          var(--accent),
+          var(--secondary),
+          var(--accent),
+          var(--secondary)
+        );
+        border-radius: 23px;
+        z-index: -1;
+        background-size: 300% 300%;
+        animation: glow-border 3s ease infinite;
+      }
+
+      .hero-video-container.playing::before {
+        animation: none;
+        background: transparent;
+      }
+
+      @keyframes glow-border {
+        0%,
+        100% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+      }
+
+      /* Arrow pointing to video on desktop */
+      .video-arrow-hint {
+        position: absolute;
+        right: -80px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-size: 0.85rem;
+        font-weight: 500;
+        opacity: 0.9;
+      }
+
+      .video-arrow-hint span {
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        margin-bottom: 10px;
+      }
+
+      .video-arrow-hint::after {
+        content: "→";
+        font-size: 2rem;
+        transform: rotate(180deg);
+        animation: bounce-arrow 1s ease-in-out infinite;
+      }
+
+      @keyframes bounce-arrow {
+        0%,
+        100% {
+          transform: rotate(180deg) translateX(0);
+        }
+        50% {
+          transform: rotate(180deg) translateX(10px);
+        }
+      }
+
       .checkmark-list {
         list-style: none;
         margin-top: 20px;
@@ -1536,14 +1646,30 @@
           justify-content: center;
         }
 
+        .hero .container {
+          display: flex;
+          flex-direction: column;
+        }
+
         .hero-image {
           display: flex;
           justify-content: center;
-          margin-top: 30px;
+          order: -1;
+          margin-bottom: 30px;
+          margin-top: 0;
         }
 
         .hero-video-container {
-          max-width: 280px;
+          max-width: 260px;
+        }
+
+        .video-arrow-hint {
+          display: none;
+        }
+
+        .watch-first-badge {
+          font-size: 0.8rem;
+          padding: 6px 16px;
         }
 
         .about-grid {
@@ -1726,20 +1852,23 @@
         </div>
         <div class="hero-image">
           <!-- YouTube Video Player (Portrait/Shorts format) -->
-          <div
-            class="hero-video-container"
-            id="heroVideoContainer"
-            onclick="toggleHeroVideo()"
-          >
-            <div id="heroVideoPlayer"></div>
-            <div class="hero-video-thumbnail" id="videoThumbnail">
-              <div class="thumbnail-text">
-                <h4>🎬 Watch Video</h4>
-                <p>Learn how we help you recover your money</p>
+          <div class="video-attention-wrapper">
+            <div class="watch-first-badge">Watch This First</div>
+            <div
+              class="hero-video-container"
+              id="heroVideoContainer"
+              onclick="toggleHeroVideo()"
+            >
+              <div id="heroVideoPlayer"></div>
+              <div class="hero-video-thumbnail" id="videoThumbnail">
+                <div class="thumbnail-text">
+                  <h4>🎬 Watch Video</h4>
+                  <p>Learn how we help you recover your money</p>
+                </div>
               </div>
-            </div>
-            <div class="hero-video-overlay">
-              <div class="video-play-indicator play" id="playIndicator"></div>
+              <div class="hero-video-overlay">
+                <div class="video-play-indicator play" id="playIndicator"></div>
+              </div>
             </div>
           </div>
         </div>
