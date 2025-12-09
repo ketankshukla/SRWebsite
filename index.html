@@ -290,11 +290,15 @@
 
       .hero .container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: auto 1fr;
         gap: 60px;
         align-items: center;
         position: relative;
         z-index: 1;
+      }
+
+      .hero-image {
+        order: -1;
       }
 
       .hero-content {
@@ -529,30 +533,35 @@
       }
 
       .watch-first-badge {
-        background: var(--accent);
+        background: linear-gradient(135deg, #ff6b6b, var(--accent), #ffd93d);
         color: var(--gray-900);
-        padding: 8px 20px;
-        border-radius: 25px;
-        font-size: 0.85rem;
-        font-weight: 600;
-        margin-bottom: 15px;
-        animation: pulse-badge 2s ease-in-out infinite;
-        box-shadow: 0 4px 15px rgba(244, 162, 97, 0.4);
+        padding: 14px 28px;
+        border-radius: 30px;
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        animation: pulse-badge 1.5s ease-in-out infinite;
+        box-shadow: 0 6px 30px rgba(244, 162, 97, 0.5);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: 3px solid white;
       }
 
       .watch-first-badge::before {
-        content: "👆 ";
+        content: "▶ ";
+        font-size: 1rem;
       }
 
       @keyframes pulse-badge {
         0%,
         100% {
           transform: scale(1);
-          box-shadow: 0 4px 15px rgba(244, 162, 97, 0.4);
+          box-shadow: 0 6px 30px rgba(244, 162, 97, 0.5);
         }
         50% {
-          transform: scale(1.05);
-          box-shadow: 0 6px 25px rgba(244, 162, 97, 0.6);
+          transform: scale(1.08);
+          box-shadow: 0 10px 40px rgba(244, 162, 97, 0.8),
+            0 0 20px rgba(255, 107, 107, 0.4);
         }
       }
 
@@ -1662,7 +1671,8 @@
         .hero-video-container {
           max-width: none !important;
           width: 100% !important;
-          aspect-ratio: 9/16;
+          aspect-ratio: 9/14;
+          max-height: 55vh;
         }
 
         .video-attention-wrapper {
@@ -1673,6 +1683,7 @@
         .hero-image {
           width: 100%;
           padding: 0;
+          order: -1;
         }
 
         .video-arrow-hint {
@@ -1680,8 +1691,9 @@
         }
 
         .watch-first-badge {
-          font-size: 0.8rem;
-          padding: 6px 16px;
+          font-size: 0.95rem;
+          padding: 10px 20px;
+          margin-bottom: 15px;
         }
 
         .about-grid {
