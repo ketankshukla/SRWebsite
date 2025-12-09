@@ -3110,24 +3110,13 @@
         });
       });
 
-      // Navbar background on scroll + hide/show floating buttons on mobile
-      window.addEventListener("scroll", () => {
-        const navbar = document.querySelector(".navbar");
+      // Function to check and hide/show floating buttons on mobile
+      function updateFloatingButtons() {
         const backToTop = document.getElementById("backToTop");
         const clickToCall = document.querySelector(".click-to-call");
         const heroVideo = document.getElementById("heroVideoContainer");
 
-        // Navbar styling
-        if (window.scrollY > 50) {
-          navbar.style.background = "rgba(255, 255, 255, 0.98)";
-          navbar.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.1)";
-        } else {
-          navbar.style.background = "var(--white)";
-          navbar.style.boxShadow = "var(--shadow)";
-        }
-
-        // Hide floating buttons when video is in view (mobile only)
-        if (window.innerWidth <= 768 && heroVideo) {
+        if (window.innerWidth <= 768 && heroVideo && backToTop && clickToCall) {
           const videoRect = heroVideo.getBoundingClientRect();
           const videoInView =
             videoRect.top < window.innerHeight && videoRect.bottom > 0;
@@ -3144,6 +3133,26 @@
             clickToCall.style.pointerEvents = "auto";
           }
         }
+      }
+
+      // Run on page load
+      updateFloatingButtons();
+
+      // Navbar background on scroll + hide/show floating buttons on mobile
+      window.addEventListener("scroll", () => {
+        const navbar = document.querySelector(".navbar");
+
+        // Navbar styling
+        if (window.scrollY > 50) {
+          navbar.style.background = "rgba(255, 255, 255, 0.98)";
+          navbar.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.1)";
+        } else {
+          navbar.style.background = "var(--white)";
+          navbar.style.boxShadow = "var(--shadow)";
+        }
+
+        // Update floating buttons visibility
+        updateFloatingButtons();
       });
 
       // Back to Top Button
