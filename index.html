@@ -425,11 +425,7 @@
       .hero-video-container.playing .hero-video-overlay {
         background: transparent;
         opacity: 0;
-      }
-
-      .hero-video-container.playing:hover .hero-video-overlay {
-        opacity: 1;
-        background: rgba(0, 0, 0, 0.3);
+        pointer-events: none;
       }
 
       .video-play-indicator {
@@ -452,11 +448,7 @@
       .hero-video-container.playing .video-play-indicator {
         opacity: 0;
         transform: scale(0.8);
-      }
-
-      .hero-video-container.playing:hover .video-play-indicator {
-        opacity: 1;
-        transform: scale(1);
+        pointer-events: none;
       }
 
       /* Play icon (triangle) */
@@ -476,7 +468,15 @@
         width: 8px;
         height: 24px;
         background: var(--primary);
-        box-shadow: 14px 0 0 var(--primary);
+        margin-left: 0;
+      }
+
+      .video-play-indicator.pause::before {
+        content: "";
+        width: 8px;
+        height: 24px;
+        background: var(--primary);
+        margin-right: 8px;
       }
 
       /* Video thumbnail/poster */
