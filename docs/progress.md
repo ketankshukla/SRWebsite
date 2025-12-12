@@ -441,3 +441,25 @@ Created comprehensive video content for the "Destroy Your Beliefs" book:
    - Changed from portrait (9:16) to landscape (16:9)
    - Updated for 1080p format
    - Applied to all responsive breakpoints
+
+### Hero Section Video Layout Updates (Dec 12, 2025)
+
+1. **Desktop Layout Restructure**
+
+   - Moved video above hero content (was side-by-side)
+   - Video now centered with max-width 900px
+   - Hero content centered below video
+   - Created new `.hero-video-section` container
+
+2. **Mobile Spacing Fixes**
+
+   - Reduced padding between header and video
+   - Reduced padding between video and hero content
+   - Video section padding: `10px 15px 15px` on mobile
+
+3. **Video Overlay Updates**
+   - Badge text changed from "Watch This First" to "WATCH THIS VIDEO FIRST"
+   - Play button hidden on mobile (tap anywhere to play)
+   - SR logo reduced from 80×80px to 50×50px on mobile
+   - Bottom floating icons moved higher (bottom: 18%) to avoid overlapping
+   - Subtitle text hidden on mobile for cleaner look
