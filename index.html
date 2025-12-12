@@ -558,49 +558,14 @@
         display: none;
       }
 
-      /* Pulsing ring around play button */
+      /* Pulsing ring - hidden */
       .pulse-ring {
-        position: absolute;
-        width: 120px;
-        height: 120px;
-        border: 3px solid rgba(255, 255, 255, 0.5);
-        border-radius: 50%;
-        animation: pulse-ring 2s ease-out infinite;
+        display: none;
       }
 
-      .pulse-ring:nth-child(2) {
-        animation-delay: 0.5s;
-      }
-
-      @keyframes pulse-ring {
-        0% {
-          transform: scale(0.8);
-          opacity: 1;
-        }
-        100% {
-          transform: scale(1.5);
-          opacity: 0;
-        }
-      }
-
-      /* Subtitle text */
+      /* Subtitle text - hidden */
       .video-subtitle {
-        color: white;
-        font-size: 0.9rem;
-        opacity: 0.9;
-        margin-top: 20px;
-        text-align: center;
-        animation: fade-pulse 2s ease-in-out infinite;
-      }
-
-      @keyframes fade-pulse {
-        0%,
-        100% {
-          opacity: 0.7;
-        }
-        50% {
-          opacity: 1;
-        }
+        display: none;
       }
 
       /* Glowing border animation for video */
@@ -1738,10 +1703,6 @@
           height: 50px;
           border-radius: 10px;
           margin-bottom: 12px;
-        }
-
-        .video-subtitle {
-          display: none;
         }
 
         .logo {

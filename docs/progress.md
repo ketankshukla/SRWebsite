@@ -462,4 +462,6 @@ Created comprehensive video content for the "Destroy Your Beliefs" book:
    - Play button hidden on mobile (tap anywhere to play)
    - SR logo reduced from 80×80px to 50×50px on mobile
    - Floating icons removed completely (both mobile and desktop)
-   - Subtitle text hidden on mobile for cleaner look
+   - Pulse rings removed completely (both mobile and desktop)
+   - Subtitle text removed completely (both mobile and desktop)
+   - Logo and orange banner centered in overlay
