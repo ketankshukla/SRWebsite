@@ -461,5 +461,5 @@ Created comprehensive video content for the "Destroy Your Beliefs" book:
    - Badge text changed from "Watch This First" to "WATCH THIS VIDEO FIRST"
    - Play button hidden on mobile (tap anywhere to play)
    - SR logo reduced from 80×80px to 50×50px on mobile
-   - Bottom floating icons moved higher (bottom: 18%) to avoid overlapping
+   - Floating icons removed completely (both mobile and desktop)
    - Subtitle text hidden on mobile for cleaner look
