@@ -271,6 +271,7 @@
           var(--primary-dark) 100%
         );
         display: flex;
+        flex-direction: column;
         align-items: center;
         padding-top: 80px;
         position: relative;
@@ -288,22 +289,27 @@
         opacity: 0.5;
       }
 
+      /* Video section above hero content on desktop */
+      .hero-video-section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 20px 30px;
+        position: relative;
+        z-index: 1;
+      }
+
       .hero .container {
-        display: grid;
-        grid-template-columns: 320px 1fr;
-        gap: 60px;
+        display: flex;
+        flex-direction: column;
         align-items: center;
+        text-align: center;
         position: relative;
         z-index: 1;
       }
 
       .hero-image {
-        order: -1;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 500px;
+        display: none;
       }
 
       .hero-content {
@@ -336,12 +342,14 @@
         display: flex;
         gap: 15px;
         flex-wrap: wrap;
+        justify-content: center;
       }
 
       .hero-stats {
         display: flex;
         gap: 40px;
         margin-top: 40px;
+        justify-content: center;
       }
 
       .stat-item {
@@ -387,7 +395,7 @@
       .hero-video-container {
         position: relative;
         width: 100%;
-        max-width: 640px;
+        max-width: 900px;
         aspect-ratio: 16/9;
         border-radius: 20px;
         overflow: hidden;
@@ -1725,42 +1733,14 @@
 
       /* Responsive */
       @media (max-width: 1024px) {
-        .hero .container {
-          grid-template-columns: 1fr;
-          text-align: center;
-        }
-
-        .hero-buttons {
-          justify-content: center;
-        }
-
-        .hero-stats {
-          justify-content: center;
-        }
-
-        .hero .container {
-          display: flex;
-          flex-direction: column;
-        }
-
-        .hero-image {
-          display: flex;
-          justify-content: center;
-          order: -1;
-          margin-bottom: 30px;
-          margin-top: 15px;
+        .hero-video-section {
+          padding: 10px 15px 15px;
         }
 
         .hero-video-container {
           max-width: none !important;
           width: 100% !important;
           aspect-ratio: 16/9;
-        }
-
-        .hero-image {
-          width: 100%;
-          padding: 0;
-          order: -1;
         }
 
         .watch-first-badge {
@@ -1911,6 +1891,35 @@
 
     <!-- Hero Section -->
     <section class="hero">
+      <!-- Video Section - Above Hero Content -->
+      <div class="hero-video-section">
+        <div
+          class="hero-video-container"
+          id="heroVideoContainer"
+          onclick="toggleHeroVideo()"
+        >
+          <div id="heroVideoPlayer"></div>
+          <div class="hero-video-thumbnail" id="videoThumbnail">
+            <div class="floating-icons">
+              <span class="floating-icon">💰</span>
+              <span class="floating-icon">🏠</span>
+              <span class="floating-icon">✅</span>
+              <span class="floating-icon">💵</span>
+            </div>
+            <img
+              src="/images/logo.png"
+              alt="Surplus Recoveries"
+              class="video-overlay-logo"
+            />
+            <div class="watch-first-badge">Watch This First</div>
+            <div class="pulse-ring"></div>
+            <div class="pulse-ring"></div>
+            <div class="video-play-indicator play" id="playIndicator"></div>
+            <p class="video-subtitle">See how we recover your money</p>
+          </div>
+        </div>
+      </div>
+
       <div class="container">
         <div class="hero-content">
           <span class="hero-badge">✓ Free Consultation • No Upfront Fees</span>
@@ -1943,34 +1952,6 @@
             <div class="stat-item">
               <div class="stat-number">100%</div>
               <div class="stat-label">Contingency Based</div>
-            </div>
-          </div>
-        </div>
-        <div class="hero-image">
-          <!-- YouTube Video Player (1080p Landscape format) -->
-          <div
-            class="hero-video-container"
-            id="heroVideoContainer"
-            onclick="toggleHeroVideo()"
-          >
-            <div id="heroVideoPlayer"></div>
-            <div class="hero-video-thumbnail" id="videoThumbnail">
-              <div class="floating-icons">
-                <span class="floating-icon">💰</span>
-                <span class="floating-icon">🏠</span>
-                <span class="floating-icon">✅</span>
-                <span class="floating-icon">💵</span>
-              </div>
-              <img
-                src="/images/logo.png"
-                alt="Surplus Recoveries"
-                class="video-overlay-logo"
-              />
-              <div class="watch-first-badge">Watch This First</div>
-              <div class="pulse-ring"></div>
-              <div class="pulse-ring"></div>
-              <div class="video-play-indicator play" id="playIndicator"></div>
-              <p class="video-subtitle">See how we recover your money</p>
             </div>
           </div>
         </div>
