@@ -2,7 +2,7 @@
 
 A professional website for **Surplus Recoveries**, a service helping former homeowners recover surplus funds from foreclosure sales.
 
-![Surplus Recoveries](https://www.surplusrecoveries.com/images/og-image.png)
+![Surplus Recoveries](https://www.surplusrecoveries.com/images/logo.png)
 
 ## 🌐 Live Site
 
@@ -53,7 +53,7 @@ SRWebsite/
 │   ├── index.html          # Blog listing page
 │   └── *.html (16 files)   # Individual blog articles
 ├── images/
-│   └── og-image.png        # Social sharing image
+│   └── logo.png        # Social sharing image
 ├── PROGRESS.md             # Detailed session progress log
 └── TODO.md                 # Task tracking & future enhancements
 ```
@@ -97,10 +97,10 @@ Vercel handles:
 
 ## 📊 Project Documentation
 
-| Document                   | Description                                                                |
-| -------------------------- | -------------------------------------------------------------------------- |
-| [PROGRESS.md](PROGRESS.md) | Detailed log of all development phases, DNS setup, and technical decisions |
-| [TODO.md](TODO.md)         | Completed tasks checklist and future enhancement ideas                     |
+| Document                             | Description                                                                |
+| ------------------------------------ | -------------------------------------------------------------------------- |
+| [docs/progress.md](docs/progress.md) | Detailed log of all development phases, DNS setup, and technical decisions |
+| [docs/todo.md](docs/todo.md)         | Completed tasks checklist and future enhancement ideas                     |
 
 ---
 
