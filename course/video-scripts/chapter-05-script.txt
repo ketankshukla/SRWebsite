@@ -1,27 +1,15 @@
-CHAPTER 5: SKIP TRACING AND LOCATING HOMEOWNERS
-Video Script for HeyGen
-Duration: Approximately 8-10 minutes
-================================================
-
-[SCENE 1 - INTRO]
 Welcome back. This is Chapter 5, and we're covering skip tracing, which is the art of finding people who have moved or are difficult to locate.
 
 After a foreclosure, homeowners often relocate. Your job is to find them so you can deliver the good news about their surplus funds.
 
 Let's dive in.
 
----
-
-[SCENE 2 - WHAT IS SKIP TRACING]
 Skip tracing is the process of locating a person's current contact information when their previous information is outdated.
 
 The term comes from the phrase "to skip town." You're tracing someone who has "skipped" from their previous address.
 
 For surplus funds recovery, you typically have the former property address and the owner's name. You need to find their current phone number, email, and mailing address.
 
----
-
-[SCENE 3 - FREE SKIP TRACING METHODS]
 Let's start with free methods you can use.
 
 Public records searches include voter registration records, property tax records for other properties they may own, court records, and marriage and divorce records.
@@ -34,9 +22,6 @@ Whitepages and similar sites offer free basic searches that sometimes provide cu
 
 And relative contact is another approach. Find relatives through public records, then reach out to them to get a message to your target.
 
----
-
-[SCENE 4 - PAID SKIP TRACING SERVICES]
 For more reliable results, consider paid skip tracing services.
 
 BatchSkipTracing is popular in real estate. It costs about 10 to 15 cents per record and provides phone numbers, emails, and addresses.
@@ -49,9 +34,6 @@ BeenVerified and Spokeo are consumer services at about $20 to $30 per month for 
 
 For most people starting out, BatchSkipTracing offers the best balance of cost and quality.
 
----
-
-[SCENE 5 - THE SKIP TRACING PROCESS]
 Here's my recommended skip tracing process.
 
 Step 1: Start with what you know. You have the name and former address from foreclosure records.
@@ -66,9 +48,6 @@ Step 5: Find multiple contact points. Get phone, email, and mailing address if p
 
 Step 6: Research relatives as backup. If you can't reach the person directly, relatives can help.
 
----
-
-[SCENE 6 - EVALUATING SKIP TRACE RESULTS]
 Not all skip trace results are equal. Here's how to evaluate them.
 
 Look for confidence scores. Most services provide a confidence percentage. Prioritize results with 70% or higher confidence.
@@ -81,9 +60,6 @@ Look for recent activity. An address with recent mail delivery is more likely cu
 
 Cross-reference sources. If multiple sources show the same information, it's more likely accurate.
 
----
-
-[SCENE 7 - SKIP TRACING BEST PRACTICES]
 Follow these best practices for effective skip tracing.
 
 Batch your skip traces. Upload multiple records at once to save time and money.
@@ -96,9 +72,6 @@ Respect privacy. Use information only for legitimate business purposes.
 
 Stay compliant. Follow all laws regarding contact attempts and data usage.
 
----
-
-[SCENE 8 - WHEN YOU CAN'T FIND SOMEONE]
 Sometimes you won't be able to locate someone. Here's what to do.
 
 Try relative outreach. Contact family members who may be able to pass along your message.
@@ -111,9 +84,6 @@ Set a reminder to retry. Come back to difficult cases in 30 to 60 days.
 
 Know when to move on. If you've exhausted all options, focus on other leads.
 
----
-
-[SCENE 9 - SUMMARY AND ACTION ITEMS]
 Let's recap. Skip tracing is essential for finding relocated homeowners. Start with free methods, then use paid services for better results. Follow a systematic process and verify your results. Document everything and stay compliant.
 
 Your action items: Choose a skip tracing service to try. Practice with your first batch of 10 leads. Develop your verification process. Create a system for tracking contact attempts. Set up social media search templates.
@@ -121,14 +91,3 @@ Your action items: Choose a skip tracing service to try. Practice with your firs
 In the next chapter, we'll cover how to qualify your leads so you focus on the best opportunities.
 
 See you there.
-
-================================================
-END OF SCRIPT
-================================================
-
-HEYGEN SETTINGS RECOMMENDED:
-- Avatar: Same as previous chapters
-- Background: Office setting with research materials
-- Add skip tracing service comparison as table overlay
-- Show example of confidence scores
-- Add process flowchart graphic

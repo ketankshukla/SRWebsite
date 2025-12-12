@@ -1,18 +1,9 @@
-CHAPTER 6: QUALIFYING LEADS
-Video Script for HeyGen
-Duration: Approximately 7-8 minutes
-================================================
-
-[SCENE 1 - INTRO]
 Welcome back. This is Chapter 6, and we're covering how to qualify your leads.
 
 Not all surplus funds leads are created equal. Learning to quickly identify the best opportunities will save you time and maximize your income.
 
 Let's get into it.
 
----
-
-[SCENE 2 - THE SPAM METHOD]
 I use a simple framework called SPAM to qualify leads. Each letter stands for a key qualification factor.
 
 S is for Surplus Amount. How much money is available?
@@ -25,9 +16,6 @@ M is for Motivation. Is the claimant likely to want help?
 
 Score each factor and prioritize leads with the highest total scores.
 
----
-
-[SCENE 3 - ANALYZING SURPLUS AMOUNTS]
 Let's start with surplus amount. This is your most important factor.
 
 I categorize leads into tiers. Tier A leads have surplus over $25,000. These are high priority and worth significant effort.
@@ -40,9 +28,6 @@ Tier D leads have surplus under $5,000. These are low priority. The effort may n
 
 At a 30% fee, a $25,000 surplus earns you $7,500. A $5,000 surplus only earns $1,500. Focus your time on higher-value opportunities.
 
----
-
-[SCENE 4 - PROBABILITY FACTORS]
 Next, assess the probability of successful recovery.
 
 Positive factors that increase probability include: single owner with clear title, no junior lienholders, owner is alive and locatable, straightforward foreclosure with no complications, and county has a clear claims process.
@@ -51,9 +36,6 @@ Negative factors that decrease probability include: multiple owners or unclear o
 
 The cleaner the situation, the higher your probability of success.
 
----
-
-[SCENE 5 - ACCESSIBILITY]
 Accessibility is about whether you can find and reach the claimant.
 
 High accessibility means you have current phone number and address, the person is active on social media, and relatives are easy to locate.
@@ -62,27 +44,18 @@ Low accessibility means no current contact information, the person has a common 
 
 If you can't reach someone, you can't sign them as a client. Prioritize leads where you have good contact information.
 
----
-
-[SCENE 6 - MOTIVATION FACTORS]
 Finally, consider motivation. Some people are more likely to want your help.
 
 High motivation indicators include: larger surplus amounts where the money matters more, recent foreclosure where they're still dealing with the aftermath, financial distress where they need the money, and awareness that surplus exists.
 
 Low motivation indicators include: very small amounts that aren't worth their time, foreclosure was years ago and they've moved on, they're financially comfortable and don't need the money, and they're suspicious or have been contacted by others.
 
----
-
-[SCENE 7 - LEAD SCORING SYSTEM]
 Put it all together with a simple scoring system.
 
 Score each factor from 1 to 5. Surplus Amount: 5 points for over $25K, down to 1 point for under $5K. Probability: 5 points for clean situation, down to 1 for complex. Accessibility: 5 points for full contact info, down to 1 for no info. Motivation: 5 points for high motivation indicators, down to 1 for low.
 
 Add up the scores. Leads scoring 16 to 20 are A-priority, work these first. Leads scoring 12 to 15 are B-priority, work these second. Leads scoring 8 to 11 are C-priority, work if time permits. Leads scoring below 8 are low priority, skip or save for later.
 
----
-
-[SCENE 8 - RED FLAGS]
 Watch for these red flags that should lower a lead's priority.
 
 Multiple competing claimants means you may not get paid even if successful.
@@ -97,9 +70,6 @@ Owner is incarcerated, which creates access and documentation challenges.
 
 Known scam victims who've been burned before may be very difficult to close.
 
----
-
-[SCENE 9 - SUMMARY AND ACTION ITEMS]
 Let's recap. Use the SPAM method to qualify leads: Surplus, Probability, Accessibility, and Motivation. Create a scoring system to prioritize your work. Focus on high-value, high-probability leads first. Watch for red flags that complicate recovery.
 
 Your action items: Create your lead scoring spreadsheet. Score your current leads using SPAM. Identify your top 10 priority leads. Develop your red flag checklist. Set daily and weekly lead quotas.
@@ -107,14 +77,3 @@ Your action items: Create your lead scoring spreadsheet. Score your current lead
 In the next chapter, we move to Module 3 and learn about the psychology of foreclosure victims, which is essential for your outreach.
 
 See you there.
-
-================================================
-END OF SCRIPT
-================================================
-
-HEYGEN SETTINGS RECOMMENDED:
-- Avatar: Same as previous chapters
-- Background: Office with whiteboard or planning area
-- Add SPAM acronym as animated text
-- Show tier system as visual chart
-- Add scoring example as overlay

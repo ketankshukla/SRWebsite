@@ -1,16 +1,7 @@
-CHAPTER 27: SCALING TO MULTIPLE MARKETS
-Video Script for HeyGen
-Duration: Approximately 9-10 minutes
-================================================
-
-[SCENE 1 - INTRO]
 Welcome back. This is Chapter 27, and we're covering how to scale to multiple markets.
 
 Geographic expansion can dramatically increase your revenue. Let's do it strategically.
 
----
-
-[SCENE 2 - WHEN TO EXPAND]
 Expand when you see these signs of readiness.
 
 You have consistent deal flow in your current market.
@@ -25,9 +16,6 @@ You have capacity for more leads.
 
 If you're still struggling in your first market, don't expand yet. Master one market first.
 
----
-
-[SCENE 3 - SIGNS YOU'RE NOT READY]
 Don't expand if you see these warning signs.
 
 You're still figuring out your process.
@@ -42,9 +30,6 @@ You're not profitable yet.
 
 Expanding too soon spreads you thin and makes all markets suffer.
 
----
-
-[SCENE 4 - MARKET SELECTION CRITERIA]
 Evaluate new markets on these factors.
 
 Volume: Is there high foreclosure activity?
@@ -61,9 +46,6 @@ Process: Is the claims process reasonable?
 
 Score each factor and prioritize markets with the highest total scores.
 
----
-
-[SCENE 5 - EXPANSION STRATEGIES]
 There are three expansion strategies.
 
 Strategy 1 is Concentric Expansion. Expand to nearby counties or states first. Similar regulations and easier logistics, but may have similar competition.
@@ -74,9 +56,6 @@ Strategy 3 is State-by-State. Master one entire state before moving to the next.
 
 Choose the strategy that fits your goals and resources.
 
----
-
-[SCENE 6 - MARKET RESEARCH PROCESS]
 Before entering a new market, research thoroughly.
 
 Identify the surplus funds process. Where are funds held? What forms are required? What's the typical timeline?
@@ -89,18 +68,12 @@ Estimate opportunity. How many foreclosures per month? What are typical surplus 
 
 Build relationships. Identify key contacts at county offices.
 
----
-
-[SCENE 7 - CREATING MARKET PLAYBOOKS]
 Create a playbook for each market you enter.
 
 Include: Market overview and characteristics. Data sources and access methods. Regulatory requirements. Claims process step by step. Key contacts. Typical timeline. Market-specific scripts or approaches.
 
 Your team should be able to work any market using its playbook.
 
----
-
-[SCENE 8 - OPERATIONAL CONSIDERATIONS]
 Consider these operational factors.
 
 Team structure: Will the same team work all markets, or will you have market specialists?
@@ -115,9 +88,6 @@ Tracking: How will you track performance by market?
 
 Plan these details before launching in a new market.
 
----
-
-[SCENE 9 - EXPANSION TIMELINE]
 Here's a typical expansion timeline.
 
 Month 1: Research and planning. Evaluate markets, choose your target, and research thoroughly.
@@ -130,9 +100,6 @@ Month 4 and beyond: Scale and optimize. Increase volume and improve based on res
 
 Don't rush. A methodical approach produces better results.
 
----
-
-[SCENE 10 - SUMMARY AND ACTION ITEMS]
 Let's recap. Expand only when current operations are stable. Select markets carefully using objective criteria. Create playbooks for each market. Adapt operations for different requirements. Track performance by market.
 
 Your action items: Assess your readiness for expansion. Research 3 to 5 potential markets. Score markets using your evaluation criteria. Create a market playbook template. Plan your expansion timeline.
@@ -140,14 +107,3 @@ Your action items: Assess your readiness for expansion. Research 3 to 5 potentia
 In the next chapter, we start Module 8 on advanced strategies, beginning with strategic partnerships.
 
 See you there.
-
-================================================
-END OF SCRIPT
-================================================
-
-HEYGEN SETTINGS RECOMMENDED:
-- Avatar: Same as previous chapters
-- Background: Map or geographic visual
-- Add market evaluation criteria as checklist
-- Show expansion strategies as comparison
-- Display timeline as visual roadmap

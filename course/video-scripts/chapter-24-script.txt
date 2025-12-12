@@ -1,16 +1,7 @@
-CHAPTER 24: HIRING AND MANAGING CALLERS
-Video Script for HeyGen
-Duration: Approximately 9-10 minutes
-================================================
-
-[SCENE 1 - INTRO]
 Welcome back. This is Chapter 24, and we're covering how to hire and manage callers.
 
 Your calling team is the engine of your outreach. Let's build it right.
 
----
-
-[SCENE 2 - TYPES OF CALLERS]
 There are three types of callers you might hire.
 
 Cold Callers make initial contact and qualify interest. They need resilience and the ability to follow scripts.
@@ -21,9 +12,6 @@ Closers convert qualified leads into signed clients. They need objection handlin
 
 Most businesses start with cold callers or appointment setters, with you handling the closing.
 
----
-
-[SCENE 3 - CALLING MODELS]
 Choose the calling model that fits your situation.
 
 Model 1: You Close Everything. The caller qualifies and transfers to you. You close. Best for starting out and high-value leads.
@@ -34,9 +22,6 @@ Model 3: Full Sales Team. The caller qualifies. A closer closes. You oversee. Be
 
 Start with Model 1 or 2, then evolve to Model 3 as you grow.
 
----
-
-[SCENE 4 - WHERE TO FIND CALLERS]
 Find callers through these channels.
 
 OnlineJobs.ph for Filipino callers at $5 to $10 per hour.
@@ -51,9 +36,6 @@ Call center agencies if you want a managed solution.
 
 Filipino callers often provide the best value for cold calling roles.
 
----
-
-[SCENE 5 - THE HIRING PROCESS]
 Follow this hiring process.
 
 Create a detailed job posting with responsibilities, requirements, hours, and compensation.
@@ -70,9 +52,6 @@ Hire the best performer.
 
 The voice test and paid trial are critical. Don't skip them.
 
----
-
-[SCENE 6 - TRAINING CURRICULUM]
 Train your callers thoroughly.
 
 Day 1: Company overview and what surplus funds are.
@@ -89,9 +68,6 @@ Week 2: Monitored independence with daily feedback.
 
 Don't rush training. A well-trained caller produces far better results.
 
----
-
-[SCENE 7 - PERFORMANCE MANAGEMENT]
 Track these metrics for each caller.
 
 Calls per hour: Target 15 to 25 dials.
@@ -106,9 +82,6 @@ Close rate on their leads: Track how their leads convert.
 
 Review metrics weekly. Identify what's working and what needs improvement.
 
----
-
-[SCENE 8 - COMPENSATION STRUCTURES]
 Here are two compensation models.
 
 Base Plus Commission: Base of $10 per hour. Plus $10 per qualified transfer. Plus $50 to $100 per signed deal.
@@ -117,9 +90,6 @@ Hourly Plus Bonus: $12 per hour. Weekly bonus of $100 for hitting targets. Month
 
 Align incentives with results. Pay for what you want more of.
 
----
-
-[SCENE 9 - COMMON PROBLEMS AND SOLUTIONS]
 Address these common issues.
 
 Low contact rates: Check data quality and calling times.
@@ -134,9 +104,6 @@ Script deviation: Reinforce training and monitor calls.
 
 Most problems are solved with better training, clearer expectations, or improved systems.
 
----
-
-[SCENE 10 - SUMMARY AND ACTION ITEMS]
 Let's recap. Choose the right calling model for your stage. Hire carefully with voice tests and trials. Train thoroughly before independent calling. Track metrics and provide regular feedback. Compensate fairly with performance incentives.
 
 Your action items: Decide on your calling model. Create your caller job posting. Build your training curriculum. Set up call tracking and metrics. Design your compensation structure.
@@ -144,14 +111,3 @@ Your action items: Decide on your calling model. Create your caller job posting.
 In the next chapter, we'll dive deeper into commission structures and compensation.
 
 See you there.
-
-================================================
-END OF SCRIPT
-================================================
-
-HEYGEN SETTINGS RECOMMENDED:
-- Avatar: Same as previous chapters
-- Background: Call center or office with phones
-- Add calling models as visual comparison
-- Show metrics targets as dashboard
-- Display compensation examples as tables

@@ -1,18 +1,9 @@
-CHAPTER 23: THE OWNER-OPERATOR MODEL
-Video Script for HeyGen
-Duration: Approximately 9-10 minutes
-================================================
-
-[SCENE 1 - INTRO]
 Welcome to Module 7 of the Surplus Funds Recovery Mastery Course. This is Chapter 23, and we're exploring the owner-operator model.
 
 This is how you build a business you can step back from while maintaining quality and profitability.
 
 Let's dive in.
 
----
-
-[SCENE 2 - UNDERSTANDING THE MODEL]
 Let me show you the difference between the traditional model and the owner-operator model.
 
 In the traditional model, you do everything. You research, you do outreach, you close, you file claims, and you get paid. You're trading time for money.
@@ -21,9 +12,6 @@ In the owner-operator model, you supervise. Your team does the research, outreac
 
 The goal is to transition from doing the work to managing the work.
 
----
-
-[SCENE 3 - THE ORGANIZATIONAL STRUCTURE]
 Here's what the organizational structure looks like.
 
 You're at the top as the owner.
@@ -38,9 +26,6 @@ And you may have Closers, which might be you initially or dedicated closers late
 
 You don't need all of this on day one. Build it gradually.
 
----
-
-[SCENE 4 - BUILDING IN PHASES]
 Let me walk you through the phases of building your team.
 
 Phase 1 is Foundation, months 1 through 3. It's you plus one research VA. Investment is about $500 to $800 per month. Capacity is 50 to 100 leads per month.
@@ -51,9 +36,6 @@ Phase 3 is Scale, months 7 through 12. It's you plus a full team. Investment is 
 
 Phase 4 is Freedom, year 2 and beyond. You're a true owner-operator. Investment is $10,000 or more per month. Capacity is unlimited.
 
----
-
-[SCENE 5 - THE ECONOMICS]
 Let's look at the economics at different scales.
 
 At 2 deals per month with $15,000 revenue and $2,000 team cost, your net profit is $12,000.
@@ -66,9 +48,6 @@ At 20 deals per month with $150,000 revenue and $30,000 team cost, your net prof
 
 This assumes an average fee of $7,500 per deal. The leverage of a team dramatically increases your earning potential.
 
----
-
-[SCENE 6 - YOUR ROLE AS OWNER-OPERATOR]
 As an owner-operator, your role shifts to high-value activities.
 
 You focus on closing deals, which is the highest-value activity.
@@ -83,9 +62,6 @@ You build relationships with key partners and clients.
 
 You're working on the business, not just in the business.
 
----
-
-[SCENE 7 - KEY PERFORMANCE INDICATORS]
 Track these KPIs to manage your business effectively.
 
 Leads researched: Target 200 or more per week.
@@ -100,9 +76,6 @@ Profit margin: Target 60% or higher.
 
 Review these weekly and monthly. They tell you where to focus improvement efforts.
 
----
-
-[SCENE 8 - ESSENTIAL SYSTEMS]
 You need these systems to operate effectively.
 
 Lead management system: Your CRM tracking every lead through the pipeline.
@@ -117,9 +90,6 @@ Financial system: How you track revenue, expenses, and profitability.
 
 Document everything. Systems enable scaling.
 
----
-
-[SCENE 9 - SUMMARY AND ACTION ITEMS]
 Let's recap. The owner-operator model lets you supervise rather than do. Build your team gradually in phases. Create systems before hiring. Track KPIs to manage effectively. Your role shifts to high-value activities.
 
 Your action items: Define your ideal owner-operator role. Calculate economics for your target scale. Document your current processes. Create a management dashboard. Plan your team-building phases.
@@ -127,14 +97,3 @@ Your action items: Define your ideal owner-operator role. Calculate economics fo
 In the next chapter, we'll cover hiring and managing callers.
 
 See you there.
-
-================================================
-END OF SCRIPT
-================================================
-
-HEYGEN SETTINGS RECOMMENDED:
-- Avatar: Same as previous, confident business owner vibe
-- Background: Executive office or modern workspace
-- Add org chart as visual graphic
-- Show phase progression as timeline
-- Display economics table as animated overlay

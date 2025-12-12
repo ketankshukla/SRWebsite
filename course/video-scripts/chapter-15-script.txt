@@ -1,18 +1,9 @@
-CHAPTER 15: COMPETITION AND DIY OBJECTIONS
-Video Script for HeyGen
-Duration: Approximately 7-8 minutes
-================================================
-
-[SCENE 1 - INTRO]
 Welcome back. This is Chapter 15, the final chapter in our objection handling module.
 
 Today we're covering competition and DIY objections. These come up when someone thinks they have other options.
 
 Let's handle them with confidence.
 
----
-
-[SCENE 2 - I CAN DO THIS MYSELF]
 "I can do this myself" is common. Here's how to handle it.
 
 Acknowledge: "You absolutely can. This is public information, and anyone can file a claim."
@@ -23,9 +14,6 @@ Offer perspective: "Most people who try to do this themselves either give up par
 
 Leave the door open: "If you'd like to try yourself first, I completely understand. Just know that I'm here if you need help later."
 
----
-
-[SCENE 3 - WHY SHOULD I PAY YOU]
 "Why should I pay you when I can do it for free?"
 
 Reframe: "Great question. You're not paying for information. You're paying for execution and expertise."
@@ -34,9 +22,6 @@ Explain value: "Think about taxes. You could do them yourself for free, but many
 
 Add: "My fee covers all the research, paperwork, filing, and follow-up. You sign a few documents, and I handle everything else. For most people, that's worth the fee."
 
----
-
-[SCENE 4 - SOMEONE ELSE ALREADY CONTACTED ME]
 "Someone else already contacted me about this."
 
 Stay calm. This happens.
@@ -49,9 +34,6 @@ If yes: "I understand. If for any reason that doesn't work out, please keep my i
 
 Never badmouth competitors. It makes you look unprofessional.
 
----
-
-[SCENE 5 - YOUR COMPETITOR CHARGES LESS]
 "I found someone who charges less."
 
 Acknowledge: "There are definitely companies that charge less."
@@ -60,9 +42,6 @@ Differentiate: "The question is what you're getting for that fee. Some companies
 
 Ask: "What's their success rate? How will they communicate with you? Do they have references you can check? Those factors often matter more than a few percentage points in fee."
 
----
-
-[SCENE 6 - I'LL JUST CALL THE COUNTY]
 "I'll just call the county and figure it out."
 
 Encourage it: "That's actually a great idea. I'd recommend calling [County Office] at [Number]. They can confirm the surplus funds exist."
@@ -73,9 +52,6 @@ Add: "After you verify the funds exist, give me a call if you'd like help with t
 
 This shows confidence and positions you as helpful, not pushy.
 
----
-
-[SCENE 7 - DIFFERENTIATION STRATEGIES]
 Stand out from competitors with these strategies.
 
 Specialize in your area: "I focus specifically on [County/State], so I know exactly how their process works."
@@ -88,9 +64,6 @@ Offer guarantees: "If I don't recover your funds, you pay nothing."
 
 Provide references: "I'm happy to connect you with past clients who can share their experience."
 
----
-
-[SCENE 8 - SUMMARY AND ACTION ITEMS]
 Let's recap. DIY objections are opportunities to demonstrate value. Never badmouth competitors. Differentiate on service, expertise, and results. Encourage verification while positioning yourself as the expert. Stay confident and professional.
 
 Your action items: Prepare your DIY response with specific process details. Research your competitors and their offerings. Develop your differentiation points. Collect references from past clients. Practice competition objection responses.
@@ -98,14 +71,3 @@ Your action items: Prepare your DIY response with specific process details. Rese
 Congratulations on completing Module 4! In the next chapter, we move to Module 5 and learn closing techniques.
 
 See you there.
-
-================================================
-END OF SCRIPT
-================================================
-
-HEYGEN SETTINGS RECOMMENDED:
-- Avatar: Same as previous, confident
-- Background: Professional office
-- Add differentiation strategies as visual list
-- Show comparison points as table
-- Display DIY process steps as graphic

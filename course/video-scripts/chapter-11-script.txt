@@ -1,18 +1,9 @@
-CHAPTER 11: OBJECTION HANDLING GUIDE
-Video Script for HeyGen
-Duration: Approximately 10-12 minutes
-================================================
-
-[SCENE 1 - INTRO]
 Welcome to Module 4 of the Surplus Funds Recovery Mastery Course. This is Chapter 11, and we're diving into objection handling.
 
 Objections are a natural part of the sales process. How you handle them determines whether you close the deal or lose the client.
 
 Let's master this critical skill.
 
----
-
-[SCENE 2 - THE PSYCHOLOGY OF OBJECTIONS]
 First, understand what objections really are.
 
 Objections are not rejections. They're requests for more information or reassurance.
@@ -23,9 +14,6 @@ Most objections come from fear. Fear of being scammed, fear of making a mistake,
 
 Your job is to address the underlying concern, not just the surface objection.
 
----
-
-[SCENE 3 - THE LAER FRAMEWORK]
 I use a framework called LAER to handle objections. It stands for Listen, Acknowledge, Explore, and Respond.
 
 L is for Listen. Let them fully express their concern without interrupting. Really hear what they're saying.
@@ -38,9 +26,6 @@ R is for Respond. Once you understand the real concern, address it directly.
 
 Let me show you how this works in practice.
 
----
-
-[SCENE 4 - TOP OBJECTIONS OVERVIEW]
 Here are the top 10 objections you'll encounter.
 
 Number 1: "This sounds like a scam."
@@ -56,9 +41,6 @@ Number 10: "I don't want to deal with this anymore."
 
 In this chapter, I'll give you responses to each of these. The next few chapters will go deeper into specific categories.
 
----
-
-[SCENE 5 - SCAM OBJECTION]
 Let's start with "This sounds like a scam."
 
 Listen and acknowledge: "I completely understand why you'd think that. There are a lot of scams out there, and you're smart to be cautious."
@@ -67,9 +49,6 @@ Explore: "What specifically concerns you? Is it that you've never heard of surpl
 
 Respond: "Let me give you some ways to verify everything I've told you. First, you can call [County Name] directly at [Number] and ask about surplus funds for your property. Second, I can email you documentation showing the funds exist. Third, you can look up my company online and read reviews. Would any of those help?"
 
----
-
-[SCENE 6 - FEE OBJECTION]
 Next, "Your fee is too high."
 
 Listen and acknowledge: "I hear you. Thirty percent does sound like a lot at first."
@@ -78,9 +57,6 @@ Explore: "Can I ask what you're comparing it to? Have you looked into what's inv
 
 Respond: "Here's how I look at it. Without my help, you'd need to research the process, gather all the documentation, file the claim correctly, and follow up with the county for weeks or months. Most people never complete this process on their own. My fee covers all of that work, and you only pay if I'm successful. Would you rather have 70% of something or 100% of nothing?"
 
----
-
-[SCENE 7 - DO IT MYSELF OBJECTION]
 "I can do this myself."
 
 Listen and acknowledge: "You absolutely can. This is public information, and anyone can file a claim."
@@ -89,9 +65,6 @@ Explore: "Have you looked into what's required? Do you know which forms to file 
 
 Respond: "Here's what I've found. Most people who try to do this themselves either give up because it's confusing, make mistakes that delay or reject their claim, or simply never get around to it. I've done this many times and know exactly what each county requires. But if you'd prefer to try yourself first, I understand. Just know that I'm here if you need help later."
 
----
-
-[SCENE 8 - THINK ABOUT IT OBJECTION]
 "I need to think about it."
 
 Listen and acknowledge: "Of course. This is an important decision, and you should take time to consider it."
@@ -102,9 +75,6 @@ Respond: "I want to make sure you have all the information you need. What questi
 
 The key here is to uncover the real objection hiding behind "I need to think about it."
 
----
-
-[SCENE 9 - SPOUSE OBJECTION]
 "I need to talk to my spouse or family."
 
 Listen and acknowledge: "That makes total sense. This is a decision you should make together."
@@ -115,9 +85,6 @@ Respond: "Would it help if I scheduled a call when you're both available? That w
 
 Try to get on a call with both decision-makers rather than having your prospect try to explain everything secondhand.
 
----
-
-[SCENE 10 - SUMMARY AND ACTION ITEMS]
 Let's recap. Objections are opportunities, not rejections. Use the LAER framework: Listen, Acknowledge, Explore, Respond. Address the underlying concern, not just the surface objection. Stay calm, empathetic, and professional.
 
 Your action items: Memorize the LAER framework. Write out responses to the top 5 objections you expect. Practice these responses until they're natural. Role-play with a friend or colleague. Track which objections you hear most often.
@@ -125,14 +92,3 @@ Your action items: Memorize the LAER framework. Write out responses to the top 5
 In the next chapter, we'll go deeper into trust and credibility objections.
 
 See you there.
-
-================================================
-END OF SCRIPT
-================================================
-
-HEYGEN SETTINGS RECOMMENDED:
-- Avatar: Same as previous, confident and reassuring
-- Background: Professional office setting
-- Add LAER framework as animated text
-- Show objection list as visual
-- Display example dialogues as text overlays

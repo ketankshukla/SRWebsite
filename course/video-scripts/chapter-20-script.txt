@@ -1,16 +1,7 @@
-CHAPTER 20: HIRING VIRTUAL ASSISTANTS
-Video Script for HeyGen
-Duration: Approximately 9-10 minutes
-================================================
-
-[SCENE 1 - INTRO]
 Welcome back. This is Chapter 20, and we're covering how to hire virtual assistants.
 
 Finding the right VA can transform your business. Let's learn how to do it right.
 
----
-
-[SCENE 2 - WHERE TO FIND VAs]
 There are two main sources for virtual assistants: freelance platforms and VA agencies.
 
 Freelance platforms include Upwork, which has experienced VAs at $5 to $25 per hour. OnlineJobs.ph specializes in Filipino VAs at $400 to $800 per month full-time. Fiverr is good for project-based work. And Freelancer offers competitive bidding.
@@ -19,9 +10,6 @@ VA agencies include Belay for US-based premium VAs at $25 to $50 per hour. Time 
 
 For most surplus funds businesses, I recommend starting with OnlineJobs.ph or Upwork.
 
----
-
-[SCENE 3 - DEFINING THE ROLE]
 Before you post a job, define the role clearly.
 
 What specific tasks will they perform? List every task in detail.
@@ -36,9 +24,6 @@ What tools will they use? Your CRM, skip tracing services, communication tools?
 
 The clearer you are, the better candidates you'll attract.
 
----
-
-[SCENE 4 - CREATING THE JOB POSTING]
 Here's a template for your job posting.
 
 Title: Virtual Assistant for Surplus Funds Research
@@ -53,9 +38,6 @@ Compensation: State your range based on experience.
 
 Include a specific instruction in your posting, like "Start your application with the word SURPLUS." This helps you filter out people who don't read carefully.
 
----
-
-[SCENE 5 - SCREENING APPLICATIONS]
 When reviewing applications, look for green flags and red flags.
 
 Green flags include: Personalized response that references your specific job. Answered all your questions. Clear, professional communication. Relevant experience.
@@ -64,9 +46,6 @@ Red flags include: Generic copy-paste responses. Poor English or grammar. Didn't
 
 Filter ruthlessly. You'll get many applications, but only a few will be worth interviewing.
 
----
-
-[SCENE 6 - THE INTERVIEW]
 Interview your top 3 to 5 candidates.
 
 Questions to ask: "Tell me about your previous VA experience." "How do you stay organized with multiple tasks?" "What do you do when you're stuck on a task?" "What's your internet speed and backup plan if it goes down?" "Why are you interested in this role?"
@@ -75,9 +54,6 @@ Evaluate: Communication clarity. Problem-solving ability. Reliability indicators
 
 Trust your instincts. If something feels off, move on.
 
----
-
-[SCENE 7 - THE TEST PROJECT]
 Before hiring, give a small paid test project.
 
 Pay for 1 to 3 hours of work on a real task.
@@ -86,9 +62,6 @@ Evaluate: Quality of work. Communication during the project. Ability to follow i
 
 This is the best predictor of future performance. Don't skip it.
 
----
-
-[SCENE 8 - COMPENSATION GUIDELINES]
 Here are typical rates for different roles.
 
 General VA: $4 to $8 per hour offshore, $15 to $25 per hour US-based.
@@ -101,9 +74,6 @@ Specialized roles: $8 to $15 per hour offshore, $25 to $50 per hour US-based.
 
 Pay fairly. Good VAs are worth the investment.
 
----
-
-[SCENE 9 - ONBOARDING CHECKLIST]
 Set your new VA up for success with proper onboarding.
 
 Welcome call or video to introduce yourself and the business.
@@ -120,9 +90,6 @@ Check-in schedule established for regular communication.
 
 The first two weeks are critical. Invest time in onboarding.
 
----
-
-[SCENE 10 - SUMMARY AND ACTION ITEMS]
 Let's recap. Multiple platforms exist for finding VAs. Define the role clearly before posting. Screen carefully and always test before hiring. Pay fair rates for quality work. Onboard thoroughly for success.
 
 Your action items: Define your first VA role in detail. Write your job posting. Create a test project. Prepare onboarding materials. Post and start reviewing applications.
@@ -130,14 +97,3 @@ Your action items: Define your first VA role in detail. Write your job posting. 
 In the next chapter, we'll cover how to train your VA team.
 
 See you there.
-
-================================================
-END OF SCRIPT
-================================================
-
-HEYGEN SETTINGS RECOMMENDED:
-- Avatar: Same as previous chapters
-- Background: Home office setting
-- Add platform comparison as table
-- Show job posting template as text overlay
-- Display compensation ranges as visual chart

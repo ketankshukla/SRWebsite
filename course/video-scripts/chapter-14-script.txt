@@ -1,16 +1,7 @@
-CHAPTER 14: TIMING AND PROCESS OBJECTIONS
-Video Script for HeyGen
-Duration: Approximately 7-8 minutes
-================================================
-
-[SCENE 1 - INTRO]
 Welcome back. This is Chapter 14, and we're covering timing and process objections.
 
 "I need to think about it" and "I don't have time" are stall tactics that can kill deals. Let's learn how to handle them effectively.
 
----
-
-[SCENE 2 - WHY PEOPLE DELAY]
 People delay for several reasons.
 
 Fear of making a wrong decision. They're worried about getting scammed or making a mistake.
@@ -23,9 +14,6 @@ Lack of urgency. They don't realize there may be deadlines.
 
 Your job is to understand the real reason and address it appropriately.
 
----
-
-[SCENE 3 - I NEED TO THINK ABOUT IT]
 "I need to think about it" is rarely the real objection.
 
 Acknowledge: "Of course. This is an important decision."
@@ -36,9 +24,6 @@ Listen carefully to their answer. That's the real objection.
 
 If they can't articulate it: "Sometimes when people say they need to think about it, there's a specific concern they haven't mentioned. Is there anything holding you back that I can address?"
 
----
-
-[SCENE 4 - I DON'T HAVE TIME]
 "I don't have time for this right now."
 
 Acknowledge: "I completely understand. Life is busy."
@@ -47,9 +32,6 @@ Minimize the effort: "Here's the good news. This requires very little of your ti
 
 Create convenience: "I can send the documents electronically, and you can sign from your phone. Would that work?"
 
----
-
-[SCENE 5 - CALL ME BACK LATER]
 "Call me back in a few weeks or months."
 
 Acknowledge: "Sure, I can do that."
@@ -60,9 +42,6 @@ If it's legitimate, schedule a specific callback: "No problem. Let's set a speci
 
 If it's a stall: "I understand. Just so you know, there may be deadlines for claiming these funds. I'd hate for you to miss out because we waited too long. Can we at least get the paperwork started now?"
 
----
-
-[SCENE 6 - CREATING APPROPRIATE URGENCY]
 Create urgency without being manipulative.
 
 Legitimate urgency factors include: Escheatment deadlines when funds go to the state. Other potential claimants who might file first. Your availability if you have limited capacity.
@@ -71,9 +50,6 @@ How to communicate urgency: "I want to make sure you're aware that [State] has a
 
 Never create false urgency. It's unethical and damages trust.
 
----
-
-[SCENE 7 - HOW LONG DOES THIS TAKE]
 "How long does the process take?"
 
 Be honest and specific: "The timeline varies by county, but typically it takes [X to Y] weeks from signing to receiving your funds."
@@ -82,9 +58,6 @@ Break it down: "Here's how it works. First, I gather your documents, which takes
 
 Set expectations: "I'll keep you updated throughout the process. You'll always know where we stand."
 
----
-
-[SCENE 8 - WHAT DO I NEED TO DO]
 "What do I need to provide?"
 
 Make it simple: "Very little, actually. I need a copy of your ID, a document proving your identity like a Social Security card, and your signature on the claim forms. That's it."
@@ -93,9 +66,6 @@ Offer help: "I'll send you a checklist of exactly what's needed. Most people gat
 
 Remove friction: "I can accept photos of documents by email or text. You don't need to mail anything or visit an office."
 
----
-
-[SCENE 9 - SUMMARY AND ACTION ITEMS]
 Let's recap. Timing objections usually hide other concerns. Explore to find the real objection. Minimize the effort required from them. Create legitimate urgency when appropriate. Set clear expectations about the process and timeline.
 
 Your action items: Prepare responses to "I need to think about it." Create a simple document checklist for clients. Know the escheatment deadlines in your target states. Practice exploring hidden objections. Develop your timeline explanation.
@@ -103,14 +73,3 @@ Your action items: Prepare responses to "I need to think about it." Create a sim
 In the next chapter, we'll handle competition and DIY objections.
 
 See you there.
-
-================================================
-END OF SCRIPT
-================================================
-
-HEYGEN SETTINGS RECOMMENDED:
-- Avatar: Same as previous chapters
-- Background: Professional office
-- Add timeline visual showing process steps
-- Show document checklist as graphic
-- Display urgency factors as bullet points

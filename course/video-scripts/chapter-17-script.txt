@@ -1,16 +1,7 @@
-CHAPTER 17: CONTRACTS AND LEGAL DOCUMENTS
-Video Script for HeyGen
-Duration: Approximately 8-10 minutes
-================================================
-
-[SCENE 1 - INTRO]
 Welcome back. This is Chapter 17, and we're covering contracts and legal documents.
 
 Proper documentation protects both you and your clients. Let's make sure you have everything you need.
 
----
-
-[SCENE 2 - ESSENTIAL DOCUMENTS]
 There are four essential documents you need for every client.
 
 Document one is the Service Agreement or Retainer. This is your primary contract that outlines your relationship.
@@ -23,9 +14,6 @@ Document four is the Information Release. This allows you to obtain necessary re
 
 Let's go through each one.
 
----
-
-[SCENE 3 - SERVICE AGREEMENT]
 Your Service Agreement must include several key elements.
 
 Your company information: name, address, phone, email.
@@ -46,18 +34,12 @@ Signatures and date from both parties.
 
 Have an attorney review your service agreement before using it.
 
----
-
-[SCENE 4 - AUTHORIZATION TO ACT]
 The Authorization to Act is critical. Without it, counties won't talk to you.
 
 It must include: The client's full legal name. The property address. Specific authorization language granting you permission to act. The scope of your authority. The duration of the authorization. And notarization if required by your state.
 
 Some counties have their own authorization forms. Check with each county you work with.
 
----
-
-[SCENE 5 - SAMPLE CONTRACT PROVISIONS]
 Let me share some sample contract language.
 
 For your fee clause: "Client agrees to pay Company a contingency fee equal to thirty percent of all surplus funds recovered. This fee is due and payable upon successful recovery of funds. If no funds are recovered, Client owes nothing."
@@ -66,9 +48,6 @@ For your scope of services: "Company agrees to research and verify surplus funds
 
 For cancellation: "Client may cancel this agreement within three business days of signing without penalty. After this period, Client may cancel but agrees to pay Company for work performed at a rate of $150 per hour, not to exceed the contingency fee amount."
 
----
-
-[SCENE 6 - ELECTRONIC SIGNATURES]
 Electronic signatures are legal and convenient. Here are recommended tools.
 
 DocuSign costs $10 to $40 per month and is the industry standard with full features.
@@ -81,9 +60,6 @@ SignNow costs $8 to $15 per month and is a good budget option.
 
 All of these create legally binding signatures and provide audit trails.
 
----
-
-[SCENE 7 - DOCUMENT SECURITY]
 Protect your clients' sensitive information.
 
 Store documents securely using encrypted cloud storage like Google Drive or Dropbox with security features enabled.
@@ -96,9 +72,6 @@ Retain records for the required period, typically 7 years for financial document
 
 Have a data breach response plan in case something goes wrong.
 
----
-
-[SCENE 8 - COMMON CONTRACT MISTAKES]
 Avoid these common mistakes.
 
 Using generic templates without legal review. Every state has different requirements.
@@ -113,9 +86,6 @@ Missing signatures or dates, which can invalidate the contract.
 
 Not providing copies to clients, which is both a legal requirement and good practice.
 
----
-
-[SCENE 9 - SUMMARY AND ACTION ITEMS]
 Let's recap. Use proper contracts for every client. Include all required provisions. Have documents reviewed by an attorney. Use electronic signatures for convenience. Secure and retain all documents properly.
 
 Your action items: Have an attorney create or review your contracts. Set up an electronic signature system. Create a secure document storage system. Develop a document checklist for each client. Practice explaining contracts to clients.
@@ -123,14 +93,3 @@ Your action items: Have an attorney create or review your contracts. Set up an e
 In the next chapter, we'll walk through the complete claims process.
 
 See you there.
-
-================================================
-END OF SCRIPT
-================================================
-
-HEYGEN SETTINGS RECOMMENDED:
-- Avatar: Same as previous chapters
-- Background: Professional office with documents visible
-- Add document list as visual checklist
-- Show sample contract language as text overlay
-- Display e-signature tool comparison as table

@@ -1,16 +1,7 @@
-CHAPTER 22: TOOLS AND SOFTWARE FOR AUTOMATION
-Video Script for HeyGen
-Duration: Approximately 8-10 minutes
-================================================
-
-[SCENE 1 - INTRO]
 Welcome back. This is Chapter 22, and we're covering the tools and software that will power your business.
 
 The right technology stack saves time, reduces errors, and enables scaling. Let's build yours.
 
----
-
-[SCENE 2 - CORE TECHNOLOGY STACK]
 Your core technology stack has six categories.
 
 CRM for lead and client management.
@@ -27,9 +18,6 @@ Automation for connecting everything together.
 
 Let's go through each category.
 
----
-
-[SCENE 3 - CRM OPTIONS]
 Your CRM is the foundation of your business. Here are three good options.
 
 HubSpot CRM has a robust free tier, is easy to use, and has great reporting. It can get expensive at scale, but the free version works well for most.
@@ -40,9 +28,6 @@ Podio is free to $24 per month. It's highly customizable and good for workflows,
 
 For most people starting out, I recommend HubSpot's free CRM.
 
----
-
-[SCENE 4 - COMMUNICATION TOOLS]
 For team communication, Slack is the standard. It's free for small teams and keeps conversations organized.
 
 For video calls, Zoom or Google Meet both work well for team meetings and client calls.
@@ -51,9 +36,6 @@ For client communication, email is still primary. Use a professional email addre
 
 For phone, we'll cover that in the calling section.
 
----
-
-[SCENE 5 - PHONE SYSTEMS]
 Your phone system matters for outreach.
 
 Google Voice is free and great for starting out. It gives you a separate business number.
@@ -66,9 +48,6 @@ Mojo Dialer costs $99 to $149 per month. It's another power dialing option popul
 
 Start with Google Voice or OpenPhone. Upgrade to a dialer when you're making 50 or more calls per day.
 
----
-
-[SCENE 6 - SKIP TRACING AND RESEARCH]
 For skip tracing, BatchSkipTracing is popular and costs about 10 to 15 cents per record.
 
 Skip Genie is another option at 15 to 20 cents per record.
@@ -77,9 +56,6 @@ For property research, PropertyRadar costs $99 per month and provides comprehens
 
 For document signing, DocuSign costs $10 to $40 per month. HelloSign is a more affordable option at $15 to $25 per month.
 
----
-
-[SCENE 7 - BUDGET TOOL STACKS]
 Let me give you two budget options.
 
 The Starter Stack costs under $50 per month. Use HubSpot CRM for free. Google Voice for free. Google Drive for free. BatchSkipTracing for about $30 based on usage. And HelloSign for $15. Total is around $45 per month.
@@ -88,18 +64,12 @@ The Growth Stack costs $200 to $250 per month. Use Pipedrive for $15. OpenPhone 
 
 Start lean and add tools as your revenue grows.
 
----
-
-[SCENE 8 - AUTOMATION IDEAS]
 Use Zapier or Make to connect your tools and automate workflows.
 
 Example automations: When a new lead is added to your CRM, automatically send a welcome email. When a contract is signed, create a task in your project manager. When a claim is approved, send a notification to you and the client. When you get a new voicemail, create a follow-up task.
 
 Automation eliminates manual work and ensures nothing falls through the cracks.
 
----
-
-[SCENE 9 - SUMMARY AND ACTION ITEMS]
 Let's recap. Build your tech stack gradually. Start with free or cheap tools. Your CRM is the foundation. Integrate tools to avoid duplicate work. Automate repetitive tasks.
 
 Your action items: Choose and set up your CRM. Set up your phone system. Select a skip tracing service. Create your first automation. Document your tool stack for your team.
@@ -107,14 +77,3 @@ Your action items: Choose and set up your CRM. Set up your phone system. Select 
 In the next chapter, we start Module 7 on scaling and cover the owner-operator model.
 
 See you there.
-
-================================================
-END OF SCRIPT
-================================================
-
-HEYGEN SETTINGS RECOMMENDED:
-- Avatar: Same as previous chapters
-- Background: Modern office with tech/screens
-- Add tool comparison tables as overlays
-- Show budget stacks as visual breakdowns
-- Display automation examples as flowcharts

@@ -1,18 +1,9 @@
-CHAPTER 4: FINDING FORECLOSURE SURPLUS FUNDS
-Video Script for HeyGen
-Duration: Approximately 8-10 minutes
-================================================
-
-[SCENE 1 - INTRO]
 Welcome to Module 2 of the Surplus Funds Recovery Mastery Course. This is Chapter 4, and we're diving into one of the most important skills you'll develop: finding foreclosure surplus funds.
 
 By the end of this video, you'll know exactly where to look and how to research surplus funds in any county.
 
 Let's get into it.
 
----
-
-[SCENE 2 - PRIMARY DATA SOURCES]
 There are four primary sources where you'll find surplus funds information.
 
 First is the County Clerk or Recorder's Office. This is where foreclosure sales are recorded. You can find sale prices, original loan amounts, and property details.
@@ -23,9 +14,6 @@ Third is the Sheriff's Office. In many states, the sheriff conducts foreclosure 
 
 Fourth is the Court Records system. Judicial foreclosures go through the courts. You can find case details, sale confirmations, and surplus amounts.
 
----
-
-[SCENE 3 - FREE ONLINE RESOURCES]
 Let me share some free online resources you can use.
 
 County websites often have searchable databases for property records, foreclosure listings, and unclaimed funds lists.
@@ -36,9 +24,6 @@ Court record systems like PACER for federal courts and state court websites prov
 
 And public records aggregators like county GIS systems and property appraiser websites can help you research property details.
 
----
-
-[SCENE 4 - PAID RESEARCH TOOLS]
 For more efficiency, consider these paid tools.
 
 PropertyRadar costs about $99 per month and provides foreclosure data, property details, and owner information all in one place.
@@ -51,9 +36,6 @@ And DataTree from First American offers title and property information.
 
 These tools save time but aren't required when starting out. You can absolutely start with free resources.
 
----
-
-[SCENE 5 - THE RESEARCH PROCESS]
 Here's my step-by-step research process.
 
 Step 1: Identify recent foreclosure sales in your target county. Look for sales from the past 30 to 90 days.
@@ -70,9 +52,6 @@ Step 6: Identify the claimant. Determine who owned the property at the time of f
 
 Step 7: Add to your lead list with all relevant details.
 
----
-
-[SCENE 6 - CALCULATING SURPLUS]
 Let me show you how to calculate surplus funds.
 
 Start with the auction sale price. Let's say it's $285,000.
@@ -91,9 +70,6 @@ $285,000 minus $230,000 equals $55,000 in surplus funds.
 
 That $55,000 belongs to the former homeowner, and that's the opportunity.
 
----
-
-[SCENE 7 - RED FLAGS TO WATCH FOR]
 Not every surplus is worth pursuing. Watch for these red flags.
 
 Very small amounts under $1,000 may not be worth the effort given your time investment.
@@ -110,9 +86,6 @@ And already claimed funds are obviously not available.
 
 Always verify the surplus is actually available before investing significant time.
 
----
-
-[SCENE 8 - ORGANIZING YOUR RESEARCH]
 Organization is critical. Here's how to set up your system.
 
 Create a spreadsheet or CRM with these fields: Property address, sale date, sale price, surplus amount, owner name, contact status, and notes.
@@ -123,9 +96,6 @@ Prioritize by surplus amount. Focus on larger amounts first for better return on
 
 Update regularly as you gather more information and make contact attempts.
 
----
-
-[SCENE 9 - SUMMARY AND ACTION ITEMS]
 Let's recap. Surplus funds information is available from county offices, courts, and online databases. Start with free resources and add paid tools as you grow. Follow a systematic research process. Calculate surplus carefully and verify before pursuing. Watch for red flags that complicate claims. And stay organized with a tracking system.
 
 Your action items: Identify 3 to 5 target counties. Research where surplus funds records are kept in each county. Set up your tracking spreadsheet or CRM. Research your first 10 properties. Calculate surplus amounts and verify availability.
@@ -133,14 +103,3 @@ Your action items: Identify 3 to 5 target counties. Research where surplus funds
 In the next chapter, we'll cover skip tracing, which is how you find and locate the former homeowners.
 
 See you there.
-
-================================================
-END OF SCRIPT
-================================================
-
-HEYGEN SETTINGS RECOMMENDED:
-- Avatar: Same as previous chapters
-- Background: Office with computer screens
-- Add surplus calculation as animated text overlay
-- Show example spreadsheet layout
-- Add icons for each data source

@@ -1,25 +1,13 @@
-CHAPTER 21: TRAINING YOUR VA TEAM
-Video Script for HeyGen
-Duration: Approximately 8-10 minutes
-================================================
-
-[SCENE 1 - INTRO]
 Welcome back. This is Chapter 21, and we're covering how to train your VA team.
 
 Good training is the difference between a VA who struggles and one who excels. Let's set your team up for success.
 
----
-
-[SCENE 2 - CREATING SOPs]
 SOP stands for Standard Operating Procedure. These are step-by-step instructions that enable anyone to perform a task consistently.
 
 A good SOP includes: The purpose of the task and why it matters. When to perform the task. Tools needed. Step-by-step instructions with screenshots. A quality checklist. Common mistakes to avoid. And who to contact with questions.
 
 Document everything. If you do a task more than once, it should have an SOP.
 
----
-
-[SCENE 3 - SOP TEMPLATE]
 Here's a simple SOP template you can use.
 
 Start with the task name as the title.
@@ -38,9 +26,6 @@ Common mistakes section: Describe errors to avoid and how to prevent them.
 
 Questions section: Provide contact information for help.
 
----
-
-[SCENE 4 - TRAINING DELIVERY METHODS]
 Use multiple methods to train effectively.
 
 Written SOPs are best for reference material. Use Google Docs or Notion.
@@ -53,9 +38,6 @@ Practice exercises are best for skill verification. Create sample tasks they can
 
 Combine all four methods for comprehensive training.
 
----
-
-[SCENE 5 - TRAINING SCHEDULE]
 Here's a recommended training schedule.
 
 Week 1 is Foundation. Days 1 and 2 cover company overview, role explanation, and tool setup. Days 3 and 4 cover core task training with SOPs and videos. Day 5 includes practice exercises and assessment.
@@ -64,9 +46,6 @@ Week 2 is Supervised Practice. Assign real tasks with daily review. Have daily c
 
 Weeks 3 and 4 are Increasing Independence. Assign more tasks with less supervision. Move to weekly review meetings. Address issues as they arise.
 
----
-
-[SCENE 6 - QUALITY CONTROL]
 Quality control ensures work meets your standards.
 
 For research tasks, spot-check 10 to 20 percent of entries for accuracy.
@@ -77,9 +56,6 @@ For admin tasks, review completed documents before they go out.
 
 Catch errors early. It's easier to correct habits in the first few weeks than after months of doing it wrong.
 
----
-
-[SCENE 7 - THE FEEDBACK FRAMEWORK]
 Use the SBI framework for giving feedback.
 
 S is for Situation. When and where did this happen?
@@ -92,9 +68,6 @@ Here's an example: "Yesterday when you were skip tracing, you used results with 
 
 Be specific, not vague. Focus on behavior, not personality.
 
----
-
-[SCENE 8 - CONTINUOUS IMPROVEMENT]
 Training doesn't stop after onboarding.
 
 Hold weekly one-on-ones to discuss performance and challenges.
@@ -107,9 +80,6 @@ Provide growth opportunities as they master current tasks.
 
 Invest in your team's development, and they'll invest in your business.
 
----
-
-[SCENE 9 - SUMMARY AND ACTION ITEMS]
 Let's recap. Create detailed SOPs for every task. Use multiple training methods. Follow a structured training schedule. Implement quality control checks. Provide regular, constructive feedback. Commit to continuous improvement.
 
 Your action items: Create an SOP template. Write SOPs for your top 3 tasks. Record video tutorials for complex processes. Design your training schedule. Set up a quality control system.
@@ -117,14 +87,3 @@ Your action items: Create an SOP template. Write SOPs for your top 3 tasks. Reco
 In the next chapter, we'll cover tools and software for automation.
 
 See you there.
-
-================================================
-END OF SCRIPT
-================================================
-
-HEYGEN SETTINGS RECOMMENDED:
-- Avatar: Same as previous chapters
-- Background: Training or classroom-style setting
-- Add SOP template as visual overlay
-- Show training schedule as timeline
-- Display SBI framework as graphic

@@ -1,16 +1,7 @@
-CHAPTER 13: FEE AND MONEY OBJECTIONS
-Video Script for HeyGen
-Duration: Approximately 8-10 minutes
-================================================
-
-[SCENE 1 - INTRO]
 Welcome back. This is Chapter 13, and we're tackling fee and money objections.
 
 "Your fee is too high" is one of the most common objections you'll hear. Let's learn how to handle it with confidence.
 
----
-
-[SCENE 2 - WHY PEOPLE OBJECT TO FEES]
 First, understand why people object to fees.
 
 Sticker shock is common. Thirty percent sounds like a lot when you first hear it.
@@ -23,9 +14,6 @@ They're comparing to nothing. They didn't know this money existed, so any fee fe
 
 Your job is to reframe the conversation around value, not cost.
 
----
-
-[SCENE 3 - YOUR FEE IS TOO HIGH]
 Let's handle "Your fee is too high" in detail.
 
 Acknowledge: "I understand. Thirty percent does sound significant at first."
@@ -38,9 +26,6 @@ Continue: "So right now, you have zero dollars. If I'm successful, you'll have [
 
 Add the risk reversal: "And remember, if I don't recover anything, you pay nothing. I take all the risk."
 
----
-
-[SCENE 4 - VALUE EQUATION]
 Help them understand the value equation.
 
 Your fee covers: Research to find and verify the funds. Skip tracing to locate them. Outreach to make contact. Documentation gathering. Claim preparation and filing. Follow-up with the county. Problem resolution if issues arise.
@@ -49,9 +34,6 @@ Ask: "If you had to do all of this yourself, how many hours would it take? And w
 
 Most people realize the value when they understand the work involved.
 
----
-
-[SCENE 5 - CAN YOU LOWER YOUR FEE]
 When they ask "Can you lower your fee?"
 
 Option 1, hold firm: "I understand you'd like a lower fee. Unfortunately, [X]% is my standard rate. It reflects the work involved and the risk I take. I only get paid if I'm successful."
@@ -60,18 +42,12 @@ Option 2, negotiate strategically: "I typically charge [X]%, but for larger amou
 
 Only negotiate if it makes business sense. Don't undervalue your service.
 
----
-
-[SCENE 6 - I'LL FIND SOMEONE CHEAPER]
 When they say "I'll find someone cheaper."
 
 Say: "You might find someone who charges less. But I'd encourage you to ask them a few questions. How many claims have they successfully filed? What's their success rate? Will they provide references?"
 
 Add: "In this business, you often get what you pay for. A cheaper service that fails to recover your funds costs you everything. I have a [X]% success rate and references from satisfied clients."
 
----
-
-[SCENE 7 - IT'S NOT WORTH IT FOR THAT AMOUNT]
 When the surplus is smaller and they say "It's not worth the hassle."
 
 Acknowledge: "I understand. [Amount] might not seem life-changing."
@@ -80,9 +56,6 @@ Reframe: "But think about it this way. This is money that's already yours. You'r
 
 Connect it to something tangible: a bill they could pay off, a small vacation, an emergency fund.
 
----
-
-[SCENE 8 - WHAT IF YOU DON'T RECOVER ANYTHING]
 Address the risk concern directly.
 
 Say: "That's a fair question. If I don't recover anything, you owe me nothing. Zero. I take all the risk."
@@ -91,9 +64,6 @@ Explain why: "I only take cases I believe I can win. I've done my research, and 
 
 This removes the risk objection entirely.
 
----
-
-[SCENE 9 - SUMMARY AND ACTION ITEMS]
 Let's recap. Fee objections are really about perceived value. Reframe from cost to value. Explain what your fee covers. Use the risk reversal, they pay nothing if you fail. Don't undervalue your service by negotiating too quickly.
 
 Your action items: Calculate the value of your service in hours and expertise. Prepare your value explanation. Decide your negotiation boundaries. Practice fee objection responses. Create a one-page value summary to send prospects.
@@ -101,14 +71,3 @@ Your action items: Calculate the value of your service in hours and expertise. P
 In the next chapter, we'll handle timing and process objections.
 
 See you there.
-
-================================================
-END OF SCRIPT
-================================================
-
-HEYGEN SETTINGS RECOMMENDED:
-- Avatar: Same as previous, confident about value
-- Background: Professional office
-- Add value equation as visual breakdown
-- Show fee comparison examples
-- Display "what your fee covers" as list

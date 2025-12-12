@@ -1,16 +1,7 @@
-CHAPTER 29: MARKETING AND BRAND BUILDING
-Video Script for HeyGen
-Duration: Approximately 9-10 minutes
-================================================
-
-[SCENE 1 - INTRO]
 Welcome back. This is Chapter 29, and we're covering marketing and brand building.
 
 A strong brand generates inbound leads and builds trust before you ever speak to a prospect. Let's build yours.
 
----
-
-[SCENE 2 - BRAND FOUNDATION]
 Your brand starts with your foundation.
 
 Your mission: Why does your company exist?
@@ -23,9 +14,6 @@ Your voice: How do you communicate?
 
 Write these down. They guide every marketing decision.
 
----
-
-[SCENE 3 - VISUAL IDENTITY]
 Your visual identity includes four elements.
 
 Your logo: Creates recognition. Keep it simple and professional.
@@ -38,9 +26,6 @@ Your imagery: Creates emotional connection. Use images that resonate with your a
 
 Apply these consistently across all materials.
 
----
-
-[SCENE 4 - YOUR ONLINE PRESENCE]
 Your website is your digital home base. It must include:
 
 A home page with a clear value proposition and call to action.
@@ -57,9 +42,6 @@ Testimonials providing social proof.
 
 Make sure your website looks professional and works on mobile devices.
 
----
-
-[SCENE 5 - GOOGLE BUSINESS PROFILE]
 Set up your Google Business Profile. It's free and powerful.
 
 It appears in local searches when people look for surplus funds help.
@@ -72,9 +54,6 @@ It's often the first impression people have of your business.
 
 Claim your profile, complete all information, and actively collect reviews.
 
----
-
-[SCENE 6 - CONTENT MARKETING]
 Content marketing establishes your expertise.
 
 Blog post ideas: "What Are Surplus Funds?" "How to Know If You Have Surplus Funds." "The Surplus Funds Claims Process Explained." "Common Mistakes When Claiming Surplus Funds."
@@ -83,9 +62,6 @@ Video content: Explainer videos. Process walkthroughs. Client testimonials. FAQ 
 
 Create content that answers the questions your prospects are asking.
 
----
-
-[SCENE 7 - REPUTATION MANAGEMENT]
 Your reputation is your most valuable asset.
 
 Build reviews by asking after successful claims, when clients express satisfaction, and at natural relationship milestones.
@@ -94,9 +70,6 @@ Handle negative reviews by responding promptly within 24 hours, thanking them fo
 
 Monitor your online presence regularly. Know what people are saying about you.
 
----
-
-[SCENE 8 - MARKETING BUDGET]
 Here are two budget examples.
 
 Starter budget of $500 per month: Website hosting $50. Content creation $200. Direct mail $250.
@@ -105,9 +78,6 @@ Growth budget of $2,000 per month: Website and SEO $200. Content creation $400. 
 
 Start small, track results, and invest more in what works.
 
----
-
-[SCENE 9 - SUMMARY AND ACTION ITEMS]
 Let's recap. Brand building creates long-term value. A professional online presence increases trust. Content marketing establishes expertise. Reputation management is essential. Start small and scale what works.
 
 Your action items: Define your brand foundation. Build or improve your website. Set up Google Business Profile. Create a content calendar. Develop a review collection process.
@@ -115,14 +85,3 @@ Your action items: Define your brand foundation. Build or improve your website. 
 In the final chapter, we'll cover long-term business sustainability.
 
 See you there.
-
-================================================
-END OF SCRIPT
-================================================
-
-HEYGEN SETTINGS RECOMMENDED:
-- Avatar: Same as previous chapters
-- Background: Modern marketing or creative office
-- Add brand elements as visual examples
-- Show website must-haves as checklist
-- Display budget breakdowns as pie charts

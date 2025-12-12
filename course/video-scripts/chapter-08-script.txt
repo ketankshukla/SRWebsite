@@ -1,18 +1,9 @@
-CHAPTER 8: COLD CALLING SCRIPTS
-Video Script for HeyGen
-Duration: Approximately 10-12 minutes
-================================================
-
-[SCENE 1 - INTRO]
 Welcome back. This is Chapter 8, and we're getting into the practical side of outreach: cold calling scripts.
 
 By the end of this video, you'll have word-for-word scripts you can use to contact homeowners and start conversations that lead to signed clients.
 
 Let's get into it.
 
----
-
-[SCENE 2 - BEFORE YOU CALL]
 Before you pick up the phone, prepare yourself.
 
 Have all the information ready: the person's name, the property address, the approximate surplus amount, and the foreclosure date.
@@ -23,9 +14,6 @@ Be ready for any reaction. They might be excited, skeptical, angry, or confused.
 
 Have your CRM or notes open so you can document the call immediately.
 
----
-
-[SCENE 3 - THE OPENING]
 Your opening sets the tone for the entire call. Here's a direct approach that works well.
 
 "Hi, is this [First Name]? Great. My name is [Your Name], and I'm calling with some good news about a property you used to own at [Address]. Do you have a quick minute?"
@@ -38,9 +26,6 @@ Here's a softer alternative opening.
 
 Both openings are honest, direct, and create curiosity without being pushy.
 
----
-
-[SCENE 4 - THE CORE MESSAGE]
 Once you have their attention, deliver your core message clearly.
 
 "After your property was sold at foreclosure, there was money left over. This is called surplus funds, and it legally belongs to you. Based on my research, there's approximately [Amount] waiting to be claimed."
@@ -51,9 +36,6 @@ If they're skeptical, say: "I completely understand your skepticism. This does s
 
 If they're interested, say: "Great. Let me explain how this works and how I can help you recover this money."
 
----
-
-[SCENE 5 - EXPLAINING YOUR SERVICE]
 When they want to know more, explain your service simply.
 
 "Here's how it works. I specialize in helping people recover surplus funds from foreclosure sales. I handle all the paperwork, deal with the county, and make sure you get your money."
@@ -64,9 +46,6 @@ When they want to know more, explain your service simply.
 
 Keep it simple. Don't overwhelm them with details unless they ask.
 
----
-
-[SCENE 6 - HANDLING INITIAL RESPONSES]
 Let's cover how to handle common initial responses.
 
 If they say "This sounds like a scam," respond with: "I completely understand why you'd think that. There are a lot of scams out there. That's why I'm happy to send you documentation you can verify yourself. I can also give you the county's phone number so you can confirm the funds exist. Would that help?"
@@ -77,27 +56,18 @@ If they say "How did you get my number," respond with: "I found your information
 
 If they say "I'm not interested," respond with: "I understand. Just so you know, this money does belong to you, and there may be a deadline to claim it. If you change your mind, you can reach me at [number]. Have a great day."
 
----
-
-[SCENE 7 - VOICEMAIL SCRIPT]
 Many calls will go to voicemail. Here's an effective voicemail script.
 
 "Hi [First Name], this is [Your Name] calling with some important information about your former property at [Address]. I've found that there may be money owed to you from the foreclosure sale. Please give me a call back at [Your Number]. Again, that's [Your Number]. I look forward to speaking with you."
 
 Keep voicemails short, intriguing, and include your callback number twice.
 
----
-
-[SCENE 8 - FOLLOW-UP CALLS]
 Most people won't answer or respond on the first attempt. Here's a follow-up script.
 
 "Hi [First Name], this is [Your Name] again. I left you a message last week about surplus funds from your former property at [Address]. I wanted to make sure you received that information. There's approximately [Amount] that belongs to you, and I'd love to help you recover it. Please call me back at [Number] when you have a chance."
 
 Plan for 5 to 7 contact attempts over 2 to 3 weeks before moving a lead to lower priority.
 
----
-
-[SCENE 9 - CALL METRICS]
 Track these metrics to improve your calling.
 
 Calls per hour: Aim for 15 to 25 dials per hour.
@@ -110,9 +80,6 @@ Appointment or sign rate: The percentage of conversations that lead to next step
 
 Track these numbers weekly and look for ways to improve.
 
----
-
-[SCENE 10 - SUMMARY AND ACTION ITEMS]
 Let's recap. Prepare before every call with all relevant information. Use a clear, honest opening that creates curiosity. Deliver your core message simply and pause for their reaction. Handle objections with empathy and offer verification. Leave effective voicemails and follow up persistently. Track your metrics and improve over time.
 
 Your action items: Write out your personalized opening script. Practice your core message until it's natural. Prepare responses for the top 5 objections. Set up your call tracking system. Make your first 20 calls this week.
@@ -120,14 +87,3 @@ Your action items: Write out your personalized opening script. Practice your cor
 In the next chapter, we'll cover direct mail campaigns as another powerful outreach method.
 
 See you there.
-
-================================================
-END OF SCRIPT
-================================================
-
-HEYGEN SETTINGS RECOMMENDED:
-- Avatar: Same as previous, confident but friendly
-- Background: Professional office with phone visible
-- Add script text as overlays during key sections
-- Show metrics targets as visual chart
-- Consider split-screen showing "what to say"
