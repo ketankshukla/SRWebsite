@@ -459,9 +459,9 @@ Created comprehensive video content for the "Destroy Your Beliefs" book:
 
 3. **Video Overlay Updates**
    - Badge text changed from "Watch This First" to "WATCH THIS VIDEO FIRST"
-   - Play button hidden on mobile (tap anywhere to play)
+   - Play button hidden on both mobile and desktop (tap/click anywhere to play)
    - SR logo reduced from 80×80px to 50×50px on mobile
    - Floating icons removed completely (both mobile and desktop)
    - Pulse rings removed completely (both mobile and desktop)
    - Subtitle text removed completely (both mobile and desktop)
-   - Logo and orange banner centered in overlay
+   - Only logo and orange banner remain, centered in overlay
