@@ -46,7 +46,11 @@ Both work together to grow your business.
 
 3. **Unique Value Proposition**: Why choose you
 
-   > "Local expertise, personal service, and a proven track record of successful recoveries."
+   > "Local expertise, personal service, and no fee unless we recover."
+
+   > Only claim a track record once you actually have one you can evidence. A
+   > new business claiming "proven results" is both unsupportable and, under the
+   > FTC's rules on testimonials and endorsements, a real liability.
 
 4. **Brand Voice**: How you communicate
    - Professional but approachable
