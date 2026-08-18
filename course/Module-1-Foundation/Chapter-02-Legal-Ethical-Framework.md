@@ -46,7 +46,7 @@ The Federal Trade Commission has guidelines that apply to surplus recovery servi
 
 - **No specific licensing** required
 - **Standard contract law** applies
-- **No fee caps** (market rate typically 25-35%)
+- **Fee cap of 12%** on surplus assignments (Fla. Stat. § 45.033)
 
 #### Georgia
 

@@ -221,7 +221,7 @@ Team:
 - Possibly closers
 
 **Investment:** $10,000+/month
-**Capacity:** Unlimited
+**Capacity:** Scales with the team you hire
 
 ---
 

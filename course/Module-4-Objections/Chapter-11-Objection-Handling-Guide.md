@@ -101,7 +101,7 @@ When a property sells at foreclosure for more than what's
 owed, the extra money belongs to the former owner. It's
 held by the county until claimed.
 
-Billions of dollars go unclaimed every year because people
+Money goes unclaimed every year because people
 don't know about it. You can verify this exists by calling
 [county office]."
 ```

@@ -79,7 +79,7 @@ getting nothing?"
 
 ---
 
-### "Why should I pay you 30% when I can do it myself?"
+### "Why should I pay you a fee when I can do it myself?"
 
 **Why they say it:**
 
@@ -227,7 +227,7 @@ with. What's most important to you beyond just the fee?"
 1. Clarify no upfront payment
 2. Explain contingency structure
 3. Show the math
-4. Emphasize zero risk
+4. Emphasize no fee unless successful
 
 **Full Response:**
 
@@ -414,12 +414,12 @@ Does [day/time] work for a follow-up call?"
 
 ### From Cost to Investment
 
-**Instead of:** "My fee is 30%"
-**Say:** "Your investment is 30% of funds you didn't know existed"
+**Instead of:** "My fee is 12%"
+**Say:** "Your investment is 12% of funds you didn't know existed"
 
 ### From Percentage to Dollars
 
-**Instead of:** "30% fee"
+**Instead of:** "12% fee"
 **Say:** "You'll receive $[net amount] with no effort"
 
 ### From Fee to Value

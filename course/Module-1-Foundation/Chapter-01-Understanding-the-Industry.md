@@ -48,7 +48,7 @@ Some jurisdictions have deadlines (often 1-5 years) after which funds escheat to
 
 ### National Statistics
 
-- **Billions of dollars** in surplus funds go unclaimed annually
+- Surplus funds routinely go unclaimed because former owners never learn they exist
 - Average surplus amount: **$5,000 - $50,000** (varies widely)
 - Some claims exceed **$100,000+**
 - Most counties have **dozens to hundreds** of unclaimed surplus accounts
@@ -94,7 +94,7 @@ When the IRS or other government agencies sell property to satisfy liens.
 
 ### Your Role
 
-You help the rightful claimant navigate the process and recover their funds in exchange for a percentage (typically 25-35%).
+You help the rightful claimant navigate the process and recover their funds in exchange for a percentage. That percentage is capped by statute in several states — Florida, for example, limits it to 12% (Fla. Stat. § 45.033). Always confirm the cap in the state where the claim is filed.
 
 ---
 
@@ -132,7 +132,7 @@ _Always verify current regulations in your target state._
 
 ### Revenue Model
 
-- **Contingency fee**: 25-35% of recovered funds
+- **Contingency fee**: a percentage of recovered funds, subject to each state’s statutory cap (12% in Florida)
 - **No recovery = no fee**: Client pays nothing if unsuccessful
 
 ### Example Revenue
@@ -180,7 +180,7 @@ Many homeowners need multiple contacts before they respond.
 ## Chapter Summary
 
 - Surplus funds are excess proceeds from foreclosure sales that belong to former homeowners
-- Billions go unclaimed because people don't know about them or can't navigate the process
+- Funds go unclaimed because people don't know about them or can't navigate the process
 - This is a legitimate, ethical business that helps people recover money they're owed
 - Success requires volume, speed, trust-building, and systematic processes
 - Always comply with state-specific regulations
